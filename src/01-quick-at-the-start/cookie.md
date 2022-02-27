@@ -1,6 +1,7 @@
 ---
 foo: "bar"
 baz: "bee"
+keywords: [pizza, pasta]
 ...
 
 ### Summary
@@ -16,4 +17,4 @@ A lovely cookie recipe
 
 Do as I say, and all will be fine!
 
-![img](img/cookie.jpg){ width=50% }
+![](img/cookie.webp){ width=50% }
