@@ -1,7 +1,7 @@
 ---
 title: 'Simple Recipes Cookbook'
 subtitle: 'The painless, portable, cookbook cookiecutter'
-geometry: margin=2cm
+geometry: margin=2cm,bottom=3cm,top=3cm
 ...
 
 

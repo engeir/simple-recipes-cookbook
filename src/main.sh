@@ -5,7 +5,7 @@ cd src || exit 1
 HEADER="---
 title: 'Simple Recipes Cookbook'
 subtitle: 'The painless, portable, cookbook cookiecutter'
-geometry: margin=2cm
+geometry: margin=2cm,bottom=3cm,top=3cm
 ...
 "
 
@@ -34,5 +34,5 @@ for f in $(find . -maxdepth 2 -type f | sort | sed 's/\.\/src\///g'); do
     } >> ./main.md
 done
 
-pandoc main.md --filter pandoc-include --toc -s -o main.pdf >/dev/null 2>&1
-pandoc main.md --filter pandoc-include --toc -s -o main.html >/dev/null 2>&1
+pandoc main.md --filter pandoc-include --toc -s -o main.pdf #>/dev/null 2>&1
+pandoc main.md --filter pandoc-include --toc -s -o main.html #>/dev/null 2>&1

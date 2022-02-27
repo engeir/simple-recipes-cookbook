@@ -17,4 +17,4 @@ A lovely cookie recipe
 
 Do as I say, and all will be fine!
 
-![](img/cookie.webp){ width=50% }
+![](img/cookie.jpg){ width=50% }
