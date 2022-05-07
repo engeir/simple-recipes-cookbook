@@ -11,10 +11,14 @@ A lovely cookie recipe
 ### Ingredients
 
 - 1 of these
-- 2 of those
+- 3 of those
 
 ### Instructions
 
 Do as I say, and all will be fine!
 
-![](img/cookie.jpg){ width=50% }
+!!!
+These cookies are perhaps too good to be true.
+!!!
+
+![A lovely cookie!](img/cookie.webp)
