@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://engeir.github.io/sitemap.xml.gz
+Sitemap: https://engeir.github.io/simple-recipes-cookbook/sitemap.xml.gz

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog</title>
-    <link>https://engeir.github.io/blog/</link>
+    <link>https://engeir.github.io/simple-recipes-cookbook/blog/</link>
     <description>Blog</description>
     <copyright>Copyleft 2022. All rights reversed. Fork me on GitHub</copyright>
-    <lastBuildDate>Sat, 07 May 2022 21:06:33 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 07 May 2022 21:16:15 GMT</lastBuildDate>
     <generator>https://retype.com</generator>
-    <atom:link rel="self" type="application/rss+xml" href="https://engeir.github.io/blog/feed.xml" />
+    <atom:link rel="self" type="application/rss+xml" href="https://engeir.github.io/simple-recipes-cookbook/blog/feed.xml" />
     <item>
       <title>Hello</title>
-      <guid isPermaLink="true">https://engeir.github.io/blog/hello/</guid>
+      <guid isPermaLink="true">https://engeir.github.io/simple-recipes-cookbook/blog/hello/</guid>
       <description>I decided to make an online cookbook!</description>
-      <pubDate>Sat, 07 May 2022 21:06:33 GMT</pubDate>
+      <pubDate>Sat, 07 May 2022 21:16:15 GMT</pubDate>
     </item>
     <item>
       <title>Christmas Eve!</title>
-      <guid isPermaLink="true">https://engeir.github.io/blog/2021-12-24-again/</guid>
+      <guid isPermaLink="true">https://engeir.github.io/simple-recipes-cookbook/blog/2021-12-24-again/</guid>
       <description>This is super easy!</description>
       <pubDate>Fri, 24 Dec 2021 00:00:00 GMT</pubDate>
     </item>
