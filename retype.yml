@@ -1,6 +1,6 @@
 input: ./src
 output: ./docs
-url: engeir.github.io
+url: engeir.github.io/simple-recipes-cookbook/
 edit:
   repo: github.com/engeir/simple-recipes-cookbook
 branding:
