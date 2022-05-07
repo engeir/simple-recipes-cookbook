@@ -1,6 +1,0 @@
----
-time: "None!"
-tag: "ice;cold"
-...
-
-Buy at store...
