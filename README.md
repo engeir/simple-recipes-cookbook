@@ -15,3 +15,10 @@ To get your own online cookbook set up:
   - Manually run the `Publish ...` workflow.
 - Finally, go to `Settings -> Pages` in your repository, and set GitHub pages to be
   built from the `retype` branch.
+
+----
+
+This video show the whole process of setting up a new site. The speed is 3x the
+original, so it took less than 4 minutes to complete!
+
+![](./media/fast.mov)
