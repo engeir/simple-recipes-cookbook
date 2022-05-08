@@ -4,6 +4,10 @@ tag:
  - vegetar
 category:
  - middag
+authors:
+  - name: Sulten
+    link: "https://sulten.app/"
+    avatar: ":cook:"
 ---
 
 # Tomat- og paprikasuppe

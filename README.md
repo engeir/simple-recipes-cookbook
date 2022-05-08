@@ -2,6 +2,10 @@
 
 > _Create your own online cookbook with minimal effort_
 
+This cookbook is generated with the [retype](https://retype.com/) framework. It is
+ridiculously easy to set up, has every type setting feature you can think of, and can be
+hosted on your very own website. All for free and without having to install anything.
+
 To get your own online cookbook set up:
 
 - [Fork](https://github.com/engeir/simple-recipes-cookbook/fork) this repository.
