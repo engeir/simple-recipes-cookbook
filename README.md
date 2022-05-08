@@ -21,4 +21,4 @@ To get your own online cookbook set up:
 This video show the whole process of setting up a new site. The speed is 3x the
 original, so it took less than 4 minutes to complete!
 
-![](./media/fast.mov)
+https://user-images.githubusercontent.com/38856990/167300712-b58bd13e-8d7c-4070-b210-4c6ace324b25.mov
