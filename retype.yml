@@ -5,10 +5,6 @@ input: ./src
 output: ./docs
 branding:
   title: Simple Recipes Cookbook
-  label: _flottflyt_
-  colors:
-    label:
-      text: "#ff3333"
 meta:
   title: " | The painless, portable, cookbook cookiecutter"
 links:
