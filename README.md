@@ -8,6 +8,7 @@ To get your own online cookbook set up:
 - Change the links set up in [retype.yml](./retype.yml)
   - This means that you change `engeir` to your own GitHub username. (Note that you can
     change everything else as well, but these two must be updated.)
+- Remove the CNAME file in the `retype` branch.
 - Set up workflows to be run in the forked repository.
   - Workflows are not run by default in repositories that are forked, but this can be
   turned on. Move to the `Actions` page of you repository to turn them on.
