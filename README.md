@@ -18,7 +18,20 @@ To get your own online cookbook set up:
 
 ----
 
-This video show the whole process of setting up a new site. The speed is 3x the
+The video below show the whole process of setting up a new site. The speed is 3x the
 original, so it took less than 4 minutes to complete!
 
+You can find the generated repo
+[here](https://github.com/flottflyt/simple-recipes-cookbook) with the website deployed
+at
+[https://flottflyt.github.io/simple-recipes-cookbook](https://flottflyt.github.io/simple-recipes-cookbook).
+
 https://user-images.githubusercontent.com/38856990/167300712-b58bd13e-8d7c-4070-b210-4c6ace324b25.mov
+
+## Note
+
+The deployed website found in this repository is what I'm using for my own recipes, and
+its contents (contents of [src](./src) that is) will change. For fewer and more diverse
+examples of what is possible with [retype](https://retype.com/), visit their
+[website](https://retype.com/) and have a look at my [example
+repository](https://github.com/flottflyt/simple-recipes-cookbook).
