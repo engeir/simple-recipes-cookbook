@@ -1,7 +1,6 @@
 url: engeir.github.io/simple-recipes-cookbook/
 edit:
   repo: github.com/engeir/simple-recipes-cookbook
-cname: simple-recipes-cookbook.flottflyt.com
 input: ./src
 output: ./docs
 branding:
