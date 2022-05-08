@@ -5,7 +5,7 @@ input: ./src
 output: ./docs
 branding:
   title: Simple Recipes Cookbook
-  label: v0.1.0
+  label: _flottflyt_
   colors:
     label:
       text: "#ff3333"
