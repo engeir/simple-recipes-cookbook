@@ -25,7 +25,7 @@ foo: "baz"
 10 min
 |||
 
-```chef
+```# "Hello, World!", written in chef
 Hello World Cake with Chocolate sauce.
 
 This prints hello world, while being tastier than Hello World Souffle. The main
