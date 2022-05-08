@@ -1,8 +1,9 @@
 ---
-tag: [ice, cold]
+tag: [ice, good]
+category: [hidden]
 layout: blog
 ---
 
 # Blog layout
 
-But it's not in the blog directory.
+This has the [!badge blog] layout, but it's not in the blog directory.

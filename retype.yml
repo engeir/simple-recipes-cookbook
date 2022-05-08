@@ -1,11 +1,11 @@
-input: ./src
-output: ./docs
 url: engeir.github.io/simple-recipes-cookbook/
 edit:
   repo: github.com/engeir/simple-recipes-cookbook
+input: ./src
+output: ./docs
 branding:
   title: Simple Recipes Cookbook
-  label: v0.0.2
+  label: v0.1.0
   colors:
     label:
       text: "#ff3333"
