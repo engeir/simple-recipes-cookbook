@@ -11,6 +11,7 @@ To get your own online cookbook set up:
 - Remove the CNAME file in the `retype` branch.
 - Set up workflows to be run in the forked repository.
   - Workflows are not run by default in repositories that are forked, but this can be
-  turned on. Move to the `Actions` page of you repository to turn them on.
+    turned on. Move to the `Actions` page of you repository to turn them on.
+  - Manually run the `Publish ...` workflow.
 - Finally, go to `Settings -> Pages` in your repository, and set GitHub pages to be
   built from the `retype` branch.
