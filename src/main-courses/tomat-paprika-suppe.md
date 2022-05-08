@@ -8,12 +8,12 @@ category:
 
 # Tomat- og paprikasuppe
 
-||| :icon-clock: Time
+||| :timer_clock: Tid
 35 mins
-||| :timer_clock: Preparations
-60 mins
-||| :cook: Cooking
-10 min
+||| :timer_clock: Næring
+Sunn
+||| :cook: Vanskelighetsgrad
+Lett
 |||
 
 ## Ingredienser
@@ -32,9 +32,9 @@ category:
 
 ## Steg
 
-1. Stek hele paprikaer i ovnen 20 $200^{\circ}\mathrm{C}$ i ca. 10–15 minutter. Ta
-   de ut av ovnen, kutt av stilkene med frøene og dra av skinnet langs hele paprikaen
-   (bruk gjerne papir). Kutt paprikaene opp i biter og legg til side.
+1. Stek hele paprikaer i ovnen $200^{\circ}\mathrm{C}$ i ca. 10–15 minutter. Ta de ut av
+   ovnen, kutt av stilkene med frøene og dra av skinnet langs hele paprikaen (bruk
+   gjerne papir). Kutt paprikaene opp i biter og legg til side.
 2. Kutt opp rødløk og hvitløk og la dette surre i en gryte sammen med litt olje eller
    smør til løken har blitt blank. Tilsett paprika, pizzakrydder, hahakkede tomater,
    vann og buljong. La suppen koke i ca. 10–15 minutter.

@@ -4,20 +4,20 @@ edit:
 input: ./src
 output: ./docs
 branding:
-  title: Simple Recipes Cookbook
+  title: Mat og sånt
 meta:
-  title: " | The painless, portable, cookbook cookiecutter"
+  title: " | Hva skal vi spise?"
 links:
-  - text: Tags
+  - text: Bokmerker
     link: ./tags
     icon: tag
-  - text: Categories
+  - text: Kategorier
     link: ./categories
     icon: container
-  - text: Blog
+  - text: Blogg
     link: ./blog
     icon: book
-  - text: Suggest a recipe
+  - text: Foreslå en oppskrift
     link: https://github.com/engeir/simple-recipes-cookbook/pulls
     icon: git-pull-request
 footer:
