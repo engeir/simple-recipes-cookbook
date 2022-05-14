@@ -1,7 +1,7 @@
 ---
 tag:
  - suppe
- - vegetar
+ - sunn
 category:
  - middag
 authors:
@@ -14,7 +14,7 @@ authors:
 
 ||| :timer_clock: Tid
 35 mins
-||| :timer_clock: Næring
+||| :apple: Næring
 Sunn
 ||| :cook: Vanskelighetsgrad
 Lett
