@@ -36,7 +36,7 @@ Lett
 
 ## Steg
 
-1. Stek hele paprikaer i ovnen $200^{\circ}\mathrm{C}$ i ca. 10–15 minutter. Ta de ut av
+1. Stek hele paprikaer i ovnen ved $200^{\circ}\mathrm{C}$ i ca. 10–15 minutter. Ta de ut av
    ovnen, kutt av stilkene med frøene og dra av skinnet langs hele paprikaen (bruk
    gjerne papir). Kutt paprikaene opp i biter og legg til side.
 2. Kutt opp rødløk og hvitløk og la dette surre i en gryte sammen med litt olje eller
