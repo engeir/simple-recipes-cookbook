@@ -1,3 +1,5 @@
-> You can have text on the main page as well!
+> **Reker og majo**
 
-***These are some nice easy appetizers.***
+!!!
+Ting å servere mens man venter
+!!!
