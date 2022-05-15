@@ -12,6 +12,8 @@ authors:
 
 # Pasta a la Vodka
 
+![](/static/pasta-a-la-vodka.webp)
+
 ||| :timer_clock: Tid
 65 min
 ||| :apple: Næring
@@ -21,8 +23,6 @@ Medium
 |||
 
 ## Ingredienser
-
-![](/static/pasta-a-la-vodka.webp)-
 
 - Kremfløte — ca 2 dl
 - Smør 50 g
