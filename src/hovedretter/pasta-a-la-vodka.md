@@ -10,7 +10,7 @@ authors:
     avatar: ":cook:"
 ---
 
-![](./static/pasta-a-la-vodka.webp)
+![](./static/pasta-a-la-vodka.jpg)
 
 # Pasta a la Vodka
 
