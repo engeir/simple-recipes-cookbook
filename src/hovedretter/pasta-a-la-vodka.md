@@ -10,8 +10,6 @@ authors:
     avatar: ":cook:"
 ---
 
-![](/static/pasta-a-la-vodka.webp)
-
 # Pasta a la Vodka
 
 ||| :timer_clock: Tid
@@ -24,21 +22,23 @@ Medium
 
 ## Ingredienser
 
-- Plommetomater ca 200–250g (røde eller blandede farger, du vil ha litt søtere tomater.
-  (Unngå derfor klassiske sura sorter slik som cocktailtomater.)
-- Hermetiske tomater, 1 boks – SAN MARZANO. (De er dyre men det er verdt det.)
-- Hvitløk — 3–4 fedd.
-- Basilikum, fersk, ca 1 potte
-- Bladpersille, fersk, 1/2 potte, men kjøp gjerne i løsvekt
-- Chilipulver — 1–2 ts
-- Kyllingbuljong – 1/2 blokk
-- Pasta Rigatoni 250g, eller liknende sort som fangar opp sausen
+![](/static/pasta-a-la-vodka.webp)-
+
 - Kremfløte — ca 2 dl
 - Smør 50 g
 - Olivenolje
 - Parmesan
 - Ricotta (en boks)
 - Vodka — 1–1,5 dl
+- Hvitløk — 3–4 fedd.
+- Basilikum, fersk, ca 1 potte
+- Bladpersille, fersk, 1/2 potte, men kjøp gjerne i løsvekt
+- Chilipulver — 1–2 ts
+- Kyllingbuljong – 1/2 blokk
+- Pasta Rigatoni 250g, eller liknende sort som fanger opp sausen
+- Plommetomater ca 200–250g (røde eller blandede farger, du vil ha litt søtere tomater.
+  (Unngå derfor klassiske sura sorter slik som cocktailtomater.)
+- Hermetiske tomater, 1 boks – SAN MARZANO. (De er dyre men det er verdt det.)
 - Tomatpuré 1 ss (Ved behov)
 
 ## Steg
