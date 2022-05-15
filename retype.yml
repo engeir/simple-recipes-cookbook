@@ -1,6 +1,7 @@
 url: cookbook.flottflyt.com/
 edit:
-  repo: github.com/engeir/simple-recipes-cookbook
+  repo: github.com/engeir/simple-recipes-cookbook/edit
+  base: /src
   label: "Rediger denne siden"
 input: ./src
 output: ./docs
