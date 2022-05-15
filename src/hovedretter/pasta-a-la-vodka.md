@@ -14,6 +14,14 @@ authors:
 
 # Pasta a la Vodka
 
+||| :timer_clock: Tid
+65 min
+||| :apple: Næring
+Nøytral
+||| :cook: Vanskelighetsgrad
+Medium
+|||
+
 ## Ingredienser
 
 - Plommetomater ca 200–250g (røde eller blandede farger, du vil ha litt søtere tomater.
