@@ -6,11 +6,11 @@ category:
  - middag
 authors:
   - name: "@matlagningmedmammsen"
-    link: "https://www.youtube.com/watch?v=aHvYHuASe8o"
+    link: "https://www.instagram.com/matlagningmedmammsen/"
     avatar: ":cook:"
 ---
 
-![](/static/pasta-a-la-vodka.jpg)
+![](/static/pasta-a-la-vodka.webp)
 
 # Pasta a la Vodka
 
@@ -77,3 +77,5 @@ Medium
     - Topp med basilikum.
     - Ha på rikelig med klatter med ricotta som du saltar med flaksalt og har olivenolje over.
     - Peppre lett.
+
+[!embed](https://www.youtube.com/watch?v=aHvYHuASe8o)
