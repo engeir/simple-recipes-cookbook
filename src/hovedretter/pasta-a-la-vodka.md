@@ -5,7 +5,7 @@ tag:
 category:
  - middag
 authors:
-  - name: @matlagningmedmammsen
+  - name: "@matlagningmedmammsen"
     link: "https://www.youtube.com/watch?v=aHvYHuASe8o"
     avatar: ":cook:"
 ---
