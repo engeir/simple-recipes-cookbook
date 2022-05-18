@@ -13,8 +13,8 @@ category:
 
 ||| :timer_clock: Tid
 20 mins
-||| :apple: Næring
-Sunn
+||| :knife_fork_plate: Porsjoner
+2
 ||| :cook: Vanskelighetsgrad
 Lett
 |||
