@@ -7,7 +7,8 @@ icon: ":hocho:"
 
 !!! success
 Om du mangler litt inspirasjon til hva du skal lage til middag, ta en titt i [!badge
-corners="pill" size="s" variant="light" text="Kategorier"](./categories)!
+corners="pill" size="s" variant="light" text="Kategorier"](./categories) eller [!badge
+corners="pill" size="s" variant="light" text="Bokmerker"](./tags)!
 !!!
 
 !!! warning
