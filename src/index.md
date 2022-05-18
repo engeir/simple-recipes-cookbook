@@ -1,9 +1,9 @@
 ---
-description: 'Hva skal vi spise?'
+description: 'Dolby mat til alle'
 icon: ":hocho:"
 ---
 
-# Om Mat og Sånt
+# Om Flott Flyt Foods
 
 !!! success
 Om du mangler litt inspirasjon til hva du skal lage til middag, ta en titt i [!badge
