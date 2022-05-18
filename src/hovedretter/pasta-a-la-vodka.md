@@ -16,8 +16,8 @@ authors:
 
 ||| :timer_clock: Tid
 65 min
-||| :apple: Næring
-Nøytral
+||| :knife_fork_plate: Porsjoner
+2
 ||| :cook: Vanskelighetsgrad
 Medium
 |||
