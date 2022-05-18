@@ -6,9 +6,9 @@ edit:
 input: ./src
 output: ./docs
 branding:
-  title: Mat og Sånt
+  title: Flott Flyt Foods
 meta:
-  title: " | Hva skal vi spise?"
+  title: " | Dolby mat til alle"
 links:
   - text: Bokmerker
     link: ./tags
