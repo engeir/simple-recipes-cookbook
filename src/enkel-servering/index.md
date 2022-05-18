@@ -1,5 +1,3 @@
-> **Reker og majo**
-
 !!!
-Ting å servere mens man venter
+Ting å servere mens man venter.
 !!!
