@@ -14,8 +14,8 @@ authors:
 
 ||| :timer_clock: Tid
 35 mins
-||| :apple: Næring
-Sunn
+||| :knife_fork_plate: Porsjoner
+2
 ||| :cook: Vanskelighetsgrad
 Lett
 |||
