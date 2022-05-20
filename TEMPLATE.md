@@ -1,4 +1,5 @@
 ---
+description: "I will show up in the preview in the tags and categories menus"
 tag:
  - ingredient
 category:
