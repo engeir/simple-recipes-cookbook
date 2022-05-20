@@ -1,4 +1,5 @@
 ---
+description: "Enkle og næringsrike pannakaker man kan jafse i seg på tur"
 tag:
  - baskt
  - turmat
