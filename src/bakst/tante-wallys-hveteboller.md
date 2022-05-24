@@ -3,15 +3,12 @@ description: "Deilige hveteboller til hverdag og fest"
 tag:
  - baskt
  - turmat
- - frokost
-category:
- - 
 ---
 
 # Hveteboller
 
 ||| :timer_clock: Tid
-120 mins
+120 min
 ||| :knife_fork_plate: Porsjoner
 ca. 20 boller
 ||| :cook: Vanskelighetsgrad
@@ -25,7 +22,7 @@ Lett
 - 1/4ts kardemomme
 - 6 dl melk
 - 150g smør (evt margaring hvis du ikke er #noseedoils)
--50g fersk gjær
+- 50g fersk gjær
 
 ## Fremgangsmåte
 
