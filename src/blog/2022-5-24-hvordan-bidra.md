@@ -17,7 +17,7 @@ bokstaver. I stedet for mellomrom, bruk bindestrek (`-`).
 
 La oss si at du ønsker å legge til en bolleoppskrift. Da oppretter du en ny fil i mappen
 `bakst` og kaller den for eksempel `ferske-boller.md`. Kopier innholdet i
-[TEMPLATE.md](https://github.com/engeir/simple-recipes-cookbook/blob/main/TEMPLATE.md) inn i
+[TEMPLATE.md](https://github.com/engeir/simple-recipes-cookbook/blob/main/TEMPLATE.md?plain=1) inn i
 `ferske-boller.md`, og legg inn det du måtte ønske.
 
 Filstrukturen du ønsker å legge til filer i ser omlag slik ut, før og etter:
