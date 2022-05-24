@@ -30,11 +30,11 @@
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="/resources/css/retype.css?v=2.2.706735251042" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/resources/css/retype.css?v=2.2.706735609320" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/resources/js/config.js?v=2.2.706735251042" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/resources/js/config.js?v=2.2.706735609320" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/resources/js/retype.js?v=2.2" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=2.2.706735251042" defer></script>
+    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=2.2.706735609320" defer></script>
 
     <style>
         .sample {
@@ -248,7 +248,19 @@ det ved å følge disse stegene.</p>
     </h2>
 </doc-anchor-target>
 <p>En ny oppskrift kan legges til ved å opprette en ny fil i en eksisterende eller en ny
-mappe. Filstrukturen du ønsker å legge til filer i ser omlag slik ut:</p>
+mappe.</p>
+<p>Nye files <em>må</em> ha filendelsen <code v-pre>.md</code>, og filnavnet må være uten mellomrom og kun med små
+bokstaver. I stedet for mellomrom, bruk bindestrek (<code v-pre>-</code>).</p>
+<p>La oss si at du ønsker å legge til en bolleoppskrift. Da oppretter du en ny fil i mappen
+<code v-pre>bakst</code> og kaller den for eksempel <code v-pre>ferske-boller.md</code>. Kopier innholdet i
+<a href="https://github.com/engeir/simple-recipes-cookbook/blob/main/TEMPLATE.md">TEMPLATE.md</a> inn i
+<code v-pre>ferske-boller.md</code>, og legg inn det du måtte ønske.</p>
+<p>Filstrukturen du ønsker å legge til filer i ser omlag slik ut, før og etter:</p>
+<div class="mb-6 overflow-hidden border rounded-md docs-columns dark:border-dark-650" style="grid-template-columns: repeat(1, minmax(0, 1fr));">
+    <div class="flex items-center px-5 py-3 font-mono leading-snug text-white docs-columns-code-title">
+        <span>Før</span>
+    </div>
+    <div class="docs-columns-code docs-columns-content">
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">.
 ├── IMAGE.md
@@ -271,13 +283,13 @@ mappe. Filstrukturen du ønsker å legge til filer i ser omlag slik ut:</p>
     └── static
         └── pasta-a-la-vodka.webp</code></pre>
 </doc-codeblock></div>
-<p>Nye files <em>må</em> ha filendelsen <code v-pre>.md</code>, og filnavnet må være uten mellomrom og kun med små
-bokstaver. I stedet for mellomrom, bruk bindestrek (<code v-pre>-</code>).</p>
-<p>La oss si at du ønsker å legge til en bolleoppskrift. Da oppretter du en ny fil i mappen
-<code v-pre>bakst</code> og kaller den for eksempel <code v-pre>ferske-boller.md</code>. Kopier innholdet i
-<a href="https://github.com/engeir/simple-recipes-cookbook/blob/main/TEMPLATE.md">TEMPLATE.md</a> inn i
-<code v-pre>ferske-boller.md</code>, og legg inn det du måtte ønske.</p>
-<p>Den nye filstrukturen vil nå se slik ut:</p>
+    </div>
+</div>
+<div class="mb-6 overflow-hidden border rounded-md docs-columns dark:border-dark-650" style="grid-template-columns: repeat(1, minmax(0, 1fr));">
+    <div class="flex items-center px-5 py-3 font-mono leading-snug text-white docs-columns-code-title">
+        <span>Etter</span>
+    </div>
+    <div class="docs-columns-code docs-columns-content">
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">.
 ├── IMAGE.md
@@ -301,6 +313,8 @@ bokstaver. I stedet for mellomrom, bruk bindestrek (<code v-pre>-</code>).</p>
     └── static
         └── pasta-a-la-vodka.webp</code></pre>
 </doc-codeblock></div>
+    </div>
+</div>
 <doc-anchor-target id="åpne-pr">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#åpne-pr">#</doc-anchor-trigger>
