@@ -3,6 +3,10 @@ description: "Deilige hveteboller til hverdag og fest"
 tag:
  - baskt
  - turmat
+authors:
+  - name: "@eirikjoh"
+    link: "https://github.com/eirikjoh"
+    avatar: ":cook:"
 ---
 
 # Hveteboller
