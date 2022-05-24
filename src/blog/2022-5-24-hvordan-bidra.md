@@ -45,7 +45,6 @@ Filstrukturen du ønsker å legge til filer i ser omlag slik ut, før og etter:
     └── static
         └── pasta-a-la-vodka.webp
 ```
-|||
 ||| Etter
 ```text
 .
