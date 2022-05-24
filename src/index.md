@@ -16,3 +16,7 @@ Hvis du er på jakt etter noe spesielt, sjekk om jeg har lagt den inn ved å bru
 søkefeltet øverst til høyre. Og om du ikke finner den, [!badge size="s" corners="pill"
 variant="light" iconAlign="right" icon="paper-airplane" text="foreslå den til meg"](https://github.com/engeir/simple-recipes-cookbook/issues/new?assignees=&labels=recipe&template=recipe-request.md&title=%5BRECIPE%5D)!
 !!!
+
+Eventuelt kan du anmode om at en ny oppskrift legges til via et gaflet repository:
+
+[!ref](/blog/hvordan-bidra.md)
