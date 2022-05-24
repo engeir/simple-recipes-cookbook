@@ -14,29 +14,31 @@ mappe. Filstrukturen du ønsker å legge til filer i ser omlag slik ut:
 
 ```text
 .
-??? IMAGE.md
-??? LICENSE
-??? README.md
-??? TEMPLATE.md
-??? retype.yml
-??? src
-    ??? _includes
-    ?�� ??? head.html
-    ??? bakst
-    ?�� ??? index.yml
-    ?�� ??? bananpannekaker.md
-    ??? hovedretter
-    ?�� ??? index.yml
-    ?�� ??? pasta-a-la-vodka.md
-    ??? index.md
-    ??? static
-        ??? pasta-a-la-vodka.webp
+├── IMAGE.md
+├── LICENSE
+├── README.md
+├── TEMPLATE.md
+├── retype.yml
+└── src
+    ├── _includes
+    │   └── head.html
+    ├── bakst
+    │   ├── bananpannekaker.md
+    │   └── index.yml
+    ├── blog
+    │   └── 2022-5-24-hvordan-bidra.md
+    ├── hovedretter
+    │   ├── index.yml
+    │   └── tomat-paprika-suppe.md
+    ├── index.md
+    └── static
+        └── pasta-a-la-vodka.webp
 ```
 
 Nye files _må_ ha filendelsen `.md`, og filnavnet må være uten mellomrom og kun med små
 bokstaver. I stedet for mellomrom, bruk bindestrek (`-`).
 
-La oss si at du ønsker å legge til bolleoppskrift. Da oppretter du en ny fil i mappen
+La oss si at du ønsker å legge til en bolleoppskrift. Da oppretter du en ny fil i mappen
 `bakst` og kaller den for eksempel `ferske-boller.md`. Kopier innholdet i
 [TEMPLATE.md](https://github.com/engeir/simple-recipes-cookbook/TEMPLATE.md) inn i
 `ferske-boller.md`, og legg inn det du måtte ønske.
@@ -45,24 +47,26 @@ Den nye filstrukturen vil nå se slik ut:
 
 ```text
 .
-??? IMAGE.md
-??? LICENSE
-??? README.md
-??? TEMPLATE.md
-??? retype.yml
-??? src
-    ??? _includes
-    ?�� ??? head.html
-    ??? bakst
-    ?�� ??? index.yml
-    ?�� ??? bananpannekaker.yml
-    ?�� ??? ferske-boller.md
-    ??? hovedretter
-    ?�� ??? index.yml
-    ?�� ??? pasta-a-la-vodka.md
-    ??? index.md
-    ??? static
-        ??? pasta-a-la-vodka.webp
+├── IMAGE.md
+├── LICENSE
+├── README.md
+├── TEMPLATE.md
+├── retype.yml
+└── src
+    ├── _includes
+    │   └── head.html
+    ├── bakst
+    │   ├── bananpannekaker.md
+    │   ├── ferske-boller.md
+    │   └── index.yml
+    ├── blog
+    │   └── 2022-5-24-hvordan-bidra.md
+    ├── hovedretter
+    │   ├── index.yml
+    │   └── tomat-paprika-suppe.md
+    ├── index.md
+    └── static
+        └── pasta-a-la-vodka.webp
 ```
 
 ## Åpne PR
