@@ -9,7 +9,7 @@ authors:
     avatar: ":cook:"
 ---
 
-# Hveteboller
+# Tante Wallys hveteboller
 
 ||| :timer_clock: Tid
 120 min
