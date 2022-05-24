@@ -10,8 +10,19 @@ Lag en [fork](https://github.com/engeir/simple-recipes-cookbook/fork) av reposit
 ## Ny oppskrift
 
 En ny oppskrift kan legges til ved å opprette en ny fil i en eksisterende eller en ny
-mappe. Filstrukturen du ønsker å legge til filer i ser omlag slik ut:
+mappe.
 
+Nye files _må_ ha filendelsen `.md`, og filnavnet må være uten mellomrom og kun med små
+bokstaver. I stedet for mellomrom, bruk bindestrek (`-`).
+
+La oss si at du ønsker å legge til en bolleoppskrift. Da oppretter du en ny fil i mappen
+`bakst` og kaller den for eksempel `ferske-boller.md`. Kopier innholdet i
+[TEMPLATE.md](https://github.com/engeir/simple-recipes-cookbook/blob/main/TEMPLATE.md) inn i
+`ferske-boller.md`, og legg inn det du måtte ønske.
+
+Filstrukturen du ønsker å legge til filer i ser omlag slik ut, før og etter:
+
+||| Før
 ```text
 .
 ├── IMAGE.md
@@ -34,17 +45,8 @@ mappe. Filstrukturen du ønsker å legge til filer i ser omlag slik ut:
     └── static
         └── pasta-a-la-vodka.webp
 ```
-
-Nye files _må_ ha filendelsen `.md`, og filnavnet må være uten mellomrom og kun med små
-bokstaver. I stedet for mellomrom, bruk bindestrek (`-`).
-
-La oss si at du ønsker å legge til en bolleoppskrift. Da oppretter du en ny fil i mappen
-`bakst` og kaller den for eksempel `ferske-boller.md`. Kopier innholdet i
-[TEMPLATE.md](https://github.com/engeir/simple-recipes-cookbook/blob/main/TEMPLATE.md) inn i
-`ferske-boller.md`, og legg inn det du måtte ønske.
-
-Den nye filstrukturen vil nå se slik ut:
-
+|||
+||| Etter
 ```text
 .
 ├── IMAGE.md
@@ -68,6 +70,7 @@ Den nye filstrukturen vil nå se slik ut:
     └── static
         └── pasta-a-la-vodka.webp
 ```
+|||
 
 ## Åpne PR
 
