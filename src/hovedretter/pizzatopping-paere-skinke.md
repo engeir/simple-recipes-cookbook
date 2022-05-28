@@ -1,0 +1,42 @@
+---
+description: "Fruktig og smakfull pizzatopping"
+tag:
+ - pizza
+ - rask
+ - lett
+ - pære
+ - skinke
+ - blåmuggost
+category:
+ - middag
+---
+
+# Pizza: pære og spekeskinke
+
+||| :timer_clock: Tid
+5 min
+||| :knife_fork_plate: Porsjoner
+1 pizza
+||| :cook: Vanskelighetsgrad
+Enkel
+|||
+
+## Ingredienser
+
+- Pære (gjerne litt tørre og syrlige, f.eks. en Guyot, se [her](https://www.frukt.no/ravarer/frukt/parer/))
+- Spekeskinke
+- Mozzarella
+- Blåmuggost
+- Spinat
+
+## Steg
+
+1. Skjær pæren i ganske tynne skiver, og forsten bunnen med kun pæreskivene.
+2. Legg på spinat, litt blåmuggost og mozzarellaen mot slutten av steketiden, så blir osten litt fastere.
+3. Når pizzaen er ferdig stekt har du på litt mer blåmuggost og spekeskinken.
+
+!!!light
+Prøv gjerne å flambere spekeskinken.
+!!!
+
+[!ref Gå til pizzadeig](/hovedretter/pizza-deig.md)
