@@ -11,7 +11,7 @@ category:
  - middag
 ---
 
-# Pizza: pære og spekeskinke
+# Pizzatopping: pære og spekeskinke
 
 ||| :timer_clock: Tid
 5 min
