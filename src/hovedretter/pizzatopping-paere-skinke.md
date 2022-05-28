@@ -23,7 +23,7 @@ Enkel
 
 ## Ingredienser
 
-- Pære (gjerne litt tørre og syrlige, f.eks. en Guyot, se [her](https://www.frukt.no/ravarer/frukt/parer/))
+- Pære (gjerne litt tørre og syrlige, f.eks. en Barlett/Williams, se [her](https://www.frukt.no/ravarer/frukt/parer/))
 - Spekeskinke
 - Mozzarella
 - Blåmuggost
