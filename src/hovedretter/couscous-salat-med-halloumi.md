@@ -8,7 +8,6 @@ tag:
 category:
  - middag
  - vegetar
- - dessert
 authors:
   - name: "fattig.student"
     link: "https://sulten.app/fattig-student"
