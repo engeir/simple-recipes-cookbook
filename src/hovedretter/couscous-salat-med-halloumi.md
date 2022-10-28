@@ -19,9 +19,7 @@ authors:
 
 ![](/static/halloumi.webp)
 
-!!!ghost Kilde
-[https://sulten.app/recipes/couscous-salad-with-grilled-halloumi](https://sulten.app/recipes/couscous-salad-with-grilled-halloumi)
-!!!
+[!ref Originaloppskrift](https://sulten.app/recipes/couscous-salad-with-grilled-halloumi)
 
 ||| :timer_clock: Tid
 30 min
