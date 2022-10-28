@@ -17,7 +17,7 @@ authors:
 
 # Couscoussalat med halloumi
 
-![IMG_20221027_201803](/static/halloumi.webp)
+![](/static/halloumi.webp)
 
 !!!ghost Kilde
 [https://sulten.app/recipes/couscous-salad-with-grilled-halloumi](https://sulten.app/recipes/couscous-salad-with-grilled-halloumi)
