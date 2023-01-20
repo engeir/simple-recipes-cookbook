@@ -37,7 +37,7 @@ Lett
 - 1/2 pk persille
 - 200 g halloumi
 - 1/2 stk agurk
-- 1 stk rødløk
+- 1/2 stk rødløk
 - 2/3 pk cherrytomater
 - 1/2 pk spinat
 - 1 pk kikerter
