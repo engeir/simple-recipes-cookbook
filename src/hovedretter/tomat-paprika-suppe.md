@@ -53,6 +53,6 @@ Lett
 ## Notater
 
 !!!success
-Har du rester igjen? Perfekt da kan du lage [spagetti med
+Har du rester igjen? Perfekt! Da kan du lage [spagetti med
 chorizo](/hovedretter/spagetti-med-chorizo.md)!
 !!!
