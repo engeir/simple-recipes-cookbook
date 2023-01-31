@@ -1,10 +1,10 @@
 ---
 description: "Kanskje verdens beste suppe"
 tag:
- - suppe
- - sunn
+  - suppe
+  - sunn
 category:
- - middag
+  - middag
 authors:
   - name: "fattig.student"
     link: "https://sulten.app/fattig-student"
@@ -49,3 +49,10 @@ Lett
    med spinat til spinaten har krympet sammen.
 4. Mos suppen med en stavmikser. Smak til med salt og pepper.
 5. Server suppen med spinat- og chorizoblandinen, og topp med fetaost.
+
+## Notater
+
+!!!success
+Har du rester igjen? Perfekt da kan du lage [spagetti med
+chorizo](/hovedretter/spagetti-med-chorizo.md)!
+!!!
