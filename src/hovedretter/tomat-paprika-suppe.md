@@ -1,16 +1,19 @@
 ---
+description: "Kanskje verdens beste suppe"
 tag:
  - suppe
  - sunn
 category:
  - middag
 authors:
-  - name: Sulten
-    link: "https://sulten.app/"
+  - name: "fattig.student"
+    link: "https://sulten.app/fattig-student"
     avatar: ":cook:"
 ---
 
 # Tomat- og paprikasuppe
+
+[!ref target="blank" text="Originaloppskrift"](https://sulten.app/recipes/tomato-and-red-pepper-soup-with-chorizo-and-feta-cheese)
 
 ||| :timer_clock: Tid
 35 mins
