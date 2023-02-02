@@ -48,12 +48,12 @@ Lett
    paprikaen (bruk gjerne papir). Kutt paprikaene opp i biter og legg til side.
 4. Tilsett paprika, pizzakrydder, hahakkede tomater, vann og buljong. La suppen koke i
    ca. 10–15 minutter.
-3. I mellomtiden kan du kutte opp chorizo i terninger og steke dette i ei panne, først
+5. I mellomtiden kan du kutte opp chorizo i terninger og steke dette i ei panne, først
    alene (gjerne opp mot 10 min. på lav varme), og så mot slutten sammen med spinat til
    spinaten har krympet sammen. Når chorizoen steker passer det også fint å rydde opp
    alt rotet du har stelt i stand.
-4. Mos suppen med en stavmikser. Smak til med salt og pepper.
-5. Server suppen med spinat- og chorizoblandinen, og topp med fetaost.
+6. Mos suppen med en stavmikser. Smak til med salt og pepper.
+7. Server suppen med spinat- og chorizoblandinen, og topp med fetaost.
 
 ## Notater
 
