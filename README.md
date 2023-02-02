@@ -32,6 +32,31 @@ at
 
 https://user-images.githubusercontent.com/38856990/167300712-b58bd13e-8d7c-4070-b210-4c6ace324b25.mov
 
+## Editing and adding new recipes
+
+Once you have done all the steps above, you have your own fork of the project that is
+set up to build a website every time the "main" branch is updated. You could do all the
+editing on the GitHub website, but if you want to instead clone it locally and edit
+using your editor of choice, you may also run a local version of the website. This is
+useful to be able to verify that your changes work before you push the changes to
+GitHub.
+
+To do this you first clone the project, move into it and then run the retype CLI (visit
+their website for instructions on how to [install the retype
+CLI](https://retype.com/guides/getting-started/#install)):
+
+```bash
+# Use the URL of your fork:
+git clone https://github.com/engeir/simple-recipes-cookbook
+cd simple-recipes-cookbook
+# Installing retype CLI with npm should be as simple as
+# npm install retypeapp --global
+retype watch
+```
+
+If you now start chaining files while the `retype watch` command is running, the locally
+hosted website will automatically update.
+
 ## Note
 
 The deployed website found in this repository is what I'm using for my own recipes, and
