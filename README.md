@@ -41,8 +41,8 @@ using your editor of choice, you may also run a local version of the website. Th
 useful to be able to verify that your changes work before you push the changes to
 GitHub.
 
-To do this you first clone the project, move into it and then run the `retype` CLI
-(visit their website for instructions on how to [install the retype
+To do this you first clone the project, move into it and then run the retype CLI (visit
+their website for instructions on how to [install the retype
 CLI](https://retype.com/guides/getting-started/#install)):
 
 ```bash
