@@ -25,12 +25,15 @@ Lett
 ## Ingredienser
 
 +++ Laks
+
 - 500 g laks
 - 2 dl ris
 - 1 ss olivenolje
 - 1 ts maldonsalt
 - 1 ts hel pepper
+
 +++ Mangosalsa
+
 - 1/2 mango
 - 1/2 rødløk
 - 1/2 avokado
@@ -40,9 +43,11 @@ Lett
 - 1/2 lime
 - litt koriander
 - salt og papper
+
 +++
 
 ==- Alle ingredienser samlet
+
 - 500 g laks
 - 2 dl ris
 - 1/2 mango
@@ -55,6 +60,7 @@ Lett
 - litt koriander
 - 1 ts maldonsalt
 - 1 ts hel pepper
+
 ===
 
 ## Steg

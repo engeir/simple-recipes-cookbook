@@ -1,12 +1,12 @@
 ---
 description: "Enkle og næringsrike pannakaker man kan jafse i seg på tur"
 tag:
- - banan
- - sunn
- - rask
+  - banan
+  - sunn
+  - rask
 category:
- - frokost
- - turmat
+  - frokost
+  - turmat
 ---
 
 # Bananpannekaker

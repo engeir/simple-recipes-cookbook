@@ -1,14 +1,14 @@
 ---
 description: "Fruktig og smakfull pizzatopping"
 tag:
- - pizza
- - rask
- - lett
- - pære
- - skinke
- - blåmuggost
+  - pizza
+  - rask
+  - lett
+  - pære
+  - skinke
+  - blåmuggost
 category:
- - middag
+  - middag
 ---
 
 # Pizzatopping: pære og spekeskinke

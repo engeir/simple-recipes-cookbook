@@ -24,6 +24,7 @@ Lett
 ## Ingredienser
 
 +++ Salat
+
 - 400 g kylling (gjerne lår)
 - 1/2 isbergssalat
 - 4 dl ris
@@ -33,14 +34,18 @@ Lett
 - ruccola
 - mozzarella
 - fetaost
+
 +++ Dressing
+
 - pesto
 - 2 ss eddik
 - 2 ss olje
 - pepper
+
 +++
 
 ==- Alle ingredienser samlet
+
 - 400 g kylling (gjerne lår)
 - 1/2 isbergssalat
 - 4 dl ris
@@ -54,6 +59,7 @@ Lett
 - 2 ss eddik
 - 2 ss olje
 - pepper
+
 ===
 
 ## Steg

@@ -51,4 +51,4 @@ Middels
    det ikke er noe mer grønnsakskraft igjen.
 4. Tilsett hakkede tomater og chilikrydder, og gi det et lite oppkok.
 5. Tilsett torskefilet i terninger helt til slutt, og la torsken trekke i cirka 5–10
-   minutter. Smak til med salt, pepper, sitronsaft og finhakket kruspersille. 
+   minutter. Smak til med salt, pepper, sitronsaft og finhakket kruspersille.
