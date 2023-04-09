@@ -13,6 +13,8 @@ category:
 
 # Pizzatopping: pære og spekeskinke
 
+![](/static/pizza/pizza-paere.webp)
+
 ||| :timer_clock: Tid
 5 min
 ||| :knife_fork_plate: Porsjoner
