@@ -1,13 +1,14 @@
 ---
 description: "Rask og smakfull halloumisalat"
 tag:
- - couscous
- - halloumi
- - enkel
- - rask
+  - couscous
+  - halloumi
+  - enkel
+  - rask
 category:
- - middag
- - vegetar
+  - middag
+  - salat
+  - vegetar
 authors:
   - name: "fattig.student"
     link: "https://sulten.app/fattig-student"
@@ -48,4 +49,4 @@ Lett
 1. Lag couscous etter anvisning på pakken. Når couscousen er ferdig, tilsetter du olivenolje, gurkemeie, spisskummen og finhakket persille. Smak også til med litt salt.
 2. Stek halloumi i ei stekepanne sammen med litt olivenolje.
 3. Kutt opp agurk, cherrytomater og rødløk i skiver.
-4. Vend inn agurk, cherrytomater, rødløk, spinat og kikerter i couscous. Topp med fetaost og halloumi. 
+4. Vend inn agurk, cherrytomater, rødløk, spinat og kikerter i couscous. Topp med fetaost og halloumi.

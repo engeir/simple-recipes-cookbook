@@ -1,9 +1,9 @@
 ---
 description: "Den enesten pizzadeigen man trenger"
 tag:
- - pizza
+  - pizza
 category:
- - middag
+  - middag
 authors:
   - name: "@eirikjoh"
     link: "https://github.com/eirikjoh"

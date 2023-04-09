@@ -23,25 +23,34 @@ Lett
 ## Ingredienser
 
 +++ Kakebunn
+
 - 350 g Oreokjeks (litt under 2 og en halv pakke)
 - 100 g smør
+
 +++ Ostekrem
+
 - 200 g Philadelphiaost eller annen nøytral kremost
 - 100 g melis
 - 2 dl kremfløte
 - 60 g Oreokjeks (6 kjeks)
+
 +++ Sjokolademousse
+
 - 5 eggeplommer
 - 200 g kokesjokolade
 - 2.5 dl kremfløte (2 dl + 0.5 dl)
 - 1 ss melis
+
 +++ Topping
+
 - 1.5 dl kremfløte
 - 1 ts melis
 - 50 g Oreokjeks (5 kjeks)
+
 +++
 
 ==- Alle ingredienser samlet
+
 - 460 g Oreokjeks (litt under 4 pakker)
 - 100 g smør
 - 200 g Philadelphiaost eller annen nøytral kremost
@@ -49,6 +58,7 @@ Lett
 - 6 dl kremfløte
 - 5 eggeplommer
 - 200 g kokesjokolade
+
 ===
 
 ## Steg

@@ -1,14 +1,14 @@
 ---
 description: "En real energiboost"
 tag:
- - baskt
- - turmat
+  - baskt
+  - turmat
 category:
- - konfekt
+  - konfekt
 authors:
- - name: "Lise Finckenhagen"
-   link: "https://www.nrk.no/mat/1.7017330"
-   avatar: ":cook:"
+  - name: "Lise Finckenhagen"
+    link: "https://www.nrk.no/mat/1.7017330"
+    avatar: ":cook:"
 ---
 
 # Peanøttsjokolade

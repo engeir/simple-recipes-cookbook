@@ -80,7 +80,7 @@ Medium
     - Det skal smake mye basilikum og persille, hakk opp litt mer om den ikke kjennes.
       Dette skal toppe pastaen, så avvent litt om du er usikker.
 16. Hell av vannet til pastaen, men behold noe pastavann, og kok den resterende tiden
-med pastaen i sausen.
+    med pastaen i sausen.
 17. Legg opp i serveringsskåler:
     - Riv over litt parmesan.
     - Topp med basilikum.

@@ -1,8 +1,8 @@
 ---
 description: "Deilige hveteboller til hverdag og fest"
 tag:
- - baskt
- - turmat
+  - baskt
+  - turmat
 authors:
   - name: "@eirikjoh"
     link: "https://github.com/eirikjoh"
@@ -38,5 +38,5 @@ Lett
 6. La deigen heve i ca 30 minutter.
 7. Del opp i like emner og rull ut til boller.
 8. Plasser dem på bakebrett, dekk til og la de heve opp mot en time.
-9. Stekes på 200 grader i ca. 10 minutter, eller til de er gyllenbrune. 
+9. Stekes på 200 grader i ca. 10 minutter, eller til de er gyllenbrune.
 10. Som [instaheidi66](https://www.instagram.com/instaheidi66/) sier: "Nyyt!!!"
