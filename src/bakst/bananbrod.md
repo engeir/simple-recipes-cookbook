@@ -14,7 +14,7 @@ authors:
 
 # Bananbrød
 
-![Bananbrød](/static/bananbrod/bananbrod-banner.webp)
+![](/static/bananbrod/bananbrod-banner.webp)
 
 ||| :timer_clock: Tid
 25 mins

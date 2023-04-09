@@ -40,6 +40,17 @@ Enkel
 
 ## Steg
 
-1. Forvarm stekeovnen til 180 grader. Kle et stekebrett med bakepapir. Dra bladene av grønnkålkvastene, prøv å få med så lite harde stilker som mulig. Fordel halvparten av grønnkålbladene på stekebrettet.
-2. Dryss olivenolje og havsalt over. Stek i 8-10 minutter til grønnkålen begynner å bli mørkere. Pass på at den ikke blir brent. Finhakk chipotle, hvitløk, rosmarin og sjalottløk. Varm opp litt mer olivenolje i en panne. Ha i chipotle, hvitløk og sjalottløk, la surre noen minutter. Tilsett rosmarin, la det stå noen minutter til.
-3. Hell i tomatene og la det koke opp. Ha i sukker og eddik, skru ned varmen og la småkoke i fem min. Hakk opp resten av grønnkålen og ha i. Kok det hele noen minutter til. Kok pastaen etter anvisning på pakken. Sil av vannet. Vend inn sausen i pastaen. Server pastaen i dype skåler – topp med ovnsstekt grønnkål.
+1. Forvarm stekeovnen til $180^\circ$.
+2. Kle et stekebrett med bakepapir. Dra bladene av grønnkålkvastene, prøv å få med så
+   lite harde stilker som mulig. Fordel halvparten av grønnkålbladene på stekebrettet.
+   Dryss olivenolje og havsalt over. Stek i 8-10 minutter til grønnkålen begynner å bli
+   mørkere. Pass på at den ikke blir brent.
+3. Finhakk chipotle, hvitløk, rosmarin og sjalottløk. Varm opp litt mer olivenolje i en
+   panne. Ha i chipotle, hvitløk og sjalottløk, la surre noen minutter. Tilsett
+   rosmarin, la det stå noen minutter til.
+3. Hell i tomatene og la det koke opp. Ha i sukker og eddik, skru ned varmen og la
+   småkoke i fem min.
+4. Kok pastaen etter anvisning på pakken.
+5. Hakk opp resten av grønnkålen og ha i. Kok det hele noen minutter til.
+6. Sil av pastavannet og vend pastaen inn i sausen.
+7. Server pastaen i dype skåler — topp med ovnsstekt grønnkål.
