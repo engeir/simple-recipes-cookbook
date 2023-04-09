@@ -1,10 +1,10 @@
 ---
 description: "En lett pastarett med litt spice"
 tag:
- - pasta
+  - pasta
 category:
- - middag
- - vegetar
+  - middag
+  - vegetar
 authors:
   - name: "Meny"
     link: "https://meny.no/oppskrifter/Pasta/Spicy-pasta-med-gronnkal/?utm_source=whisk&utm_medium=webapp&utm_campaign=spicy_pasta_med_gr%C3%B8nnk%C3%A5l"
@@ -48,9 +48,9 @@ Enkel
 3. Finhakk chipotle, hvitløk, rosmarin og sjalottløk. Varm opp litt mer olivenolje i en
    panne. Ha i chipotle, hvitløk og sjalottløk, la surre noen minutter. Tilsett
    rosmarin, la det stå noen minutter til.
-3. Hell i tomatene og la det koke opp. Ha i sukker og eddik, skru ned varmen og la
+4. Hell i tomatene og la det koke opp. Ha i sukker og eddik, skru ned varmen og la
    småkoke i fem min.
-4. Kok pastaen etter anvisning på pakken.
-5. Hakk opp resten av grønnkålen og ha i. Kok det hele noen minutter til.
-6. Sil av pastavannet og vend pastaen inn i sausen.
-7. Server pastaen i dype skåler — topp med ovnsstekt grønnkål.
+5. Kok pastaen etter anvisning på pakken.
+6. Hakk opp resten av grønnkålen og ha i. Kok det hele noen minutter til.
+7. Sil av pastavannet og vend pastaen inn i sausen.
+8. Server pastaen i dype skåler — topp med ovnsstekt grønnkål.
