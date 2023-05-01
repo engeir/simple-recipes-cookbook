@@ -16,8 +16,6 @@ category:
 Lett
 |||
 
-[!ref Gå til oppskrift for Mangosalsa](/enkel-servering/mangosalsa.md)
-
 ## Ingredienser
 
 - 1 nakkekotelett

@@ -9,7 +9,7 @@ category:
   - salat
 ---
 
-# Kyllingwok med egg og nudler
+# Kyllingsalat
 
 ||| :timer_clock: Tid
 20 min
@@ -18,8 +18,6 @@ category:
 ||| :cook: Vanskelighetsgrad
 Lett
 |||
-
-[!ref Gå til oppskrift for Mangosalsa](/enkel-servering/mangosalsa.md)
 
 ## Ingredienser
 
