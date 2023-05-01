@@ -9,7 +9,7 @@ category:
   - vegetar
 ---
 
-# Tomat- og paprikasuppe
+# Vegetar-lasagne
 
 ![](/static/vegetar-lasagne/vegetar-lasagne.webp)
 
