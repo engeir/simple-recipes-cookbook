@@ -27,7 +27,7 @@ Lett
 
 +++ Grønnsaksblanding
 
-- 200 g Barilla Classicosaus
+- 400 g Barilla Classicosaus (ett glass)
 - 200 g squash
 - 200 g brokkoli
 - 100 g paprika
@@ -37,9 +37,9 @@ Lett
 
 +++ Béchamelsaus
 
-- 9 dl melk
-- 40 g smør
-- 40 g hvetemel
+- 5 dl melk
+- 30 g smør
+- 30 g hvetemel
 - 1 klype muskat
 - 1 klype salt
 
@@ -52,13 +52,13 @@ Lett
 
 ==- Alle ingredienser samlet
 
-- 200 g Barilla Classicosaus
+- 400 g Barilla Classicosaus (ett glass)
 - 200 g squash
 - 200 g brokkoli
 - 100 g paprika
-- 9 dl melk
-- 40 g smør
-- 40 g hvetemel
+- 5 dl melk
+- 30 g smør
+- 30 g hvetemel
 - 1 klype muskat
 - 10 plater Barilla Lasagne
 - 60 g parmesanost
