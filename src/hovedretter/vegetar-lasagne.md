@@ -28,9 +28,9 @@ Lett
 +++ Grønnsaksblanding
 
 - 400 g Barilla Classicosaus (ett glass)
-- 200 g squash
-- 200 g brokkoli
-- 100 g paprika
+- 200 g squash (ca. en halv)
+- 200 g brokkoli (ca. en halv)
+- 100 g paprika (ca. en hel)
 - 1 ss extra virgin olivenolje
 - Salt
 - Pepper
@@ -53,9 +53,9 @@ Lett
 ==- Alle ingredienser samlet
 
 - 400 g Barilla Classicosaus (ett glass)
-- 200 g squash
-- 200 g brokkoli
-- 100 g paprika
+- 200 g squash (ca. en halv)
+- 200 g brokkoli (ca. en halv)
+- 100 g paprika (ca. en hel)
 - 5 dl melk
 - 30 g smør
 - 30 g hvetemel
