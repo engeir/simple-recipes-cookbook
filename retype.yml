@@ -1,4 +1,4 @@
-url: cookbook.flottflyt.com/
+url: cookbook.eirik.re/
 edit:
   repo: github.com/engeir/simple-recipes-cookbook/edit
   base: /src
@@ -6,7 +6,7 @@ edit:
 input: ./src
 output: ./docs
 branding:
-  title: Flott Flyt Foods
+  title: Mere?
 meta:
   title: " | Dolby mat til alle"
 links:

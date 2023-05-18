@@ -3,7 +3,7 @@ description: "Dolby mat til alle"
 icon: ":hocho:"
 ---
 
-# Om Flott Flyt Foods
+# Om Mere?
 
 !!! success
 Om du mangler litt inspirasjon til hva du skal lage til middag, ta en titt i [!badge
