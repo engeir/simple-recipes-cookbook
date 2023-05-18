@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cookbook.flottflyt.com/sitemap.xml.gz
+Sitemap: https://cookbook.eirik.re/sitemap.xml.gz
