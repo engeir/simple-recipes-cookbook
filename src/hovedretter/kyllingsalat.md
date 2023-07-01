@@ -1,5 +1,5 @@
 ---
-description: "Wok som metter og er rik på proteiner"
+description: "En lett og mettende salat:)"
 tag:
   - enkel
   - sunn
