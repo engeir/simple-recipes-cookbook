@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cookbook.eirik.re/sitemap.xml.gz
+Sitemap: https://cookbook.4thehalibit.io/simple-recipes-cookbook/sitemap.xml.gz
