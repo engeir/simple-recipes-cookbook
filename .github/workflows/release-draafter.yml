@@ -31,11 +31,22 @@ jobs:
       #  run: |
       #    echo "GHE_HOST=${GITHUB_SERVER_URL##https:\/\/}" >> $GITHUB_ENV
 
+      - name: Detect and tag new version
+        id: check-version
+        if: steps.check-parent-commit.outputs.sha
+        uses: salsify/action-detect-and-tag-new-version@v2.0.3
+        with:
+          version-command: |
+            cat current-version.txt
+
       # Drafts your next Release notes as Pull Requests are merged into "master"
       - uses: release-drafter/release-drafter@v5
         # (Optional) specify config name to use, relative to .github/. Default: release-drafter.yml
         # with:
         #   config-name: my-config.yml
         #   disable-autolabeler: true
+        with:
+          publish: ${{ steps.check-version.outputs.tag != '' }}
+          tag: ${{ steps.check-version.outputs.tag }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
