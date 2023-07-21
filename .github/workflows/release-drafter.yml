@@ -39,6 +39,7 @@ jobs:
         run: |
           echo "sha=$(git rev-parse --verify --quiet HEAD^)" >> $GITHUB_OUTPUT
           # echo "::set-output name=sha::$(git rev-parse --verify --quiet HEAD^)"
+          # Maybe see [this](https://stackoverflow.com/questions/59191913/how-do-i-get-the-output-of-a-specific-step-in-github-actions) on how to set this up properly with env variables.
 
       - name: Detect and tag new version
         id: check-version
