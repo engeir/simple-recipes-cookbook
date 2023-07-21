@@ -65,3 +65,13 @@ its contents (contents of [src](./src) that is) will change. For fewer and more 
 examples of what is possible with [retype](https://retype.com/), visit their
 [website](https://retype.com/) and have a look at my [example
 repository](https://github.com/flottflyt/simple-recipes-cookbook).
+
+## Community
+
+For more examples, check out some repos forked from this one!
+
+- [@4thehalibit](https://github.com/4thehalibit) ([repo](https://github.com/4thehalibit/Westbergs-Cookbook), [website](https://4thehalibit.github.io/Westbergs-Cookbook/))
+- [@bafulton](https://github.com/bafulton) ([repo](https://github.com/bafulton/recipes), [website](https://bafulton.github.io/recipes/))
+
+> :information_source: If you have a fork of the simple recipes cookbook and would like
+> to have it linked here, feel free to create a pull request!
