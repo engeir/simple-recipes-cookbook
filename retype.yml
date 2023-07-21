@@ -1,4 +1,5 @@
 url: cookbook.eirik.re/
+locale: no
 edit:
   repo: github.com/engeir/simple-recipes-cookbook/edit
   base: /src
@@ -10,7 +11,7 @@ branding:
 meta:
   title: " | Dolby mat til alle"
 links:
-  - text: Bokmerker
+  - text: Emner
     link: ./tags
     icon: tag
   - text: Kategorier
