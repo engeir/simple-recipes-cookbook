@@ -73,7 +73,5 @@ For more examples, check out some repos forked from this one!
 - [@4thehalibit](https://github.com/4thehalibit) ([repo](https://github.com/4thehalibit/Westbergs-Cookbook), [website](https://4thehalibit.github.io/Westbergs-Cookbook/))
 - [@bafulton](https://github.com/bafulton) ([repo](https://github.com/bafulton/recipes), [website](https://bafulton.github.io/recipes/))
 
-> **Note**
->
-> If you have a fork of the simple recipes cookbook and would like to have it linked
-> here, feel free to create a pull request!
+> :information_source: If you have a fork of the simple recipes cookbook and would like
+> to have it linked here, feel free to create a pull request!
