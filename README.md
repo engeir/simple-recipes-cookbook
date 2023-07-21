@@ -51,10 +51,11 @@ git clone https://github.com/engeir/simple-recipes-cookbook
 cd simple-recipes-cookbook
 # Installing retype CLI with npm should be as simple as
 # npm install retypeapp --global
-retype watch
+retype start
+# retype versions prior to v3.0 used the command `retype watch`
 ```
 
-If you now start chaining files while the `retype watch` command is running, the locally
+If you now start changing files while the `retype start` command is running, the locally
 hosted website will automatically update.
 
 ## Note
