@@ -7,6 +7,10 @@ tag:
 category:
   - tilbehør
   - salat
+authors:
+  - name: "Eirik Enger"
+    link: "https://eirik.re"
+    avatar: ":cook:"
 ---
 
 # Mangosalsa
