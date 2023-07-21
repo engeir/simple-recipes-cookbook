@@ -4,12 +4,12 @@ tag:
   - enkel
   - tomat
   - ost
+  - pasta
   - basilikum
 category:
   - tilbehør
   - salat
   - grillmat
-  - pasta
 authors:
   - name: "Eirik Enger"
     link: "https://eirik.re"
