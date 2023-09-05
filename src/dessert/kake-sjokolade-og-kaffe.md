@@ -1,8 +1,9 @@
 ---
-description: "Kaffe og kake slår aldri feil, så kaffe i kakekan umulig være ubeleilig"
+description: "Kaffe og kake slår aldri feil, så kaffe i kake kan umulig være ubeleilig"
 tag:
   - kaffe
   - kake
+  - sjokolade
 category:
   - bakst
 authors:
@@ -13,10 +14,12 @@ authors:
 
 # Sjokoladakake med kaffeglasur
 
+![](/static/kake-sjokolade-og-kaffe/kake-sjokolade-og-kaffe.webp)
+
 ||| :timer_clock: Tid
 60 min
 ||| :knife_fork_plate: Porsjoner
-1 kake
+1 langpanne
 ||| :cook: Vanskelighetsgrad
 Medium
 |||
@@ -27,10 +30,10 @@ Medium
 
 - 4.5 dl vann
 - 400 g usaltet smør
-- 8 tbsp kakaopulver
+- 8 ss kakaopulver
 - 8 dl sukker
-- 2 tsp bakepulver
-- 1 tsp salt
+- 2 ts bakepulver
+- 1 ts salt
 - 9 dl hvetemel
 - 4 egg
 - 2.5 dl rømme
@@ -39,10 +42,10 @@ Medium
 
 - 500 g melis
 - 150 g smeltet smør
-- 2 tsp vaniljesukker
-- 4 tbsp kaffe
+- 2 ts vaniljesukker
+- 4 ss kaffe
 - 1 pisket egg
-- 6 tbsp kreamfløte
+- 6 ss kreamfløte
 
 +++
 
@@ -50,17 +53,17 @@ Medium
 
 - 9 dl hvetemel
 - 8 dl sukker
-- 6 tbsp kreamfløte
+- 6 ss kreamfløte
 - 550 g usaltet smør
-- 8 tbsp kakaopulver
-- 2 tsp bakepulver
+- 8 ss kakaopulver
+- 2 ts bakepulver
 - 4.5 dl vann
-- 1 tsp salt
+- 1 ts salt
 - 5 egg
 - 2.5 dl rømme
 - 500 g melis
-- 2 tsp vaniljesukker
-- 4 tbsp kaffe
+- 2 ts vaniljesukker
+- 4 ss kaffe
 
 ===
 
