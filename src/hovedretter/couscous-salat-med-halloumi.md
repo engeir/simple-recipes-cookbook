@@ -19,7 +19,7 @@ authors:
 
 ![](/static/halloumi.webp)
 
-[!ref target="blank" text="Originaloppskrift"](https://sulten.app/recipes/couscous-salad-with-grilled-halloumi)
+[!ref target="blank" text="Originaloppskrift"](https://sulten.app/recipes/couscous-salat-med-grillet-halloumi-be81)
 
 ||| :timer_clock: Tid
 30 min
