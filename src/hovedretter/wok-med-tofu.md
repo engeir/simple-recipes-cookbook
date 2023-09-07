@@ -55,6 +55,6 @@ Lett
 
    ![](/static/wok-med-tofu/wok.webp)
 
-5. Tilsett resten av red curry paste og resten av grønnsakene og wok i cirka 5-6
+5. Tilsett resten av red curry paste og resten av grønnsakene og wok i cirka 5–6
    minutter.
 6. Vend inn tagliatelle og stekt tofu i panna, og smak til med pepper og soyasaus.
