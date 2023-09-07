@@ -15,7 +15,7 @@ authors:
 
 ![](/static/tomat-paprika-suppe.webp)
 
-[!ref target="blank" text="Originaloppskrift"](https://sulten.app/recipes/tomato-and-red-pepper-soup-with-chorizo-and-feta-cheese)
+[!ref target="blank" text="Originaloppskrift"](https://sulten.app/recipes/tomat-og-paprikasuppe-med-chorizo-og-fetaost-06f7)
 
 ||| :timer_clock: Tid
 35 mins
