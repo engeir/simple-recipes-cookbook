@@ -18,14 +18,12 @@ category:
 [!ref target="blank" text="Originaloppskrift"](https://sulten.app/recipes/wok-med-tofu-nttw)
 
 ||| :timer_clock: Tid
-40 min
+35 min
 ||| :knife_fork_plate: Porsjoner
-2
+1
 ||| :cook: Vanskelighetsgrad
 Lett
 |||
-
-[!ref Gå til oppskrift for Mangosalsa](/enkel-servering/mangosalsa.md)
 
 ## Ingredienser
 
