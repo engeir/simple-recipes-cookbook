@@ -17,7 +17,7 @@ authors:
 
 ![](/static/risotto-paella.webp)
 
-[!ref target="blank" text="Originaloppskrift"](https://sulten.app/recipes/student-paella)
+[!ref target="blank" text="Originaloppskrift"](https://sulten.app/recipes/studentpaella-anop)
 
 ||| :timer_clock: Tid
 35 mins
