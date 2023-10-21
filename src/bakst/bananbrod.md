@@ -17,7 +17,7 @@ authors:
 ![](/static/bananbrod/bananbrod-banner.webp)
 
 ||| :timer_clock: Tid
-25 mins
+45 mins
 ||| :knife_fork_plate: Porsjoner
 2 brød
 ||| :cook: Vanskelighetsgrad
@@ -37,7 +37,7 @@ Lett
 
 ## Steg
 
-1. Sett på ovene på $180^\circ$.
+1. Sett ovnen på 180°.
 2. Visp sammen egg og sukker i en bolle.
 
    ![220g sukker](/static/bananbrod/bananbrod-sukker.webp)
@@ -50,7 +50,7 @@ Lett
    Hakk f.eks. noe sjokoladebiter eller annet som frister og ha det i brødet.
    !!!
 
-6. Hell røren over i en form på ca. $1.5$ liter, og sett formen på nederste rille.
+6. Hell røren over i en form på ca. 1.5 liter, og sett formen på nederste rille i ovnen i omlag 35 min.
 7. Ta brødet ut av formen og avkjøl på rist.
 
    ![Ferdige bananbrød, klare for avkjøling](/static/bananbrod/bananbrod-ovn.webp)
