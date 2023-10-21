@@ -8,7 +8,9 @@ categories:
   - title: ":fire: Removals and Deprecations"
     label: "removal"
   - title: ":beetle: Fixes"
-    label: "bug"
+    labels:
+      - "bug"
+      - "typo"
   - title: ":racehorse: Performance"
     label: "performance"
   - title: ":rotating_light: Testing"
@@ -24,7 +26,6 @@ categories:
   - title: ":lipstick: Style"
     labels:
       - "style"
-      - "typo"
   - title: ":package: Dependencies"
     labels:
       - "dependencies"
