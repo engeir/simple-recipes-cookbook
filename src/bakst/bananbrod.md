@@ -27,7 +27,7 @@ Lett
 ## Ingredienser
 
 - 275 g hvetemel
-- 220 g sukker (evt. \'en Mumiekopp sukker)
+- 220 g sukker (evt. én Mumiekopp sukker)
 - 3 stk bananer
 - 3 stk egg
 - 75 g smør
