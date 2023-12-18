@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogg</title>
-    <link>https://cookbook.eirik.re/blog/</link>
+    <link>https://mere.eirik.re/blog/</link>
     <description>Blogg</description>
     <copyright>Copyleft 2023. All rights reversed. Fork me on GitHub</copyright>
     <lastBuildDate>Tue, 24 May 2022 00:00:00 GMT</lastBuildDate>
     <generator>https://retype.com</generator>
-    <atom:link rel="self" type="application/rss+xml" href="https://cookbook.eirik.re/blog/feed.xml" />
+    <atom:link rel="self" type="application/rss+xml" href="https://mere.eirik.re/blog/feed.xml" />
     <item>
       <title>Hvordan bidra</title>
-      <guid isPermaLink="true">https://cookbook.eirik.re/blog/2022-5-24-hvordan-bidra/</guid>
+      <guid isPermaLink="true">https://mere.eirik.re/blog/2022-5-24-hvordan-bidra/</guid>
       <description>Om du ønsker å legge inn en oppskrift selv for så å lage en pull request, kan du gjøre det ved å følge disse stegene.</description>
       <pubDate>Tue, 24 May 2022 00:00:00 GMT</pubDate>
     </item>
