@@ -15,7 +15,7 @@ authors:
     avatar: ":cook:"
 ---
 
-# Maisstuing
+# Rødvinsgløgg
 
 ![](/static/rodvinsglogg/rodvinsglogg.webp)
 
