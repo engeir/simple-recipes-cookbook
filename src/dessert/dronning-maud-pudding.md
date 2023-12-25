@@ -13,7 +13,7 @@ authors:
     avatar: ":cook:"
 ---
 
-# Dronning Maud Pudding
+# Dronning Maud-pudding
 
 ![](/static/dr-maud-pudding/dr-maud-pudding.webp)
 
@@ -44,22 +44,31 @@ Middels
 
 1. Start med å piske kremfløten til tykk, myk krem. Ha kremen i en bolle og sett i
    kjøleskapet.
-   [!embed el="embed" width="60%"](/static/dr-maud-pudding/krempisk.webp)
-1. Riv sjokoladen fint (bruk mandelkvern til dette eller eventuelt food processor med
-   hakkekniv). [!embed el="embed" width="60%"](/static/dr-maud-pudding/raspe-sjokolade.webp)
+
+![](/static/dr-maud-pudding/krempisk.webp)-
+
+2. Riv sjokoladen fint (bruk mandelkvern til dette eller eventuelt food processor med
+   hakkekniv).
+
+![](/static/dr-maud-pudding/raspe-sjokolade.webp)-
+
 3. Pisk egg og sukker til skikkelig lys og tykk eggedosis (ca 10 min med elektrisk
    mikser). Det er viktig at du bruker helt ren og tørr bolle og mikser.
-4. Mens eggedosisen pisker bløtlegger du gelatinplatene i en bolle kaldt vann.
+4. Mens eggedosisen piskes bløtlegger du gelatinplatene i en bolle kaldt vann.
 5. Når eggedosisen er ferdig pisket, klemmer du vannet godt ut av gelatinplatene og
    løser dem opp i en kopp med 2 ss kokende vann. Om gelatinplatene ikke løser seg så
-   godt opp, legg bollen i det varme vannet og rør til en fin blanding.
-   [!embed el="embed" width="60%"](/static/dr-maud-pudding/gelatin.webp)
+   godt opp, legg bollen i det varme vannet og rør til du får en fin blanding.
+
+![](/static/dr-maud-pudding/gelatin.webp)-
+
 6. Hell så den varme gelatinblandingen i eggedosisen mens du fortsetter å piske på lav
    hastighet slik at gelatinen blir jevnt og godt blandet inn i eggedosisen.
-7. Ta så kremen ut av kjøleskapet og bland den inn i eggedosisen. Jeg pleier å bruke en
-   ballongvisp til dette. Det er viktig å røre nok til at alle kremflekker fjernes, men
-   ikke mer enn nødvendig så luften i fromasjen bevares.
-   [!embed el="embed" width="60%"](/static/dr-maud-pudding/bollongvisp-blanding.webp)
+7. Ta så kremen ut av kjøleskapet og bland den inn i eggedosisen, for eksempel med en
+   ballongvisp. Det er viktig å røre nok til at alle kremflekker fjernes, men ikke mer
+   enn nødvendig så luften i fromasjen bevares.
+
+![](/static/dr-maud-pudding/bollongvisp-blanding.webp)-
+
 8. Ta frem en stor dessertskål og hell i 1/3 av fromasjen. Dryss over sjokolade. Hell
    over 1/3 til av fromasjen og dryss over sjokolade. Så har du over resten av fromasjen
    og drysser over resten av sjokoladen til slutt.
