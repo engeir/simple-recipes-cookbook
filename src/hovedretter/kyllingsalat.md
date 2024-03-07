@@ -28,9 +28,9 @@ Lett
 - 4 dl ris
 - 1 paprika
 - 2 vårløk
-- cherrytomat
+- en håndfull cherrytomater
 - ruccola
-- mozzarella
+- en pakke tofu (eventuelt mozzarella)
 - fetaost
 
 +++ Dressing
@@ -49,9 +49,9 @@ Lett
 - 4 dl ris
 - 1 paprika
 - 2 vårløk
-- cherrytomat
+- en håndfull cherrytomater
 - ruccola
-- mozzarella
+- en pakke tofu (eventuelt mozzarella)
 - fetaost
 - pesto
 - 2 ss eddik
@@ -64,8 +64,8 @@ Lett
 
 === Salat
 
-1. Stek kyllingen i en panne til den er ferdig stekt og legg til side.
-2. Kok ris etter anvisning på pakken.
+1. Kok ris etter anvisning på pakken.
+2. Stek kyllingen i en panne til den er ferdig stekt, og ha i tofu mot slutten av steketiden. Legg til side for avkjølning.
 3. Finsnitt salat og vårløk. Skjær tomat, paprika og ost i terninger.
 4. Riv kyllingen og bland sammen med ris og grønnsaker.
 
