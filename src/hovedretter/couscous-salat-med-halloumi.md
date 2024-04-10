@@ -21,6 +21,7 @@ authors:
 
 [!ref target="blank" text="Originaloppskrift"](https://sulten.app/recipes/couscous-salat-med-grillet-halloumi-be81)
 
+<!-- dprint-ignore-start -->
 ||| :timer_clock: Tid
 30 min
 ||| :knife_fork_plate: Porsjoner
@@ -28,6 +29,7 @@ authors:
 ||| :cook: Vanskelighetsgrad
 Lett
 |||
+<!-- dprint-ignore-end -->
 
 ## Ingredienser
 
@@ -46,7 +48,10 @@ Lett
 
 ## Steg
 
-1. Lag couscous etter anvisning på pakken. Når couscousen er ferdig, tilsetter du olivenolje, gurkemeie, spisskummen og finhakket persille. Smak også til med litt salt.
+1. Lag couscous etter anvisning på pakken. Når couscousen er ferdig, tilsetter du
+   olivenolje, gurkemeie, spisskummen og finhakket persille. Smak også til med litt
+   salt.
 2. Stek halloumi i ei stekepanne sammen med litt olivenolje.
 3. Kutt opp agurk, cherrytomater og rødløk i skiver.
-4. Vend inn agurk, cherrytomater, rødløk, spinat og kikerter i couscous. Topp med fetaost og halloumi.
+4. Vend inn agurk, cherrytomater, rødløk, spinat og kikerter i couscous. Topp med
+   fetaost og halloumi.

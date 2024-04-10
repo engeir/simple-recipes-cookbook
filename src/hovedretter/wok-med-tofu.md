@@ -17,6 +17,7 @@ category:
 
 [!ref target="blank" text="Originaloppskrift"](https://sulten.app/recipes/wok-med-tofu-nttw)
 
+<!-- dprint-ignore-start -->
 ||| :timer_clock: Tid
 35 min
 ||| :knife_fork_plate: Porsjoner
@@ -24,6 +25,7 @@ category:
 ||| :cook: Vanskelighetsgrad
 Lett
 |||
+<!-- dprint-ignore-end -->
 
 ## Ingredienser
 

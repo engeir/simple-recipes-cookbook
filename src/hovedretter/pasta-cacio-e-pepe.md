@@ -14,6 +14,7 @@ authors:
 
 ![](/static/pasta-ost-e-pepe/pasta-ost-e-pepe.webp)
 
+<!-- dprint-ignore-start -->
 ||| :timer_clock: Tid
 20 min
 ||| :knife_fork_plate: Porsjoner
@@ -21,6 +22,7 @@ authors:
 ||| :cook: Vanskelighetsgrad
 Medium
 |||
+<!-- dprint-ignore-end -->
 
 ## Ingredienser
 
@@ -42,6 +44,8 @@ Medium
 ## Notater
 
 !!!success Tilbehør
+
 Om du ønsker annet tilbehør ved siden av retten kan en
 [tomatsalat](/enkel-servering/tomat-salat.md) være et godt alternativ.
+
 !!!

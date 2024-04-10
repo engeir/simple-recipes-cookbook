@@ -15,6 +15,7 @@ authors:
 
 ![](https://res.cloudinary.com/norgesgruppen/images/c_scale,dpr_auto,f_auto,q_auto:eco,w_1600/g8fapchxuulswmgtng1u/spicy-pasta-med-gronnkal)
 
+<!-- dprint-ignore-start -->
 ||| :timer_clock: Tid
 20 min
 ||| :knife_fork_plate: Porsjoner
@@ -22,6 +23,7 @@ authors:
 ||| :cook: Vanskelighetsgrad
 Enkel
 |||
+<!-- dprint-ignore-end -->
 
 ## Ingredienser
 
@@ -40,7 +42,7 @@ Enkel
 
 ## Steg
 
-1. Forvarm stekeovnen til $180^\circ$.
+1. Forvarm stekeovnen til 180°C.
 2. Kle et stekebrett med bakepapir. Dra bladene av grønnkålkvastene, prøv å få med så
    lite harde stilker som mulig. Fordel halvparten av grønnkålbladene på stekebrettet.
    Dryss olivenolje og havsalt over. Stek i 8-10 minutter til grønnkålen begynner å bli

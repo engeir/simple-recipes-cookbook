@@ -17,6 +17,7 @@ authors:
 
 ![](/static/pasta-a-la-vodka.webp)
 
+<!-- dprint-ignore-start -->
 ||| :timer_clock: Tid
 65 min
 ||| :knife_fork_plate: Porsjoner
@@ -24,6 +25,7 @@ authors:
 ||| :cook: Vanskelighetsgrad
 Medium
 |||
+<!-- dprint-ignore-end -->
 
 ## Ingredienser
 

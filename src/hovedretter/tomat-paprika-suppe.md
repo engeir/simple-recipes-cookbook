@@ -17,6 +17,7 @@ authors:
 
 [!ref target="blank" text="Originaloppskrift"](https://sulten.app/recipes/tomat-og-paprikasuppe-med-chorizo-og-fetaost-06f7)
 
+<!-- dprint-ignore-start -->
 ||| :timer_clock: Tid
 35 mins
 ||| :knife_fork_plate: Porsjoner
@@ -24,6 +25,7 @@ authors:
 ||| :cook: Vanskelighetsgrad
 Lett
 |||
+<!-- dprint-ignore-end -->
 
 ## Ingredienser
 
@@ -41,7 +43,7 @@ Lett
 
 ## Steg
 
-1. Stek hele paprikaer i ovnen ved $210^{\circ}\mathrm{C}$ i ca. 15 minutter.
+1. Stek hele paprikaer i ovnen ved 210°C i ca. 15 minutter.
 2. Imens kan du kutte opp rødløk og hvitløk og la dette surre i en gryte sammen med litt
    olje eller smør til løken har blitt blank.
 3. Ta paprikaene ut av ovnen, kutt av stilkene med frøene og dra av skinnet langs hele
@@ -58,6 +60,8 @@ Lett
 ## Notater
 
 !!!success
-Har du rester igjen? Perfekt! Da kan du lage [spagetti med
-chorizo](/hovedretter/spagetti-med-chorizo.md)!
+
+Har du rester igjen? Perfekt! Da kan du lage
+[spagetti med chorizo](/hovedretter/spagetti-med-chorizo.md)!
+
 !!!

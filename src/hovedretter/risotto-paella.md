@@ -19,6 +19,7 @@ authors:
 
 [!ref target="blank" text="Originaloppskrift"](https://sulten.app/recipes/studentpaella-anop)
 
+<!-- dprint-ignore-start -->
 ||| :timer_clock: Tid
 35 mins
 ||| :knife_fork_plate: Porsjoner
@@ -26,6 +27,7 @@ authors:
 ||| :cook: Vanskelighetsgrad
 Middels
 |||
+<!-- dprint-ignore-end -->
 
 ## Ingredienser
 

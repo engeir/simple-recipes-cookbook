@@ -1,0 +1,17 @@
+{
+  "json": {
+    "indentWidth": 2,
+    "associations": ["**/*.avsc"]
+  },
+  "markdown": {
+    "lineWidth": 88,
+    "textWrap": "always"
+  },
+  "toml": {},
+  "excludes": ["**/*-lock.json"],
+  "plugins": [
+    "https://plugins.dprint.dev/json-0.19.2.wasm",
+    "https://plugins.dprint.dev/markdown-0.16.4.wasm",
+    "https://plugins.dprint.dev/toml-0.6.1.wasm"
+  ]
+}

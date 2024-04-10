@@ -11,6 +11,7 @@ authors:
 
 # Tante Wallys hveteboller
 
+<!-- dprint-ignore-start -->
 ||| :timer_clock: Tid
 120 min
 ||| :knife_fork_plate: Porsjoner
@@ -18,6 +19,7 @@ ca. 20 boller
 ||| :cook: Vanskelighetsgrad
 Lett
 |||
+<!-- dprint-ignore-end -->
 
 ## Ingredienser
 

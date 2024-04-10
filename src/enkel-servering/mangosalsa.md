@@ -15,6 +15,7 @@ authors:
 
 # Mangosalsa
 
+<!-- dprint-ignore-start -->
 ||| :timer_clock: Tid
 15 min
 ||| :knife_fork_plate: Porsjoner
@@ -22,6 +23,7 @@ authors:
 ||| :cook: Vanskelighetsgrad
 Lett
 |||
+<!-- dprint-ignore-end -->
 
 ## Ingredienser
 

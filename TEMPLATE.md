@@ -14,6 +14,7 @@ authors:
 
 ![](https://via.placeholder.com/1280x480)
 
+<!-- dprint-ignore-start -->
 ||| :timer_clock: Tid
 65 min
 ||| :knife_fork_plate: Porsjoner
@@ -21,6 +22,7 @@ authors:
 ||| :cook: Vanskelighetsgrad
 Medium
 |||
+<!-- dprint-ignore-end -->
 
 ## Ingredienser
 

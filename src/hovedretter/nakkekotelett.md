@@ -8,6 +8,7 @@ category:
 
 # Nakkekotelett med ovnsbakte grønnsaker og fetaost
 
+<!-- dprint-ignore-start -->
 ||| :timer_clock: Tid
 40 min
 ||| :knife_fork_plate: Porsjoner
@@ -15,6 +16,7 @@ category:
 ||| :cook: Vanskelighetsgrad
 Lett
 |||
+<!-- dprint-ignore-end -->
 
 ## Ingredienser
 
@@ -31,15 +33,15 @@ Lett
 
 ## Steg
 
-1. Forvarm stekeovnen til $180^\circ$.
+1. Forvarm stekeovnen til 180°C.
 2. Kle et stekebrett med bakepapir. Dra bladene av grønnkålkvastene, prøv å få med så
    lite harde stilker som mulig og fordel grønnkålbladene på stekebrettet. Dryss
-   olivenolje og havsalt over. Stek i $8-10$ minutter til grønnkålen begynner å bli
+   olivenolje og havsalt over. Stek i 8-10 minutter til grønnkålen begynner å bli
    mørkere. Pass på at den ikke blir brent.
 3. Kutt opp poteter, gulrøtter og sjalottløk. Legg det i en ildfast form eller på et
-   stekebrett, dryss over salt, pepper og timian og stek midt i ovnen på $200^\circ$ i
-   $25$ minutter.
-4. Brun smør i en panne og stek nakkekotelettene i ca. $5$ minutter på hver side (husk å
+   stekebrett, dryss over salt, pepper og timian og stek midt i ovnen på 200°C i 25
+   minutter.
+4. Brun smør i en panne og stek nakkekotelettene i ca. 5 minutter på hver side (husk å
    krydre med salt og pepper). Etter du har skrudd av varmen lar du den fortsette å
    hvile i panna så den blir gjennomstekt.
 5. Ved servering toppes det med fetaost.

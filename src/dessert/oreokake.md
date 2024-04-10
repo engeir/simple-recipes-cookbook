@@ -12,6 +12,7 @@ category:
 
 [!ref target="blank" text="Originaloppskrift"](https://trinesmatblogg.no/recipe/oreokake-2-0/)
 
+<!-- dprint-ignore-start -->
 ||| :timer_clock: Tid
 60 min
 ||| :knife_fork_plate: Porsjoner
@@ -19,6 +20,7 @@ category:
 ||| :cook: Vanskelighetsgrad
 Lett
 |||
+<!-- dprint-ignore-end -->
 
 ## Ingredienser
 
@@ -99,8 +101,8 @@ Lett
 
 === Topping
 
-13. Pisk kremfløten (1.5 dl) til toppingen sammen med litt melis til en myk krem, og
-    bre den forsiktig oppå kaken. (Du kan eventuelt stivpiske kremfløten til
+13. Pisk kremfløten (1.5 dl) til toppingen sammen med litt melis til en myk krem, og bre
+    den forsiktig oppå kaken. (Du kan eventuelt stivpiske kremfløten til
     sjokolademoussen og toppingen samtidig, og oppbevare kremen til toppingen i
     kjøleskapet mens sjokolademousseen stivner.)
 14. Rett før servering fordeler du hakket Oreokjeks over kaken. Bruk en ren kniv og
@@ -112,9 +114,11 @@ Lett
 ## Notater
 
 !!!success Tips
-Sjokoladeblandingen må ikke være for varm når den tilsettes i eggeblandingen, for da
-kan eggene koagulere.
+
+Sjokoladeblandingen må ikke være for varm når den tilsettes i eggeblandingen, for da kan
+eggene koagulere.
 
 Vær forsiktig når du rører sammen sjokoladen og kremen – slik at luften beholdes i
 moussen. Hvis ikke kan du få problemer med å få moussen stiv.
+
 !!!

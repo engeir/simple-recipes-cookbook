@@ -19,11 +19,15 @@ visibility: hidden
 ![](https://sulten.app/_next/image?url=https%3A%2F%2Fimages.sulten.app%2Frecipes%2Fspagetti-med-chorizo-xmon.jpeg&w=640&q=75)
 
 !!!danger :zap: Ey, før du begynner! :zap:
-Husk at denne retten antar at du har litt (ca. 2 dl) igjen av [tomat– og paprikasuppen](/hovedretter/tomat-paprika-suppe.md).
+
+Husk at denne retten antar at du har litt (ca. 2 dl) igjen av
+[tomat– og paprikasuppen](/hovedretter/tomat-paprika-suppe.md).
+
 !!!
 
 [!ref target="blank" text="Originaloppskrift"](https://sulten.app/recipes/spagetti-med-chorizo-egqk)
 
+<!-- dprint-ignore-start -->
 ||| :timer_clock: Tid
 10 mins
 ||| :knife_fork_plate: Porsjoner
@@ -31,6 +35,7 @@ Husk at denne retten antar at du har litt (ca. 2 dl) igjen av [tomat– og papri
 ||| :cook: Vanskelighetsgrad
 Lett
 |||
+<!-- dprint-ignore-end -->
 
 ## Ingredienser
 

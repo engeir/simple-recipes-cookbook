@@ -15,6 +15,7 @@ category:
 
 [!ref target="blank" text="Originaloppskrift"](https://www.barilla.com/nn-no/oppskrifter/collezione/barilla-lasagne-med-classicosaus-og-spro-gronnsaker)
 
+<!-- dprint-ignore-start -->
 ||| :timer_clock: Tid
 65 mins
 ||| :knife_fork_plate: Porsjoner
@@ -22,6 +23,7 @@ category:
 ||| :cook: Vanskelighetsgrad
 Lett
 |||
+<!-- dprint-ignore-end -->
 
 ## Ingredienser
 
@@ -72,7 +74,7 @@ Lett
 
 === Grønnsaksblanding
 
-1. Sett stekeovnen på $220\,\mathrm{^\circ C}$.
+1. Sett stekeovnen på 220°C.
 2. Skjær squash, brokkoli og paprika i små biter.
 3. Fres grønnsakene i extra virgin olivenolje i en stekepanne. Grønnsakene skal bli litt
    myke, men fremdeles ha tyggemotstand.
@@ -94,7 +96,7 @@ Lett
 9. Fortsett med å legge lag av béhamelsaus, grønnsaker og lasagneplater til du har lagt
    ca. to lag.
 10. Avslutt med béhamelsaus, dryss deretter 60 g parmesan på toppen.
-11. Stek lasagnen i ovn på $220\,\mathrm{^\circ C}$ i $25$–$30$ minutter.
+11. Stek lasagnen i ovn på 220°C i 25–30 minutter.
 12. La retten hvile 10 minutter før servering og du har en deilig grønnsakslasagne.
 
 ===

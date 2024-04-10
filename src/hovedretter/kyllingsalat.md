@@ -11,6 +11,7 @@ category:
 
 # Kyllingsalat
 
+<!-- dprint-ignore-start -->
 ||| :timer_clock: Tid
 20 min
 ||| :knife_fork_plate: Porsjoner
@@ -18,6 +19,7 @@ category:
 ||| :cook: Vanskelighetsgrad
 Lett
 |||
+<!-- dprint-ignore-end -->
 
 ## Ingredienser
 
@@ -65,7 +67,8 @@ Lett
 === Salat
 
 1. Kok ris etter anvisning på pakken.
-2. Stek kyllingen i en panne til den er ferdig stekt, og ha i tofu mot slutten av steketiden. Legg til side for avkjølning.
+2. Stek kyllingen i en panne til den er ferdig stekt, og ha i tofu mot slutten av
+   steketiden. Legg til side for avkjølning.
 3. Finsnitt salat og vårløk. Skjær tomat, paprika og ost i terninger.
 4. Riv kyllingen og bland sammen med ris og grønnsaker.
 

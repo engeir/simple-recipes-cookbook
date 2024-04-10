@@ -11,6 +11,7 @@ category:
 
 # Kyllingwok med egg og nudler
 
+<!-- dprint-ignore-start -->
 ||| :timer_clock: Tid
 20 min
 ||| :knife_fork_plate: Porsjoner
@@ -18,6 +19,7 @@ category:
 ||| :cook: Vanskelighetsgrad
 Lett
 |||
+<!-- dprint-ignore-end -->
 
 ## Ingredienser
 

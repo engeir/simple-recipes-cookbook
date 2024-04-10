@@ -19,6 +19,7 @@ foo: "baz"
 
 ![](/static/hello-world-kake/hello-world-fin.webp)
 
+<!-- dprint-ignore-start -->
 ||| :icon-clock: Time
 35 mins
 ||| :timer_clock: Preparations
@@ -26,6 +27,7 @@ foo: "baz"
 ||| :cook: Cooking
 10 min
 |||
+<!-- dprint-ignore-end -->
 
 Du kan se det endelige resultatet i bildet over, og under er et bildet av kakemassen før
 den gikk i forma. Den var ikke helt konge, men smakte helt greit. Man kan nok helt fint

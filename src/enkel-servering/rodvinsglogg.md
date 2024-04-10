@@ -21,6 +21,7 @@ authors:
 
 [!ref target="blank" text="Originaloppskrift"](https://www.godt.no/oppskrifter/drikke/drinker/1412/roedvinsgloegg)
 
+<!-- dprint-ignore-start -->
 ||| :timer_clock: Tid
 25 min
 ||| :knife_fork_plate: Porsjoner
@@ -28,12 +29,15 @@ authors:
 ||| :cook: Vanskelighetsgrad
 Lett
 |||
+<!-- dprint-ignore-end -->
 
 ## Ingredienser
 
 !!!info
+
 Om du ikke finner krydderne i hel form, prøv deg frem med den malte varianten og filtrer
 det med et kaffefilter. Går an det!
+
 !!!
 
 - 2.5 dl vann
