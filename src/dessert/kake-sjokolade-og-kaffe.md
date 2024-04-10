@@ -16,6 +16,7 @@ authors:
 
 ![](/static/kake-sjokolade-og-kaffe/kake-sjokolade-og-kaffe.webp)
 
+<!-- dprint-ignore-start -->
 ||| :timer_clock: Tid
 60 min
 ||| :knife_fork_plate: Porsjoner
@@ -23,6 +24,7 @@ authors:
 ||| :cook: Vanskelighetsgrad
 Medium
 |||
+<!-- dprint-ignore-end -->
 
 ## Ingredienser
 

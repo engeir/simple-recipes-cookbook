@@ -20,6 +20,7 @@ authors:
 
 ![](/static/tomat-salat/tomat-salat.webp)
 
+<!-- dprint-ignore-start -->
 ||| :timer_clock: Tid
 5 min
 ||| :knife_fork_plate: Porsjoner
@@ -27,6 +28,7 @@ authors:
 ||| :cook: Vanskelighetsgrad
 Lett
 |||
+<!-- dprint-ignore-end -->
 
 ## Ingredienser
 
@@ -45,5 +47,7 @@ Lett
 ## Notater
 
 !!!info
+
 Del gjerne tomatene i skiver slik at stilken står normalt på snittene!
+
 !!!

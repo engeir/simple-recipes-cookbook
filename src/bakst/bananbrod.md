@@ -16,6 +16,7 @@ authors:
 
 ![](/static/bananbrod/bananbrod-banner.webp)
 
+<!-- dprint-ignore-start -->
 ||| :timer_clock: Tid
 45 mins
 ||| :knife_fork_plate: Porsjoner
@@ -23,6 +24,7 @@ authors:
 ||| :cook: Vanskelighetsgrad
 Lett
 |||
+<!-- dprint-ignore-end -->
 
 ## Ingredienser
 
@@ -46,11 +48,14 @@ Lett
 4. Smelt smør i en liten kjele, hell i melk og bland det deretter i bollen.
 5. Bland inn mel, natron og bakepulver til en jevn og fin røre.
 
+   <!-- dprint-ignore-start -->
    !!!success Tips
    Hakk f.eks. noe sjokoladebiter eller annet som frister og ha det i brødet.
    !!!
+   <!-- dprint-ignore-end -->
 
-6. Hell røren over i en form på ca. 1.5 liter, og sett formen på nederste rille i ovnen i omlag 35 min.
+6. Hell røren over i en form på ca. 1.5 liter, og sett formen på nederste rille i ovnen
+   i omlag 35 min.
 7. Ta brødet ut av formen og avkjøl på rist.
 
    ![Ferdige bananbrød, klare for avkjøling](/static/bananbrod/bananbrod-ovn.webp)

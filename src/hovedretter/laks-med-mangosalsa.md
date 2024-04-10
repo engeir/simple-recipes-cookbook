@@ -12,6 +12,7 @@ category:
 
 # Laks med mangosalsa
 
+<!-- dprint-ignore-start -->
 ||| :timer_clock: Tid
 40 min
 ||| :knife_fork_plate: Porsjoner
@@ -19,6 +20,7 @@ category:
 ||| :cook: Vanskelighetsgrad
 Lett
 |||
+<!-- dprint-ignore-end -->
 
 [!ref Gå til oppskrift for Mangosalsa](/enkel-servering/mangosalsa.md)
 
@@ -67,11 +69,11 @@ Lett
 
 === Laks
 
-1. Sett ovnen på $200^\circ$, og kok opp lettsaltet vann til risen.
+1. Sett ovnen på 200°C, og kok opp lettsaltet vann til risen.
 2. Pensle/ringle litt olivenolje på laksefiletene.
 3. Støt pepperen grovt i en morter og strø over laksen sammen med litt maldonsalt.
-4. Stek laksen i ovn i omlag $10$ minutter til den såvidt faller fra hverandre. La
-   heller fisken være litt rå enn for mye stekt.
+4. Stek laksen i ovn i omlag 10 minutter til den såvidt faller fra hverandre. La heller
+   fisken være litt rå enn for mye stekt.
 5. Kok opp ris.
 
 === Mangosalsa

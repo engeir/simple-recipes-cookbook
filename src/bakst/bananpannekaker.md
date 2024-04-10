@@ -11,6 +11,7 @@ category:
 
 # Bananpannekaker
 
+<!-- dprint-ignore-start -->
 ||| :timer_clock: Tid
 20 mins
 ||| :knife_fork_plate: Porsjoner
@@ -18,6 +19,7 @@ category:
 ||| :cook: Vanskelighetsgrad
 Lett
 |||
+<!-- dprint-ignore-end -->
 
 ## Ingredienser
 

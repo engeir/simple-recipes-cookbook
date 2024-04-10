@@ -41,8 +41,8 @@ Lett
 
 ## Steg
 
-1. Del avokado og ta ut fruktkjøttet med hjelp av en skje. Press
-   over sitron/limesaft og mariner avokado i 10-15 min.
+1. Del avokado og ta ut fruktkjøttet med hjelp av en skje. Press over sitron/limesaft og
+   mariner avokado i 10-15 min.
 2. Mos avokadokjøttet med en gaffel og bland inn majones og rømme. Smak til med litt
    lime/sitronsaft, salt og pepper.
 

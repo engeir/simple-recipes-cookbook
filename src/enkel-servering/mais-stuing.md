@@ -18,6 +18,7 @@ authors:
 
 [!ref target="blank" text="Originaloppskrift"](https://www.godt.no/oppskrifter/groennsaker/6944/maispure-kremet-mais)
 
+<!-- dprint-ignore-start -->
 ||| :timer_clock: Tid
 15 min
 ||| :knife_fork_plate: Porsjoner
@@ -25,6 +26,7 @@ authors:
 ||| :cook: Vanskelighetsgrad
 Lett
 |||
+<!-- dprint-ignore-end -->
 
 ## Ingredienser
 
