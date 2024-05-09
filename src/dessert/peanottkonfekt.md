@@ -11,7 +11,7 @@ category:
 
 # Peanøttkonfekt
 
-![](/static/halloumi.webp)
+![](/static/peanottkonfekt/peanottkonfekt.webp)
 
 <!-- dprint-ignore-start -->
 ||| :timer_clock: Tid
@@ -39,7 +39,13 @@ Lett
    i finkornet sukker er det lettere å smelte.
 3. Trekk kjelen av platen og rør inn corn flakes og kokos.
 4. Kle en langpanne med plastfolie og fordel massen jevnt utover. Tykkelsen bør være ca.
-   1 cm.
+   1 cm. Noe slikt som dette (etter alt er i).
+
+   ![](/static/peanottkonfekt/peanottkonfekt-plast.webp)
+
 5. Smelt sjokoladen over vannbad og bre den utover massen.
 6. Sett langpannen i kjøleskap til sjokoladen har stivnet.
-7. Skjær konfekten i passende biter og nyt!
+7. Plukk konfekten ut av langpannen og fjern plasten, som vist under. Skjær konfekten i
+   passende biter og nyt!
+
+   ![](/static/peanottkonfekt/peanottkonfekt-oppned.webp)
