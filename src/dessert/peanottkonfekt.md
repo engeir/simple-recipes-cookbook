@@ -2,16 +2,22 @@
 description: "Den perfekte turkamerat"
 tag:
   - peanøtt
-  - konfekt
   - sjokolade
   - enkel
 category:
   - dessert
+  - konfekt
+  - turmat
+authors:
+  - name: "Lise Finckenhagen"
+    avatar: ":cook:"
 ---
 
 # Peanøttkonfekt
 
 ![](/static/peanottkonfekt/peanottkonfekt.webp)
+
+[!ref target="blank" text="Originaloppskrift"](https://www.nrk.no/mat/1.7017330)
 
 <!-- dprint-ignore-start -->
 ||| :timer_clock: Tid
