@@ -12,7 +12,7 @@ category:
 
 # Eltefritt brød
 
-![](/static/wok-med-tofu/wok-med-tofu.webp)
+![](/static/eltefritt-brod/eltefritt-brod.webp)
 
 <!-- dprint-ignore-start -->
 ||| :timer_clock: Tid
@@ -39,6 +39,4 @@ Lett
 1. Bland sammen alt det tørre.
 2. Lag en skål/brønn av det tørre hvor du heller det kalde vannet, og bland sammen.
 3. La degien heve i omlag 14 timer.
-4. Sett ovnen på 200°C og stek brødene i 45 min.
-
-![](/static/wok-med-tofu/wok.webp)
+4. Sett ovnen på 200°C og stek brødene i 50 min.
