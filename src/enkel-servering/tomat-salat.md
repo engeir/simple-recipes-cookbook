@@ -1,5 +1,5 @@
 ---
-description: "Rask og god tomatasalat som passer til alt fra pasta til grillmat"
+description: "5 min | Enkel"
 tag:
   - enkel
   - tomat
@@ -26,7 +26,7 @@ authors:
 ||| :knife_fork_plate: Porsjoner
 2
 ||| :cook: Vanskelighetsgrad
-Lett
+Enkel
 |||
 <!-- dprint-ignore-end -->
 

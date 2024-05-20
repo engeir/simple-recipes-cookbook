@@ -1,5 +1,5 @@
 ---
-description: "Lettvint tilbehør til rakefisk"
+description: "35 min | Enkel"
 tag:
   - enkel
   - potet
@@ -26,7 +26,7 @@ authors:
 ||| :knife_fork_plate: Porsjoner
 8
 ||| :cook: Vanskelighetsgrad
-Lett
+Enkel
 |||
 <!-- dprint-ignore-end -->
 

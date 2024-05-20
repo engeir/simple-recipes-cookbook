@@ -1,5 +1,5 @@
 ---
-description: "En enkel og god måte å bli kvitt grønnsaksrester"
+description: "45 min | Enkel"
 tag:
   - enkel
   - sunn
@@ -20,7 +20,7 @@ category:
 ||| :knife_fork_plate: Porsjoner
 3
 ||| :cook: Vanskelighetsgrad
-Lett
+Enkel
 |||
 <!-- dprint-ignore-end -->
 

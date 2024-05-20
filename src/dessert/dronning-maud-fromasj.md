@@ -1,5 +1,5 @@
 ---
-description: "Nydelig dessert som kan figurere som substitutt til riskrem i jula"
+description: "80 min | Middels"
 tag:
   - sjokolade
   - gelatin

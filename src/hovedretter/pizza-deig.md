@@ -1,5 +1,5 @@
 ---
-description: "Den enesten pizzadeigen man trenger"
+description: "40 min | Vanskelig"
 tag:
   - pizza
 category:

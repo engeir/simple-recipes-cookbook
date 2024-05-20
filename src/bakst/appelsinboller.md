@@ -1,5 +1,5 @@
 ---
-description: "En oppgradert kardemummebolle med safran og appelsinkrem"
+description: "120 min | Middels"
 tag:
   - vegetar
   - bolle

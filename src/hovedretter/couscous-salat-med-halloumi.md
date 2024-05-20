@@ -1,5 +1,5 @@
 ---
-description: "Rask og smakfull halloumisalat"
+description: "30 min | Enkel"
 tag:
   - couscous
   - halloumi
@@ -27,7 +27,7 @@ authors:
 ||| :knife_fork_plate: Porsjoner
 2
 ||| :cook: Vanskelighetsgrad
-Lett
+Enkel
 |||
 <!-- dprint-ignore-end -->
 

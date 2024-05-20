@@ -1,4 +1,5 @@
 ---
+description = "65 min | Middels"
 tag:
   - pasta
   - vodka
@@ -23,7 +24,7 @@ authors:
 ||| :knife_fork_plate: Porsjoner
 2
 ||| :cook: Vanskelighetsgrad
-Medium
+Middels
 |||
 <!-- dprint-ignore-end -->
 

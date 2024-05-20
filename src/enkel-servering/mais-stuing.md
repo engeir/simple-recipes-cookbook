@@ -1,5 +1,5 @@
 ---
-description: "Lag maisstuing til din neste grillfest"
+description: "15 min | Enkel"
 tag:
   - enkel
   - mais
@@ -24,7 +24,7 @@ authors:
 ||| :knife_fork_plate: Porsjoner
 4
 ||| :cook: Vanskelighetsgrad
-Lett
+Enkel
 |||
 <!-- dprint-ignore-end -->
 

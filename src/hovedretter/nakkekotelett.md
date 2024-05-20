@@ -1,5 +1,5 @@
 ---
-description: "Når du er gira på kjøtt"
+description: "40 min | Enkel"
 tag:
   - enkel
 category:
@@ -14,7 +14,7 @@ category:
 ||| :knife_fork_plate: Porsjoner
 2
 ||| :cook: Vanskelighetsgrad
-Lett
+Enkel
 |||
 <!-- dprint-ignore-end -->
 

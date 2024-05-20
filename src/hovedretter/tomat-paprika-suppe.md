@@ -1,5 +1,5 @@
 ---
-description: "Kanskje verdens beste suppe"
+description: "35 min | Enkel"
 tag:
   - suppe
   - sunn
@@ -23,7 +23,7 @@ authors:
 ||| :knife_fork_plate: Porsjoner
 2
 ||| :cook: Vanskelighetsgrad
-Lett
+Enkel
 |||
 <!-- dprint-ignore-end -->
 

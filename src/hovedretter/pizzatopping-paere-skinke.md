@@ -1,5 +1,5 @@
 ---
-description: "Fruktig og smakfull pizzatopping"
+description: "5 min | Enkel"
 tag:
   - pizza
   - rask

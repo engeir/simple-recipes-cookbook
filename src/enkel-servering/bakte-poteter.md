@@ -1,5 +1,5 @@
 ---
-description: "Sprø poteter som funker til alt"
+description: "30 min | Middels"
 tag:
   - potet
 category:

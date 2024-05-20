@@ -1,5 +1,5 @@
 ---
-description: "En lett og mettende salat:)"
+description: "20 min | Enkel"
 tag:
   - enkel
   - sunn
@@ -17,7 +17,7 @@ category:
 ||| :knife_fork_plate: Porsjoner
 2
 ||| :cook: Vanskelighetsgrad
-Lett
+Enkel
 |||
 <!-- dprint-ignore-end -->
 

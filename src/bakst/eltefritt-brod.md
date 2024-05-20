@@ -1,5 +1,5 @@
 ---
-description: "Bak brød uten elting og med heving over natten"
+description: "20 min | Enkel"
 tag:
   - enkel
   - sunn
@@ -16,11 +16,11 @@ category:
 
 <!-- dprint-ignore-start -->
 ||| :timer_clock: Tid
-15 min
+20 min
 ||| :knife_fork_plate: Porsjoner
 2 brød
 ||| :cook: Vanskelighetsgrad
-Lett
+Enkel
 |||
 <!-- dprint-ignore-end -->
 
