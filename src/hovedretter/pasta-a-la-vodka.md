@@ -1,5 +1,5 @@
 ---
-description = "65 min | Middels"
+description: "65 min | Middels"
 tag:
   - pasta
   - vodka
@@ -10,9 +10,6 @@ authors:
     link: "https://www.instagram.com/matlagningmedmammsen/"
     avatar: ":cook:"
 ---
-
-<!-- LTeX: language=sv -->
-<!-- Norsk (no) er ikke tilgjengelig. -->
 
 # Pasta à la Vodka
 
