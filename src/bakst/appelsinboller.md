@@ -2,9 +2,13 @@
 description: "En oppgradert kardemummebolle med safran og appelsinkrem"
 tag:
   - vegetar
+  - bolle
+  - kardemumme
+  - appelsin
+  - sjokolade
+  - safran
 category:
   - bakst
-  - bolle
 authors:
   - name: "dejligbakst"
     link: "https://www.instagram.com/dejligbakst/"
