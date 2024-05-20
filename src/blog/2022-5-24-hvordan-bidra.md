@@ -81,8 +81,8 @@ Filstrukturen du ønsker å legge til filer i ser omlag slik ut, før og etter:
 
 For å unngå at bilder gjør lageret veldig stort skal de være i filformatet `webp`, med
 en maks filstørrelse på 500 kB. Dette forklares i større detailj i
-[IMAGE.md](./../../IMAGE.md), men kort fortalt kan det gjøres ved hjelp av
-kommandolinjeprogrammet `cwebp` slik:
+[IMAGE.md](https://github.com/engeir/simple-recipes-cookbook/blob/main/IMAGE.md), men
+kort fortalt kan det gjøres ved hjelp av kommandolinjeprogrammet `cwebp` slik:
 
 ```bash
 cwebp -size 500000 in.jpg -o out.webp
