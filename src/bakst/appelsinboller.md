@@ -2,9 +2,13 @@
 description: "En oppgradert kardemummebolle med safran og appelsinkrem"
 tag:
   - vegetar
+  - bolle
+  - kardemumme
+  - appelsin
+  - sjokolade
+  - safran
 category:
   - bakst
-  - bolle
 authors:
   - name: "dejligbakst"
     link: "https://www.instagram.com/dejligbakst/"
@@ -130,7 +134,7 @@ Middels
 
 === Bollerulling
 
-13. Når bollene er ferdig hevet kjelver du den ut på benken i et stort rektangel.
+13. Når bollene er ferdig hevet kjevler du den ut på benken i et stort rektangel.
 14. Smør utover sjokoladefyllet.
 15. Skjær ut 14 lange strimler og rull de sammen til boller. Legg bollene sammen på en
     langpanne med bakepapir. De skal ligge tett i tett inntil hverandre.
