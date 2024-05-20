@@ -18,7 +18,7 @@ category:
 ||| :timer_clock: Tid
 45 min
 ||| :knife_fork_plate: Porsjoner
-4
+3
 ||| :cook: Vanskelighetsgrad
 Lett
 |||
