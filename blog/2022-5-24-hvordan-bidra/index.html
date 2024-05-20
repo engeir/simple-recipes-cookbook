@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.769516404618">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.769518041483">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -11,7 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Hvordan bidra | Dolby mat til alle</title>
     <meta name="title" content="Hvordan bidra | Dolby mat til alle">
-    <meta name="description" content="Om du ønsker å legge inn en oppskrift selv for så å lage en pull request, kan du gjøre det ved å følge disse stegene.">
+    <meta name="description" content="Om du ønsker å legge inn en oppskrift selv for så å lage en innlemmelsesforespørsel(pull request, PR), kan du gjøre det ved å følge disse stegene.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://mere.eirik.re/blog/2022-5-24-hvordan-bidra/">
@@ -20,24 +20,25 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://mere.eirik.re/blog/2022-5-24-hvordan-bidra/">
     <meta property="og:title" content="Hvordan bidra | Dolby mat til alle">
-    <meta property="og:description" content="Om du ønsker å legge inn en oppskrift selv for så å lage en pull request, kan du gjøre det ved å følge disse stegene.">
+    <meta property="og:description" content="Om du ønsker å legge inn en oppskrift selv for så å lage en innlemmelsesforespørsel(pull request, PR), kan du gjøre det ved å følge disse stegene.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://mere.eirik.re/blog/2022-5-24-hvordan-bidra/">
     <meta property="twitter:title" content="Hvordan bidra | Dolby mat til alle">
-    <meta property="twitter:description" content="Om du ønsker å legge inn en oppskrift selv for så å lage en pull request, kan du gjøre det ved å følge disse stegene.">
+    <meta property="twitter:description" content="Om du ønsker å legge inn en oppskrift selv for så å lage en innlemmelsesforespørsel(pull request, PR), kan du gjøre det ved å følge disse stegene.">
 
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" title="Blogg >> Feed" href="https://mere.eirik.re/blog/feed.xml">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.5.0.769516404618" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.769518041483" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.769516404618" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.769518041483" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.769516404618" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.769518041483" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.5.0.769518041483" defer></script>
 
     <style>
         .sample {
@@ -262,15 +263,16 @@
     <div class="flex items-center shrink-0">Publisert&nbsp;<span>2022-05-24</span></div>
 </div>
 
-<p>Om du ønsker å legge inn en oppskrift selv for så å lage en pull request, kan du gjøre
-det ved å følge disse stegene.</p>
+<p>Om du ønsker å legge inn en oppskrift selv for så å lage en innlemmelsesforespørsel
+(pull request, PR), kan du gjøre det ved å følge disse stegene.</p>
 <doc-anchor-target id="fork">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#fork">#</doc-anchor-trigger>
         <span>Fork</span>
     </h2>
 </doc-anchor-target>
-<p>Lag en <a href="https://github.com/engeir/simple-recipes-cookbook/fork">fork</a> av repositoriet.</p>
+<p>Lag en <a href="https://github.com/engeir/simple-recipes-cookbook/fork">fork</a> eller gafling av
+lageret.</p>
 <doc-anchor-target id="ny-oppskrift">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#ny-oppskrift">#</doc-anchor-trigger>
@@ -344,6 +346,21 @@ inn i <code v-pre>ferske-boller.md</code>, og rediger etter eget ønske.</p>
 </doc-codeblock></div>
     </div>
 </div>
+<doc-anchor-target id="bilder">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bilder">#</doc-anchor-trigger>
+        <span>Bilder</span>
+    </h2>
+</doc-anchor-target>
+<p>For å unngå at bilder gjør lageret veldig stort skal de være i filformatet <code v-pre>webp</code>, med
+en maks filstørrelse på 500 kB. Dette forklares i større detailj i
+<a href="./../../image.md">IMAGE.md</a>, men kort fortalt kan det gjøres ved hjelp av
+kommandolinjeprogrammet <code v-pre>cwebp</code> slik:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-bash"><code v-pre class="language-bash">cwebp -size 500000 in.jpg -o out.webp</code></pre>
+</doc-codeblock></div>
+<p>Eventuelt kan du forsøke en av de mange nettsidene for å konvertere, f.eks
+<a href="https://www.freeconvert.com/jpg-to-webp">freeconvert</a>.</p>
 <doc-anchor-target id="åpne-pr">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#åpne-pr">#</doc-anchor-trigger>
@@ -419,6 +436,6 @@ inn i <code v-pre>ferske-boller.md</code>, og rediger etter eget ønske.</p>
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Hvordan bidra", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Hvordan bidra", level: 2, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
