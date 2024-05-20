@@ -22,6 +22,6 @@ variant="light" iconAlign="right" icon="paper-airplane" text="foreslå den til m
 
 !!!
 
-Eventuelt kan du anmode om at en ny oppskrift legges til via et gaflet repository:
+Eventuelt kan du anmode om at en ny oppskrift legges til via et gaflet lager:
 
 [!ref icon=":rocket:" text="Hvordan bidra"](/blog/2022-5-24-hvordan-bidra.md)
