@@ -1,5 +1,5 @@
 ---
-description: "Friskt og fruktisg tilbehør"
+description: "15 min | Enkel"
 tag:
   - enkel
   - mango
@@ -21,7 +21,7 @@ authors:
 ||| :knife_fork_plate: Porsjoner
 2
 ||| :cook: Vanskelighetsgrad
-Lett
+Enkel
 |||
 <!-- dprint-ignore-end -->
 

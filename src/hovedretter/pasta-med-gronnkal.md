@@ -1,5 +1,5 @@
 ---
-description: "En lett pastarett med litt spice"
+description: "20 min | Enkel"
 tag:
   - pasta
 category:

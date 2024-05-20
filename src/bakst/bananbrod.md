@@ -1,5 +1,5 @@
 ---
-description: "Bruk opp alle brune bananer"
+description: "45 min | Enkel"
 tag:
   - banan
   - rask
@@ -22,7 +22,7 @@ authors:
 ||| :knife_fork_plate: Porsjoner
 2 brød
 ||| :cook: Vanskelighetsgrad
-Lett
+Enkel
 |||
 <!-- dprint-ignore-end -->
 

@@ -1,5 +1,5 @@
 ---
-description: "Enkleste suppen som finnes"
+description: "20 min | Enkel"
 tag:
   - suppe
   - sunn
@@ -24,7 +24,7 @@ category:
 ||| :knife_fork_plate: Porsjoner
 1
 ||| :cook: Vanskelighetsgrad
-Lett
+Enkel
 |||
 <!-- dprint-ignore-end -->
 

@@ -1,5 +1,5 @@
 ---
-description: "Kaffe og kake slår aldri feil, så kaffe i kake kan umulig være ubeleilig"
+description: "60 min | Middels"
 tag:
   - kaffe
   - kake
@@ -22,7 +22,7 @@ authors:
 ||| :knife_fork_plate: Porsjoner
 1 langpanne
 ||| :cook: Vanskelighetsgrad
-Medium
+Middels
 |||
 <!-- dprint-ignore-end -->
 

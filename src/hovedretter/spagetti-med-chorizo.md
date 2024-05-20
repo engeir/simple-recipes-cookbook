@@ -1,5 +1,5 @@
 ---
-description: "Kanskje verdens beste pastarett"
+description: "10 min | Enkel"
 tag:
   - enkel
   - pasta
@@ -33,7 +33,7 @@ Husk at denne retten antar at du har litt (ca. 2 dl) igjen av
 ||| :knife_fork_plate: Porsjoner
 2
 ||| :cook: Vanskelighetsgrad
-Lett
+Enkel
 |||
 <!-- dprint-ignore-end -->
 

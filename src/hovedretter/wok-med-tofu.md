@@ -1,5 +1,5 @@
 ---
-description: "Wok kan også lages i vegetar-versjon"
+description: "35 min | Enkel"
 tag:
   - enkel
   - sunn
@@ -23,7 +23,7 @@ category:
 ||| :knife_fork_plate: Porsjoner
 1
 ||| :cook: Vanskelighetsgrad
-Lett
+Enkel
 |||
 <!-- dprint-ignore-end -->
 

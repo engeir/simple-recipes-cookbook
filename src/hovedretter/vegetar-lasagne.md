@@ -1,5 +1,5 @@
 ---
-description: "Når du er lei kjøttdeig"
+description: "65 min | Enkel"
 tag:
   - pasta
   - sunn
@@ -21,7 +21,7 @@ category:
 ||| :knife_fork_plate: Porsjoner
 3
 ||| :cook: Vanskelighetsgrad
-Lett
+Enkel
 |||
 <!-- dprint-ignore-end -->
 

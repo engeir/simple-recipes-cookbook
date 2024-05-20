@@ -1,5 +1,5 @@
 ---
-description: "En sikker vinner til kaffe"
+description: "60 min | Middels"
 tag:
   - enkel
 category:
@@ -18,7 +18,7 @@ category:
 ||| :knife_fork_plate: Porsjoner
 10
 ||| :cook: Vanskelighetsgrad
-Lett
+Middels
 |||
 <!-- dprint-ignore-end -->
 

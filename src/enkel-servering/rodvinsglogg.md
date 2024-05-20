@@ -1,5 +1,5 @@
 ---
-description: "Varm opp til jula med gløgg!"
+description: "25 min | Enkel"
 tag:
   - enkel
   - drink
@@ -27,7 +27,7 @@ authors:
 ||| :knife_fork_plate: Porsjoner
 4
 ||| :cook: Vanskelighetsgrad
-Lett
+Enkel
 |||
 <!-- dprint-ignore-end -->
 

@@ -1,5 +1,5 @@
 ---
-description: "Smakfull byggryn med fisk"
+description: "35 min | Middels"
 tag:
   - risotto
   - byggryn

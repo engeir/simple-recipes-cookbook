@@ -1,5 +1,5 @@
 ---
-description: "Deilige hveteboller til hverdag og fest"
+description: "120 min | Enkel"
 tag:
   - baskt
   - turmat
@@ -17,7 +17,7 @@ authors:
 ||| :knife_fork_plate: Porsjoner
 ca. 20 boller
 ||| :cook: Vanskelighetsgrad
-Lett
+Enkel
 |||
 <!-- dprint-ignore-end -->
 

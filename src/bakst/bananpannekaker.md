@@ -1,5 +1,5 @@
 ---
-description: "Enkle og næringsrike pannakaker man kan jafse i seg på tur"
+description: "20 min | Enkel"
 tag:
   - banan
   - sunn
@@ -17,7 +17,7 @@ category:
 ||| :knife_fork_plate: Porsjoner
 2
 ||| :cook: Vanskelighetsgrad
-Lett
+Enkel
 |||
 <!-- dprint-ignore-end -->
 

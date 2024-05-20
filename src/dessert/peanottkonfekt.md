@@ -1,5 +1,5 @@
 ---
-description: "Den perfekte turkamerat"
+description: "45 min | Enkel"
 tag:
   - peanøtt
   - sjokolade
@@ -25,7 +25,7 @@ authors:
 ||| :knife_fork_plate: Porsjoner
 1 langpanne
 ||| :cook: Vanskelighetsgrad
-Lett
+Enkel
 |||
 <!-- dprint-ignore-end -->
 
