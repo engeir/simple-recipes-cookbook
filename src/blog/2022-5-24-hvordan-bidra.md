@@ -1,11 +1,12 @@
 # Hvordan bidra
 
-Om du ønsker å legge inn en oppskrift selv for så å lage en pull request, kan du gjøre
-det ved å følge disse stegene.
+Om du ønsker å legge inn en oppskrift selv for så å lage en innlemmelsesforespørsel
+(pull request, PR), kan du gjøre det ved å følge disse stegene.
 
 ## Fork
 
-Lag en [fork](https://github.com/engeir/simple-recipes-cookbook/fork) av repositoriet.
+Lag en [fork](https://github.com/engeir/simple-recipes-cookbook/fork) eller gafling av
+lageret.
 
 ## Ny oppskrift
 
@@ -75,6 +76,20 @@ Filstrukturen du ønsker å legge til filer i ser omlag slik ut, før og etter:
 ```
 
 |||
+
+## Bilder
+
+For å unngå at bilder gjør lageret veldig stort skal de være i filformatet `webp`, med
+en maks filstørrelse på 500 kB. Dette forklares i større detailj i
+[IMAGE.md](./../../IMAGE.md), men kort fortalt kan det gjøres ved hjelp av
+kommandolinjeprogrammet `cwebp` slik:
+
+```bash
+cwebp -size 500000 in.jpg -o out.webp
+```
+
+Eventuelt kan du forsøke en av de mange nettsidene for å konvertere, f.eks
+[freeconvert](https://www.freeconvert.com/jpg-to-webp).
 
 ## Åpne PR
 
