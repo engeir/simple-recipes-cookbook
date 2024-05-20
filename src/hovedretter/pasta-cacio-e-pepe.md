@@ -1,5 +1,5 @@
 ---
-description = "20 min | Middels"
+description: "20 min | Middels"
 tag:
   - pasta
   - ost
