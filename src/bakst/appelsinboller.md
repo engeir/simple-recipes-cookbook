@@ -130,6 +130,13 @@ Middels
 12. Hell den deretter over i en bolle til avkjøleing i kjøleskapet så røren får en
     tykkere konsistens.
 
+    !!! success Tips
+
+    For å få appelsinkremen ekstra jevn og fin kan du bruke en stavmikser eller
+    linknended!
+
+    !!!
+
     ![](/static/appelsinboller/appelsinkrem.webp)
 
 === Bollerulling
