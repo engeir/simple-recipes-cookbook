@@ -1,11 +1,12 @@
 # Hvordan bidra
 
-Om du ønsker å legge inn en oppskrift selv for så å lage en innlemmelsesforespørsel (pull request, PR), kan du gjøre
-det ved å følge disse stegene.
+Om du ønsker å legge inn en oppskrift selv for så å lage en innlemmelsesforespørsel
+(pull request, PR), kan du gjøre det ved å følge disse stegene.
 
 ## Fork
 
-Lag en [fork](https://github.com/engeir/simple-recipes-cookbook/fork) eller gafling av lageret.
+Lag en [fork](https://github.com/engeir/simple-recipes-cookbook/fork) eller gafling av
+lageret.
 
 ## Ny oppskrift
 
