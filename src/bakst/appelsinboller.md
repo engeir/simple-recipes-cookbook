@@ -133,7 +133,7 @@ Middels
     !!! success Tips
 
     For å få appelsinkremen ekstra jevn og fin kan du bruke en stavmikser eller
-    linknended!
+    liknende!
 
     !!!
 
