@@ -1,0 +1,20 @@
+[tasks.format]
+description = "Format files"
+run = "dprint fmt --incremental=true --allow-no-files"
+alias = "fmt"
+
+[tasks.reduce]
+description = "Reduce the file size of an image"
+run = """
+#!/usr/bin/env bash
+
+cwebp -size 500000 "$1" -o "$2"
+"""
+
+[tasks.crop]
+description = "Crop an image"
+run = """
+#!/usr/bin/env bash
+
+cwebp -crop 0 500 4000 2000 "$1" -o "$2"
+"""
