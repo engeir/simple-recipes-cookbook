@@ -54,7 +54,7 @@ Enkel
 2. Kok pastaen i det kokende vannet i 6-8 minutter, eller til den er al dente. Hell av
    vannet og sett pastaen til side.
 3. Imens pastaen koker steker du prosciuttoen i en stor stekepanne på middels varme i
-   2-3 minutter, eller til den er sprø. Tilsett hvitløk og stek videre i 30 sekunder..
+   2-3 minutter, eller til den er sprø. Tilsett hvitløk og stek videre i 30 sekunder.
 4. Tilsett fløte, pastvann, tomat, kruspersille, kyllingbuljong og parmesan i
    stekepannen. Kok opp og la sausen koke i 2-3 minutter, eller til den tykner. Smak til
    med salt og pepper.
