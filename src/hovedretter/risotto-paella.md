@@ -54,3 +54,61 @@ Middels
 4. Tilsett hakkede tomater og chilikrydder, og gi det et lite oppkok.
 5. Tilsett torskefilet i terninger helt til slutt, og la torsken trekke i cirka 5–10
    minutter. Smak til med salt, pepper, sitronsaft og finhakket kruspersille.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Recipe",
+  "name": "Paella med byggryn",
+  "image": "/static/risotto-paella.webp",
+  "author": {
+    "@type": "Person",
+    "name": "fattig.student",
+    "url": "https://sulten.app/fattig-student"
+  },
+  "datePublished": "2024-05-30",
+  "description": "35 min | Middels",
+  "prepTime": "PT5M",
+  "cookTime": "PT30M",
+  "totalTime": "PT35M",
+  "recipeYield": "2 porsjoner",
+  "recipeCategory": "Hovedrett",
+  "recipeCuisine": "Spansk",
+  "keywords": "spansk, torsk, sjømat, sunn, risotto, byggryn",
+  "recipeIngredient": [
+    "1 fedd hvitløk",
+    "1 løk",
+    "3 gulrøtter",
+    "400 g hakkede tomater",
+    "0.5 ts chilikrydder",
+    "0.5 sitron",
+    "2.5 dl vann",
+    "0.5 grønnsaksbuljong",
+    "1 dl byggryn (eller risotto)",
+    "150 g torskefilet",
+    "0.5 potte kruspersille"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "text": "Kutt opp hvitløk, løk og gulrøtter, og stek hvitløk og løk i ei stekepanne til løken er blitt blank. Tilsett gulrøttene og stek i cirka et minutt til."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Kok opp vann og grønnsaksbuljong i en separat kjele."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Tilsett byggrynet og én fjerdedel av grønnsakskraften i stekepannen. La byggrynet absorbere all væsken før du tilsetter en fjeredel til med grønnsakskraft. Gjenta til det ikke er noe mer grønnsakskraft igjen."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Tilsett hakkede tomater og chilikrydder, og gi det et lite oppkok."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Tilsett torskefilet i terninger helt til slutt, og la torsken trekke i cirka 5–10 minutter. Smak til med salt, pepper, sitronsaft og finhakket kruspersille."
+    }
+  ]
+}
+</script>
