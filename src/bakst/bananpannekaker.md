@@ -35,7 +35,6 @@ Enkel
 2. Stek på ganske god varme med en generøs smørklatt.
 3. Server gjerne med brunost og syltetøy.
 
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org/",

@@ -90,7 +90,6 @@ Middels
 
 [!embed](https://www.youtube.com/watch?v=aHvYHuASe8o)
 
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org/",

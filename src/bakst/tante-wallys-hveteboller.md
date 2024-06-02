@@ -43,7 +43,6 @@ Enkel
 9. Stekes på 200 grader i ca. 10 minutter, eller til de er gyllenbrune.
 10. Som [instaheidi66](https://www.instagram.com/instaheidi66/) sier: "Nyyt!!!"
 
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org/",

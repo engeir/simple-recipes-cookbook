@@ -41,7 +41,6 @@ Enkel
 3. La degien heve i omlag 14 timer.
 4. Sett ovnen på 200°C og stek brødene i 50 min.
 
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org/",
