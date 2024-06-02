@@ -51,3 +51,43 @@ Enkel
 Del gjerne tomatene i skiver slik at stilken står normalt på snittene!
 
 !!!
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Recipe",
+  "name": "Tomat- og mozzarellasalat",
+  "image": "/static/tomat-salat/tomat-salat.webp",
+  "author": {
+    "@type": "Person",
+    "name": "Eirik Rolland Enger",
+    "url": "https://github.com/engeir"
+  },
+  "datePublished": "2024-05-30",
+  "description": "5 min | Enkel",
+  "prepTime": "PT5M",
+  "cookTime": "PT0M",
+  "totalTime": "PT5M",
+  "recipeYield": "2 porsjoner",
+  "recipeCategory": "Tilbehør",
+  "recipeCuisine": "",
+  "keywords": "tilbehør, salat, grillmat",
+  "recipeIngredient": [
+    "2 store eller en håndfull tomater",
+    "2 mozzarella",
+    "basilikum",
+    "salt og pepper",
+    "litt olje"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "text": "Del opp tomat og mozzarella i skiver."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Fordel tomat- og mozzarellaskivene på et fat, og ha over basilikum, litt olje, salt og pepper."
+    }
+  ]
+}
+</script>
