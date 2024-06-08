@@ -2,9 +2,10 @@
 name: Convert inssue to PR
 on:
   issues:
-    types: [opened, edited]
+    types: [opened, edited, labeled]
 jobs:
-  convert-issue-to-pr:
+  convert-issue-to-pr-nb:
+    if: contains(github.event.issue.labels.*.name, 'nb') && contains(github.event.issue.labels.*.name, 'recipe')
     permissions:
       pull-requests: write
     runs-on: ubuntu-latest
@@ -15,13 +16,138 @@ jobs:
         with:
           issue_number: ${{ github.event.issue.number }}
       # Examples on how to use the output
+      - name: Set up environment variables
+        run: |
+          echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+          echo "ISSUEUSER=$(curl -s ${{ github.event.issue.user.url }} | jq -r '.name')" >> $GITHUB_ENV
+          if [[ "${{ fromJson(steps.parse.outputs.payload).Opphavsnavn }}" == "" ]]; then echo "CREATOR=$ISSUEUSER" >> $GITHUB_ENV; else echo "CREATOR=${{ fromJson(steps.parse.outputs.payload).Opphavsnavn }}" >> $GITHUB_ENV; fi
+          if [[ "${{ fromJson(steps.parse.outputs.payload).Opphavsnavn }}" == "" ]]; then echo "CREATORTITLE=Person" >> $GITHUB_ENV; elif [[ "${{ fromJson(steps.parse.outputs.payload).Opphavsmakertittel }}" == "" ]]; then echo "CREATORTITLE=Person" >> $GITHUB_ENV; else echo "CREATORTITLE=${{ fromJson(steps.parse.outputs.payload).Opphavsmakertittel }}" >> $GITHUB_ENV; fi
+          if [[ "${{ fromJson(steps.parse.outputs.payload).Opphavsnavn }}" == "" ]]; then echo "CREATORURL=${{ github.event.issue.html_url }}" >> $GITHUB_ENV; else echo "CREATORURL=${{ fromJson(steps.parse.outputs.payload).Lenke }}" >> $GITHUB_ENV; fi
       - name: Show parsed payload data
         run: |
-          echo "{date}=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
-          # Using the character `'` to prevent all characters enclosed within
-          # them from being treated as special characters (e.g. $ or `)
-          echo ${{ steps.parse.outputs.payload }}
-          echo '${{ fromJson(steps.parse.outputs.payload).Tid[2] }}'
-          echo '${{ fromJson(steps.parse.outputs.payload).Kategori }}'
-          echo ${{ fromJson(steps.parse.outputs.payload).Tid[0] }}
-          echo ${{ toJson(steps.parse.outputs.payload) }}
+          mkdir -p /tmp/src/${{ fromJson(steps.parse.outputs.payload).Kategori }}
+          touch "/tmp/src/${{ fromJson(steps.parse.outputs.payload).Kategori }}/${{ fromJson(steps.parse.outputs.payload).Filnavn }}.md"
+
+          cat << EOF > "/tmp/src/${{ fromJson(steps.parse.outputs.payload).Kategori }}/${{ fromJson(steps.parse.outputs.payload).Filnavn }}.md"
+          ---
+          description: "${{ fromJson(steps.parse.outputs.payload).Tid[2] }} | ${{ fromJson(steps.parse.outputs.payload).Vanskelighetsgrad }}"
+          authors:
+            - name: "$ISSUEUSER (@${{ github.event.issue.user.login }})"
+              link: "${{ github.event.issue.user.html_url }}"
+              avatar: "${{ github.event.issue.user.avatar_url }}"
+          category:
+            - $ISSUEUSER
+            - ${{ fromJson(steps.parse.outputs.payload).Kategori }}
+          tag:
+          EOF
+          for tag in ${{ join(fromJson(steps.parse.outputs.payload).Emner, ' ') }}
+          do
+              echo "  - $tag">>"/tmp/src/${{ fromJson(steps.parse.outputs.payload).Kategori }}/${{ fromJson(steps.parse.outputs.payload).Filnavn }}.md"
+          done
+          cat << EOF >> "/tmp/src/${{ fromJson(steps.parse.outputs.payload).Kategori }}/${{ fromJson(steps.parse.outputs.payload).Filnavn }}.md"
+          ---
+
+          # ${{ fromJson(steps.parse.outputs.payload).Oppskriftnavn }}
+
+          ![](/static/${{ fromJson(steps.parse.outputs.payload).Filnavn }}/${{ fromJson(steps.parse.outputs.payload).Filnavn }}.webp)
+
+          EOF
+          if [[ "${{ fromJson(steps.parse.outputs.payload).Opphavsnavn }}" != "" ]] && [[ "${{ fromJson(steps.parse.outputs.payload).Lenke }}" != "" ]]; then
+          cat << EOF >> "/tmp/src/${{ fromJson(steps.parse.outputs.payload).Kategori }}/${{ fromJson(steps.parse.outputs.payload).Filnavn }}.md"
+          !!!info
+
+          Denne oppskriften er originalt fra
+          [!badge variant="dark" iconAlign="right" margin="0 0 0 4" icon=":cook:" size="l" target="blank" text="${{ fromJson(steps.parse.outputs.payload).Opphavsnavn }}"](${{ fromJson(steps.parse.outputs.payload).Lenke }})
+
+          !!!
+
+          EOF
+          elif [[ "${{ fromJson(steps.parse.outputs.payload).Opphavsnavn }}" != "" ]]; then
+          cat << EOF >> "/tmp/src/${{ fromJson(steps.parse.outputs.payload).Kategori }}/${{ fromJson(steps.parse.outputs.payload).Filnavn }}.md"
+          !!!info
+
+          Denne oppskriften er originalt fra
+          [!badge variant="dark" iconAlign="right" margin="0 0 0 4" icon=":cook:" size="l" target="blank" text="${{ fromJson(steps.parse.outputs.payload).Opphavsnavn }}"]
+
+          !!!
+
+          EOF
+          fi
+          cat << EOF >> "/tmp/src/${{ fromJson(steps.parse.outputs.payload).Kategori }}/${{ fromJson(steps.parse.outputs.payload).Filnavn }}.md"
+          <!-- dprint-ignore-start -->
+          ||| :timer_clock: Tid
+          ${{ fromJson(steps.parse.outputs.payload).Tid[2] }}
+          ||| :knife_fork_plate: Porsjoner
+          ${{ fromJson(steps.parse.outputs.payload).Porsjoner }}
+          ||| :cook: Vanskelighetsgrad
+          ${{ fromJson(steps.parse.outputs.payload).Vanskelighetsgrad }}
+          |||
+          <!-- dprint-ignore-end -->
+
+          ## Ingredienser
+
+          EOF
+          while IFS= read -r ingredient; do
+              echo "- $ingredient" >>"/tmp/src/${{ fromJson(steps.parse.outputs.payload).Kategori }}/${{ fromJson(steps.parse.outputs.payload).Filnavn }}.md"
+          done < <(echo "${{ fromJson(steps.parse.outputs.payload).Ingredienser }}")
+          cat << EOF >> "/tmp/src/${{ fromJson(steps.parse.outputs.payload).Kategori }}/${{ fromJson(steps.parse.outputs.payload).Filnavn }}.md"
+
+          ## Steg
+
+          EOF
+          count=1
+          while IFS= read -r step; do
+              echo "$count. $step">>"/tmp/src/${{ fromJson(steps.parse.outputs.payload).Kategori }}/${{ fromJson(steps.parse.outputs.payload).Filnavn }}.md"
+              ((count ++))
+          done < <(echo "${{ fromJson(steps.parse.outputs.payload).Steg }}")
+          cat << EOF >> "/tmp/src/${{ fromJson(steps.parse.outputs.payload).Kategori }}/${{ fromJson(steps.parse.outputs.payload).Filnavn }}.md"
+
+          <script type="application/ld+json">
+          {
+            "@context": "https://schema.org/",
+            "@type": "Recipe",
+            "name": "${{ fromJson(steps.parse.outputs.payload).Oppskriftnavn }}",
+            "image": "/static/${{ fromJson(steps.parse.outputs.payload).Filnavn }}/${{ fromJson(steps.parse.outputs.payload).Filnavn }}.webp",
+            "author": {
+              "@type": "$CREATORTITLE",
+              "name": "$CREATOR",
+              "url": "$CREATORURL"
+            },
+            "datePublished": "$DATE",
+            "description": "${{ fromJson(steps.parse.outputs.payload).Tid[2] }} | ${{ fromJson(steps.parse.outputs.payload).Vanskelighetsgrad }}",
+            "prepTime": "${{ fromJson(steps.parse.outputs.payload).Tid[0] }}",
+            "cookTime": "${{ fromJson(steps.parse.outputs.payload).Tid[1] }}",
+            "totalTime": "${{ fromJson(steps.parse.outputs.payload).Tid[2] }}",
+            "recipeYield": "${{ fromJson(steps.parse.outputs.payload).Porsjoner }}",
+            "recipeCategory": "${{ fromJson(steps.parse.outputs.payload).Kategori }}",
+            "recipeCuisine": "${{ fromJson(steps.parse.outputs.payload).Matkultur }}",
+            "keywords": "${{ join(fromJson(steps.parse.outputs.payload).Emner, ', ') }}",
+            "recipeIngredient": [
+          EOF
+          last_line=""
+          while IFS= read -r ingredient; do
+              if [[ "$last_line" != "" ]]; then
+                  echo "    \"$last_line\"," >>"/tmp/src/${{ fromJson(steps.parse.outputs.payload).Kategori }}/${{ fromJson(steps.parse.outputs.payload).Filnavn }}.md"
+              fi
+              last_line="$ingredient"
+          done < <(echo "${{ fromJson(steps.parse.outputs.payload).Ingredienser }}")
+          echo "    \"$last_line\"" >>"/tmp/src/${{ fromJson(steps.parse.outputs.payload).Kategori }}/${{ fromJson(steps.parse.outputs.payload).Filnavn }}.md"
+          cat << EOF >> "/tmp/src/${{ fromJson(steps.parse.outputs.payload).Kategori }}/${{ fromJson(steps.parse.outputs.payload).Filnavn }}.md"
+            ],
+            "recipeInstructions": [
+          EOF
+          last_line=""
+          while IFS= read -r step; do
+              if [[ "$last_line" != "" ]]; then
+                  printf '    {\n      "@type": "HowToStep",\n      "text": "%s"\n    },\n' "$last_line" >>"/tmp/src/${{ fromJson(steps.parse.outputs.payload).Kategori }}/${{ fromJson(steps.parse.outputs.payload).Filnavn }}.md"
+              fi
+              last_line="$step"
+          done < <(echo "${{ fromJson(steps.parse.outputs.payload).Steg }}")
+          printf '    {\n      "@type": "HowToStep",\n      "text": "%s"\n    }\n' "$last_line" >>"/tmp/src/${{ fromJson(steps.parse.outputs.payload).Kategori }}/${{ fromJson(steps.parse.outputs.payload).Filnavn }}.md"
+          cat << EOF >> "/tmp/src/${{ fromJson(steps.parse.outputs.payload).Kategori }}/${{ fromJson(steps.parse.outputs.payload).Filnavn }}.md"
+            ]
+          }
+          </script>
+          EOF
+          echo "The final output of the new file is"
+          cat "/tmp/src/${{ fromJson(steps.parse.outputs.payload).Kategori }}/${{ fromJson(steps.parse.outputs.payload).Filnavn }}.md"
