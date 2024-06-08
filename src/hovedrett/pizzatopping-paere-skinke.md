@@ -47,4 +47,4 @@ Prøv gjerne å flambere spekeskinken.
 
 !!!
 
-[!ref Gå til pizzadeig](/hovedretter/pizza-deig.md)
+[!ref Gå til pizzadeig](/hovedrett/pizza-deig.md)

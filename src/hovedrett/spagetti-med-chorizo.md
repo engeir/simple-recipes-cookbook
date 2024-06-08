@@ -21,7 +21,7 @@ visibility: hidden
 !!!danger :zap: Ey, før du begynner! :zap:
 
 Husk at denne retten antar at du har litt (ca. 2 dl) igjen av
-[tomat– og paprikasuppen](/hovedretter/tomat-paprika-suppe.md).
+[tomat– og paprikasuppen](/hovedrett/tomat-paprika-suppe.md).
 
 !!!
 

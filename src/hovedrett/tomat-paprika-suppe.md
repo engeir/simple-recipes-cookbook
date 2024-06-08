@@ -62,7 +62,7 @@ Enkel
 !!!success
 
 Har du rester igjen? Perfekt! Da kan du lage
-[spagetti med chorizo](/hovedretter/spagetti-med-chorizo.md)!
+[spagetti med chorizo](/hovedrett/spagetti-med-chorizo.md)!
 
 !!!
 
