@@ -1,0 +1,209 @@
+# NOTE: possible to attach image and use that in PR?
+name: Oppskriftsforslag (Norsk)
+description: Foreslå en oppskrift.
+title: "[RECIPE]: "
+labels: ["recipe"]
+# projects: ["octo-org/1", "octo-org/44"]
+assignees:
+  - engeir
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Takk for at du bidrar med en oppskrift!
+  - type: input
+    id: bidragsyter
+    attributes:
+      label: Navn
+      description: Hva ønsker du å bli kreditert som?
+      placeholder: f.eks. Johnny Juksemaker
+    validations:
+      required: false
+  - type: dropdown
+    id: bidragsytertype
+    attributes:
+      label: Tittel
+      description: Representerer du din eller andres persona, eller en organisasjon?
+      options:
+        - Person
+        - Organization
+    validations:
+      required: false
+  - type: input
+    id: tittel
+    attributes:
+      label: Oppskriftsnavn
+      description: Hva skal vi kalle oppskriften?
+      placeholder: f.eks. Rådigg Pasta Bolognese
+    validations:
+      required: true
+  - type: input
+    id: filnavn
+    attributes:
+      label: Filnavn
+      description: Gi et filnavn med bindestrek istedetfor mellomrom, med kun små bokstaver, uten filendelse og uten æ, ø, å.
+      placeholder: f.eks. radigg-pasta-bolognese
+    validations:
+      required: true
+  - type: input
+    id: tid
+    attributes:
+      label: Tid
+      description: Hvor lang tid tar det å lage retten? Svar med tre tider for forberedelse, steketid og total tid. Separer med komma som vist i boksen.
+      placeholder: 10 min, 20 min, 30 min
+    validations:
+      required: true
+  - type: dropdown
+    id: vanskelighetsgrad
+    attributes:
+      label: Vanskelighetsgrad
+      description: Hvor vanskelig er det å lage retten?
+      multiple: false
+      options:
+        - Enkel
+        - Middels
+        - Vanskelig
+    validations:
+      required: true
+  - type: input
+    id: porsjoner
+    attributes:
+      label: Porsjoner
+      description: Beskriv hva oppskriften gir.
+      placeholder: f.eks. "2 porsjoner" eller "14 boller"
+    validations:
+      required: true
+  - type: textarea
+    id: ingredienser
+    attributes:
+      label: Ingredienser
+      description: List opp alle ingrediensene
+      placeholder: |
+        - Pepper
+        - Salt
+        - Mat
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: steg
+    attributes:
+      render: markdown
+      label: Steg
+      placeholder: |
+        1. Peppre lett.
+        2. Ha i en klype salt etter smak.
+        3. Lag god mat og nyt!
+    validations:
+      required: true
+  - type: dropdown
+    id: kategori
+    attributes:
+      label: Kategori
+      description: Hva slags kategori passer retten?
+      options:
+        - hovedrett
+        - enkel-servering
+        - dessert
+        - bakst
+        - drikke
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: emner
+    validations:
+      required: true
+    attributes:
+      label: Emner
+      description: Hva slags emner passer til retten?
+      multiple: true
+      options:
+        - appelsin
+        - avokado
+        - banan
+        - basilikum
+        - blåmuggost
+        - bolle
+        - brød
+        - byggryn
+        - couscous
+        - delicious
+        - drink
+        - egg
+        - enkel
+        - fisk
+        - fløte
+        - frisk
+        - frokost
+        - gelatin
+        - grillmat
+        - halloumi
+        - hvetemel
+        - jul
+        - kaffe
+        - kake
+        - kardemumme
+        - kjøttdeig
+        - konfekt
+        - krem
+        - kylling
+        - mais
+        - majones
+        - mango
+        - middels
+        - nudler
+        - ost
+        - pasta
+        - peanøtt
+        - pizza
+        - potet
+        - prosciutto
+        - punch
+        - pære
+        - rask
+        - reker
+        - ris
+        - risotto
+        - rømme
+        - safran
+        - salat
+        - sitrus
+        - sjokolade
+        - sjømat
+        - skinke
+        - sunn
+        - suppe
+        - tilbehør
+        - tofu
+        - tomat
+        - turmat
+        - vegansk
+        - vegetar
+        - vin
+        - vodka
+        - wok
+  - type: dropdown
+    id: cousine
+    attributes:
+      label: Matkultur
+      description: Er retten fra et spesielt kjøkken eller matkultur?
+      multiple: true
+      options:
+        - italiensk
+        - gresk
+        - fransk
+        - thai
+        - asiatisk
+        - kinesisk
+        - japansk
+    validations:
+      required: false
+  - type: textarea
+    id: andre-kategorier-emner
+    attributes:
+      label: Ekstraemner
+      description: Er det andre kategorier eller emner som passer?
+      render: markdown
+    validations:
+      required: false

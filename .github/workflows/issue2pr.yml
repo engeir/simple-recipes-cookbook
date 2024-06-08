@@ -1,0 +1,27 @@
+# TODO: use issue creator username in title
+name: Convert inssue to PR
+on:
+  issues:
+    types: [opened, edited]
+jobs:
+  convert-issue-to-pr:
+    permissions:
+      pull-requests: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Parse issue
+        id: parse
+        uses: onmax/issue-form-parser@v1.5
+        with:
+          issue_number: ${{ github.event.issue.number }}
+      # Examples on how to use the output
+      - name: Show parsed payload data
+        run: |
+          echo "{date}=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+          # Using the character `'` to prevent all characters enclosed within
+          # them from being treated as special characters (e.g. $ or `)
+          echo ${{ steps.parse.outputs.payload }}
+          echo '${{ fromJson(steps.parse.outputs.payload).Tid[2] }}'
+          echo '${{ fromJson(steps.parse.outputs.payload).Kategori }}'
+          echo ${{ fromJson(steps.parse.outputs.payload).Tid[0] }}
+          echo ${{ toJson(steps.parse.outputs.payload) }}
