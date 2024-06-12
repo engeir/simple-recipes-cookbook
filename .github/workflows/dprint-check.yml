@@ -1,4 +1,4 @@
-on: 
+on:
   pull_request:
     types: [opened, synchronize, reopened]
 name: dprint check and commit
