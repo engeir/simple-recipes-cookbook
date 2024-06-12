@@ -3,7 +3,6 @@ name: Oppskriftsforslag (Norsk)
 description: Foreslå en oppskrift.
 title: "[RECIPE]: "
 labels: ["recipe", "nb"]
-# projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - engeir
 body:
@@ -144,10 +143,8 @@ body:
         - brød
         - byggryn
         - couscous
-        - delicious
         - drink
         - egg
-        - enkel
         - fisk
         - fløte
         - frisk
@@ -167,7 +164,6 @@ body:
         - mais
         - majones
         - mango
-        - middels
         - nudler
         - ost
         - pasta
