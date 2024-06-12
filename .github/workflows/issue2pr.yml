@@ -1,0 +1,177 @@
+name: Convert inssue to PR
+on:
+  issues:
+    types: [opened, edited, labeled]
+jobs:
+  convert-issue-to-pr-nb:
+    if: contains(github.event.issue.labels.*.name, 'nb') && contains(github.event.issue.labels.*.name, 'recipe')
+    permissions:
+      contents: write
+      pull-requests: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Parse issue
+        id: parse
+        uses: onmax/issue-form-parser@v1.5
+        with:
+          issue_number: ${{ github.event.issue.number }}
+      - name: Set up environment variables
+        run: |
+          echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+          echo "ISSUEUSER=$(curl -s ${{ github.event.issue.user.url }} | jq -r '.name')" >> $GITHUB_ENV
+          echo "ISSUEUSER_ID=$(curl -s ${{ github.event.issue.user.url }} | jq -r '.id')" >> $GITHUB_ENV
+          if [[ "${{ fromJson(steps.parse.outputs.payload).Opphavsnavn }}" == "" ]]; then echo "CREATOR=$ISSUEUSER" >> $GITHUB_ENV; else echo "CREATOR=${{ fromJson(steps.parse.outputs.payload).Opphavsnavn }}" >> $GITHUB_ENV; fi
+          if [[ "${{ fromJson(steps.parse.outputs.payload).Opphavsnavn }}" == "" ]]; then echo "CREATORTITLE=Person" >> $GITHUB_ENV; elif [[ "${{ fromJson(steps.parse.outputs.payload).Opphavsmakertittel }}" == "" ]]; then echo "CREATORTITLE=Person" >> $GITHUB_ENV; else echo "CREATORTITLE=${{ fromJson(steps.parse.outputs.payload).Opphavsmakertittel }}" >> $GITHUB_ENV; fi
+          if [[ "${{ fromJson(steps.parse.outputs.payload).Opphavsnavn }}" == "" ]]; then echo "CREATORURL=${{ github.event.issue.html_url }}" >> $GITHUB_ENV; else echo "CREATORURL=${{ fromJson(steps.parse.outputs.payload).Lenke }}" >> $GITHUB_ENV; fi
+          echo "TMPDIR=/tmp/src/${{ fromJson(steps.parse.outputs.payload).Kategori }}" >> $GITHUB_ENV
+          echo "TMPFILE=/tmp/src/${{ fromJson(steps.parse.outputs.payload).Kategori }}/${{ fromJson(steps.parse.outputs.payload).Filnavn }}.md" >> $GITHUB_ENV
+          echo "FILE_REL_TO_ROOT=src/${{ fromJson(steps.parse.outputs.payload).Kategori }}/${{ fromJson(steps.parse.outputs.payload).Filnavn }}.md" >> $GITHUB_ENV
+      - name: Show parsed payload data
+        run: |
+          mkdir -p "$TMPDIR"
+          touch "$TMPFILE"
+
+          cat << EOF > "$TMPFILE"
+          ---
+          description: "${{ fromJson(steps.parse.outputs.payload).Tid[2] }} | ${{ fromJson(steps.parse.outputs.payload).Vanskelighetsgrad }}"
+          authors:
+            - name: "$ISSUEUSER (@${{ github.event.issue.user.login }})"
+              link: "${{ github.event.issue.user.html_url }}"
+              avatar: "${{ github.event.issue.user.avatar_url }}"
+          category:
+            - $ISSUEUSER
+            - ${{ fromJson(steps.parse.outputs.payload).Kategori }}
+          tag:
+          EOF
+          for tag in ${{ join(fromJson(steps.parse.outputs.payload).Emner, ' ') }}
+          do
+              echo "  - $tag">>"$TMPFILE"
+          done
+          cat << EOF >> "$TMPFILE"
+          ---
+
+          # ${{ fromJson(steps.parse.outputs.payload).Oppskriftsnavn }}
+
+          ![](/static/${{ fromJson(steps.parse.outputs.payload).Filnavn }}/${{ fromJson(steps.parse.outputs.payload).Filnavn }}.webp)
+
+          EOF
+          if [[ "${{ fromJson(steps.parse.outputs.payload).Opphavsnavn }}" != "" ]] && [[ "${{ fromJson(steps.parse.outputs.payload).Lenke }}" != "" ]]; then
+          cat << EOF >> "$TMPFILE"
+          !!!info
+
+          Denne oppskriften er originalt fra
+          [!badge variant="dark" iconAlign="right" margin="0 0 0 4" icon=":cook:" size="l" target="blank" text="${{ fromJson(steps.parse.outputs.payload).Opphavsnavn }}"](${{ fromJson(steps.parse.outputs.payload).Lenke }})
+
+          !!!
+
+          EOF
+          elif [[ "${{ fromJson(steps.parse.outputs.payload).Opphavsnavn }}" != "" ]]; then
+          cat << EOF >> "$TMPFILE"
+          !!!info
+
+          Denne oppskriften er originalt fra
+          [!badge variant="dark" iconAlign="right" margin="0 0 0 4" icon=":cook:" size="l" target="blank" text="${{ fromJson(steps.parse.outputs.payload).Opphavsnavn }}"]
+
+          !!!
+
+          EOF
+          fi
+          cat << EOF >> "$TMPFILE"
+          <!-- dprint-ignore-start -->
+          ||| :timer_clock: Tid
+          ${{ fromJson(steps.parse.outputs.payload).Tid[2] }}
+          ||| :knife_fork_plate: Porsjoner
+          ${{ fromJson(steps.parse.outputs.payload).Porsjoner }}
+          ||| :cook: Vanskelighetsgrad
+          ${{ fromJson(steps.parse.outputs.payload).Vanskelighetsgrad }}
+          |||
+          <!-- dprint-ignore-end -->
+
+          ## Ingredienser
+
+          EOF
+          while IFS= read -r ingredient; do
+              echo "- $ingredient" >>"$TMPFILE"
+          done < <(echo "${{ fromJson(steps.parse.outputs.payload).Ingredienser }}")
+          cat << EOF >> "$TMPFILE"
+
+          ## Steg
+
+          EOF
+          count=1
+          while IFS= read -r step; do
+              echo "$count. $step">>"$TMPFILE"
+              ((count ++))
+          done < <(echo "${{ fromJson(steps.parse.outputs.payload).Steg }}")
+          cat << EOF >> "$TMPFILE"
+
+          <script type="application/ld+json">
+          {
+            "@context": "https://schema.org/",
+            "@type": "Recipe",
+            "name": "${{ fromJson(steps.parse.outputs.payload).Oppskriftsnavn }}",
+            "image": "/static/${{ fromJson(steps.parse.outputs.payload).Filnavn }}/${{ fromJson(steps.parse.outputs.payload).Filnavn }}.webp",
+            "author": {
+              "@type": "$CREATORTITLE",
+              "name": "$CREATOR",
+              "url": "$CREATORURL"
+            },
+            "datePublished": "$DATE",
+            "description": "${{ fromJson(steps.parse.outputs.payload).Tid[2] }} | ${{ fromJson(steps.parse.outputs.payload).Vanskelighetsgrad }}",
+            "prepTime": "${{ fromJson(steps.parse.outputs.payload).Tid[0] }}",
+            "cookTime": "${{ fromJson(steps.parse.outputs.payload).Tid[1] }}",
+            "totalTime": "${{ fromJson(steps.parse.outputs.payload).Tid[2] }}",
+            "recipeYield": "${{ fromJson(steps.parse.outputs.payload).Porsjoner }}",
+            "recipeCategory": "${{ fromJson(steps.parse.outputs.payload).Kategori }}",
+            "recipeCuisine": "${{ fromJson(steps.parse.outputs.payload).Matkultur }}",
+            "keywords": "${{ join(fromJson(steps.parse.outputs.payload).Emner, ', ') }}",
+            "recipeIngredient": [
+          EOF
+          last_line=""
+          while IFS= read -r ingredient; do
+              if [[ "$last_line" != "" ]]; then
+                  echo "    \"$last_line\"," >>"$TMPFILE"
+              fi
+              last_line="$ingredient"
+          done < <(echo "${{ fromJson(steps.parse.outputs.payload).Ingredienser }}")
+          echo "    \"$last_line\"" >>"$TMPFILE"
+          cat << EOF >> "$TMPFILE"
+            ],
+            "recipeInstructions": [
+          EOF
+          last_line=""
+          while IFS= read -r step; do
+              if [[ "$last_line" != "" ]]; then
+                  printf '    {\n      "@type": "HowToStep",\n      "text": "%s"\n    },\n' "$last_line" >>"$TMPFILE"
+              fi
+              last_line="$step"
+          done < <(echo "${{ fromJson(steps.parse.outputs.payload).Steg }}")
+          printf '    {\n      "@type": "HowToStep",\n      "text": "%s"\n    }\n' "$last_line" >>"$TMPFILE"
+          cat << EOF >> "$TMPFILE"
+            ]
+          }
+          </script>
+          EOF
+          cat "$TMPFILE"
+          mv "$TMPFILE" ./"$FILE_REL_TO_ROOT"
+      - name: Update main branch
+        run: |
+          git pull --rebase
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: "${{ fromJson(steps.parse.outputs.payload).Filnavn }}"
+          add-paths: |
+            ${{ env.FILE_REL_TO_ROOT }}
+          delete-branch: true
+          author: ${{ github.event.issue.user.login }} <${{ env.ISSUEUSER_ID }}+${{ github.event.issue.user.login }}@users.noreply.github.com>
+          reviewers: ${{ github.repository_owner }}
+          assignees: ${{ github.repository_owner }}
+          title: "feat(recipe): ${{ fromJson(steps.parse.outputs.payload).Oppskriftsnavn }}"
+          body: |
+            :robot: Jeg lagde akkurat en PR for å legge til ${{ fromJson(steps.parse.outputs.payload).Oppskriftsnavn }} på vegne av [@${{ github.event.issue.user.login }}](${{ github.event.issue.user.html_url }}).
+
+            Resolves #${{ github.event.issue.number }}
+          labels: |
+            recipe

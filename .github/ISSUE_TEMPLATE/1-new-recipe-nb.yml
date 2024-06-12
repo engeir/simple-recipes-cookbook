@@ -1,0 +1,222 @@
+# NOTE: possible to attach image and use that in PR?
+name: Oppskriftsforslag (Norsk)
+description: Foreslå en oppskrift.
+title: "[RECIPE]: "
+labels: ["recipe", "nb"]
+assignees:
+  - engeir
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Takk for at du bidrar med en oppskrift!
+  - type: input
+    id: bidragsyter
+    attributes:
+      label: Opphavsnavn
+      description: Er oppskriften hentet fra noen?
+      placeholder: f.eks. Trines matblogg eller NRKMat
+    validations:
+      required: false
+  - type: input
+    id: bidragsyter-url
+    attributes:
+      label: Lenke
+      description: Lim inn lenken til oppskriften hvis den finnes.
+      placeholder: f.eks. https://mere.eirik.re/bakst/bananbrod/
+    validations:
+      required: false
+  - type: dropdown
+    id: bidragsytertype
+    attributes:
+      label: Opphavsmakertittel
+      description: Er det en person eller organisasjon oppskriften er hentet fra?
+      options:
+        - Person
+        - Organization
+    validations:
+      required: false
+  - type: input
+    id: tittel
+    attributes:
+      label: Oppskriftsnavn
+      description: Hva skal vi kalle oppskriften?
+      placeholder: f.eks. Bananbrød
+    validations:
+      required: true
+  - type: input
+    id: filnavn
+    attributes:
+      label: Filnavn
+      description: Gi et filnavn med bindestrek istedetfor mellomrom, med kun små bokstaver, uten filendelse og uten æ, ø, å.
+      placeholder: f.eks. bananbrod
+    validations:
+      required: true
+  - type: input
+    id: tid
+    attributes:
+      label: Tid
+      description: Hvor lang tid tar det å lage retten? Svar med tre tider for forberedelse, steketid og total tid. Separer med komma som vist i boksen.
+      placeholder: 10 min, 35 min, 45 min
+    validations:
+      required: true
+  - type: dropdown
+    id: vanskelighetsgrad
+    attributes:
+      label: Vanskelighetsgrad
+      description: Hvor vanskelig er det å lage retten?
+      multiple: false
+      options:
+        - Enkel
+        - Middels
+        - Vanskelig
+    validations:
+      required: true
+  - type: input
+    id: porsjoner
+    attributes:
+      label: Porsjoner
+      description: Beskriv hva oppskriften gir.
+      placeholder: f.eks. "3 porsjoner", "2 brød" eller "14 boller"
+    validations:
+      required: true
+  - type: textarea
+    id: ingredienser
+    attributes:
+      label: Ingredienser
+      description: List opp alle ingrediensene, med en ingrediens per linje, som vist under.
+      placeholder: |
+        275 g hvetemel
+        220 g sukker (evt. én Mumiekopp sukker)
+        3 stk bananer
+        3 stk egg
+        75 g smør
+        1.5 dl melk
+        1 ts bakepulver
+        1 ts natron
+    validations:
+      required: true
+  - type: textarea
+    id: steg
+    attributes:
+      label: Steg
+      description: La hvert enkelt steg stå på hver sin linje, som vist under.
+      placeholder: |
+        Sett ovnen på 180°.
+        Visp sammen egg og sukker i en bolle.
+        Skrell og mos bananer, ha de i bollen og bland sammen.
+        Smelt smør i en liten kjele, hell i melk og bland det deretter i bollen.
+        Bland inn mel, natron og bakepulver til en jevn og fin røre. Hakk f.eks. noe sjokoladebiter eller annet som frister og ha det i brødet.
+        Hell røren over i en form på ca. 1.5 liter, og sett formen på nederste rille i ovnen i omlag 35 min.
+        Ta brødet ut av formen og avkjøl på rist.
+    validations:
+      required: true
+  - type: dropdown
+    id: kategori
+    attributes:
+      label: Kategori
+      description: Innen hvilken kategori passer retten?
+      options:
+        - hovedrett
+        - enkel-servering
+        - dessert
+        - bakst
+        - drikke
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: emner
+    validations:
+      required: true
+    attributes:
+      label: Emner
+      description: Hva slags emner passer til retten?
+      multiple: true
+      options:
+        - appelsin
+        - avokado
+        - banan
+        - basilikum
+        - blåmuggost
+        - bolle
+        - brød
+        - byggryn
+        - couscous
+        - drink
+        - egg
+        - fisk
+        - fløte
+        - frisk
+        - frokost
+        - gelatin
+        - grillmat
+        - halloumi
+        - hvetemel
+        - jul
+        - kaffe
+        - kake
+        - kardemumme
+        - kjøttdeig
+        - konfekt
+        - krem
+        - kylling
+        - mais
+        - majones
+        - mango
+        - nudler
+        - ost
+        - pasta
+        - peanøtt
+        - pizza
+        - potet
+        - prosciutto
+        - punch
+        - pære
+        - rask
+        - reker
+        - ris
+        - risotto
+        - rømme
+        - safran
+        - salat
+        - sitrus
+        - sjokolade
+        - sjømat
+        - skinke
+        - sunn
+        - suppe
+        - tilbehør
+        - tofu
+        - tomat
+        - turmat
+        - vegansk
+        - vegetar
+        - vin
+        - vodka
+        - wok
+  - type: dropdown
+    id: cousine
+    attributes:
+      label: Matkultur
+      description: Er retten fra et spesielt kjøkken eller matkultur?
+      multiple: true
+      options:
+        - italiensk
+        - gresk
+        - fransk
+        - thai
+        - asiatisk
+        - kinesisk
+        - japansk
+        - norsk
+        - skandinavisk
+    validations:
+      required: false
+  - type: input
+    id: andre-kategorier-emner
+    attributes:
+      label: Ekstraemner
+      description: Er det andre kategorier eller emner som passer?
+    validations:
+      required: false
