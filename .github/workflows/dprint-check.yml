@@ -1,6 +1,6 @@
 on:
-  pull_request:
-    types: [opened, synchronize, reopened]
+  - push
+  - pull_request
 name: dprint check and commit
 jobs:
   fix-style:
