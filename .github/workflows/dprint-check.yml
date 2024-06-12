@@ -1,14 +1,20 @@
-on: push
-
-name: dprint-check
-
+on: [push, pull_request]
+name: dprint check and commit
 jobs:
-  style:
+  fix-style:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - name: Check with dprint
         run: |
           curl -fsSL https://dprint.dev/install.sh | sh -s 0.45.0 > /dev/null 2>&1
           $HOME/.dprint/bin/dprint check --allow-no-files
+      - name: Commit formatted file
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git add .
+          git commit -m "Auto-format code"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
