@@ -1,0 +1,222 @@
+# NOTE: possible to attach image and use that in PR?
+name: Recipe contribution (English)
+description: Suggest a recipe.
+title: "[RECIPE]: "
+labels: ["recipe", "en"]
+assignees:
+  - engeir
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing a recipe!
+  - type: input
+    id: contributor
+    attributes:
+      label: Contributor-name
+      description: Did you get the recipe from someone or somewhere?
+      placeholder: e.g. Jamie Oliver or BBC
+    validations:
+      required: false
+  - type: input
+    id: controbutor-url
+    attributes:
+      label: URL
+      description: Paste the URL to the recipe if one exists.
+      placeholder: "e.g. https://mere.eirik.re/bakst/bananbrod/"
+    validations:
+      required: false
+  - type: dropdown
+    id: contributor-type
+    attributes:
+      label: Contributor-type
+      description: Did you get the recipe from a person or an organisation?
+      options:
+        - Person
+        - Organization
+    validations:
+      required: false
+  - type: input
+    id: title
+    attributes:
+      label: Recipe-name
+      description: What should we name the recipe?
+      placeholder: e.g. Banana bread
+    validations:
+      required: true
+  - type: input
+    id: filename
+    attributes:
+      label: Filename
+      description: Give a filename using hyphens rather than whitespace, using lowercase letters, and without file ending.
+      placeholder: e.g. banana-bread
+    validations:
+      required: true
+  - type: input
+    id: time
+    attributes:
+      label: Time
+      description: How much time does it take to cook the dish?
+      placeholder: 10 min, 35 min, 45 min
+    validations:
+      required: true
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Difficulty
+      description: How hard is it to cook the dish?
+      multiple: false
+      options:
+        - Easy
+        - Medium
+        - Hard
+    validations:
+      required: true
+  - type: input
+    id: portions
+    attributes:
+      label: Portions
+      description: Give a quantity of what the recipe yields.
+      placeholder: e.g. "3 portions", "2 bread" eller "14 buns"
+    validations:
+      required: true
+  - type: textarea
+    id: ingredients
+    attributes:
+      label: Ingredients
+      description: List up all ingredients, one per line as shown below.
+      placeholder: |
+        275 g wheat flour
+        220 g sugar (or 1 cup)
+        3 bananas
+        3 eggs
+        75 g butter
+        1.5 dl milk
+        1 ts baking powder
+        1 ts baking soda
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps
+      description: Let each step occupy one line, as shown below.
+      placeholder: |
+        Preheat the oven to 180°C.
+        Whisk together eggs and sugar in a bowl.
+        Peel and mash bananas, add them to the bowl, and mix together.
+        Melt butter in a small saucepan, pour in milk, and then mix it into the bowl.
+        Stir in flour, baking soda, and baking powder to a smooth and fine batter. Chop, for example, some chocolate pieces or anything else tempting and add it to the bread.
+        Pour the batter into a baking tin of about 1.5 liters, and place the tin on the lower rack in the oven for about 35 minutes.
+        Remove the bread from the tin and cool on a rack.
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: In what category does the dish fit best?
+      options:
+        - main course
+        - easy serving
+        - dessert
+        - baking
+        - drinks
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: tags
+    validations:
+      required: true
+    attributes:
+      label: Tags
+      description: What tags are relevant for the dish?
+      multiple: true
+      options:
+        - Christmas
+        - avocado
+        - banana
+        - barbecue food
+        - barley
+        - basil
+        - blue cheese
+        - bread
+        - breakfast
+        - bun
+        - cake
+        - cardamom
+        - cheese
+        - chicken
+        - chocolate
+        - citrus
+        - coffee
+        - confectionery
+        - corn
+        - couscous
+        - cream
+        - drink
+        - egg
+        - fish
+        - fresh
+        - gelatin
+        - halloumi
+        - ham
+        - healthy
+        - hiking food
+        - mango
+        - mayonnaise
+        - minced meat
+        - mushrooms
+        - noodles
+        - orange
+        - pasta
+        - peanut
+        - pear
+        - pizza
+        - potato
+        - prosciutto
+        - punch
+        - quick
+        - rice
+        - risotto
+        - saffron
+        - salad
+        - seafood
+        - shrimp
+        - side dish
+        - soup
+        - sour cream
+        - stir-fry
+        - tofu
+        - tomato
+        - vegan
+        - vegetarian
+        - vodka
+        - wheat flour
+        - wine
+  - type: dropdown
+    id: cuisine
+    attributes:
+      label: Cuisine
+      description: Is the dish from a specific cuisine?
+      multiple: true
+      options:
+        - italiano
+        - greek
+        - french
+        - thai
+        - asian
+        - chinese
+        - japanese
+        - norwegian
+        - scandinavian
+    validations:
+      required: false
+  - type: input
+    id: other-tags
+    attributes:
+      label: Extra-tags
+      description: Are there more tags that are relevant, other than those listed above?
+    validations:
+      required: false
