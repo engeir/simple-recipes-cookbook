@@ -23,7 +23,7 @@ body:
     attributes:
       label: Lenke
       description: Lim inn lenken til oppskriften hvis den finnes.
-      placeholder: f.eks. https://mere.eirik.re/bakst/bananbrod/
+      placeholder: "f.eks. https://mere.eirik.re/bakst/bananbrod/"
     validations:
       required: false
   - type: dropdown
@@ -184,6 +184,7 @@ body:
         - sjokolade
         - sjømat
         - skinke
+        - sopp
         - sunn
         - suppe
         - tilbehør
@@ -196,7 +197,7 @@ body:
         - vodka
         - wok
   - type: dropdown
-    id: cousine
+    id: cuisine
     attributes:
       label: Matkultur
       description: Er retten fra et spesielt kjøkken eller matkultur?
