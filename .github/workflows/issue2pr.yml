@@ -1,4 +1,4 @@
-name: Convert inssue to PR
+name: Convert issue to PR
 on:
   issues:
     types: [opened, edited, labeled]
