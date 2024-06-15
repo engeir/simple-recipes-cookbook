@@ -11,6 +11,7 @@ tag:
   - ost
   - pasta
   - vegetar
+  - sopp
 ---
 
 # Sjampinjong- og portobellopasta
@@ -79,7 +80,7 @@ Enkel
   "recipeYield": "2 porsjoner",
   "recipeCategory": "hovedrett",
   "recipeCuisine": "_No response_",
-  "keywords": "ost, pasta, vegetar",
+  "keywords": "ost, pasta, vegetar, sopp",
   "recipeIngredient": [
     "200 g pasta",
     "200 g sjampinjong",
