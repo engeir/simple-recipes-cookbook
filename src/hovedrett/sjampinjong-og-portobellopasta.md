@@ -54,7 +54,8 @@ Enkel
 
 1. Kok opp godt saltet vann, og kok pasta ca 2 min kortere enn anvist på pakken.
 2. Husk å ta vare på en kopp, ca 2.5 dl pastavann når pastaen er ferdig kokt.
-3. Når pastaen koker lager du pangrattato. Varm først olivenolje i en panne og rist panko i 4 min. Ha i salt og pepper og sett til side i en skål.
+3. Når pastaen koker lager du pangrattato. Varm først olivenolje i en panne og rist
+   panko i 4 min. Ha i salt og pepper og sett til side i en skål.
 4. I samme pannen, stek sopp oppskåret i tynne skiver, sammen med løk og hvitløk.
 5. Finhakk gressløk og bland den inn med pankoen for å fullføre pangrattatoen.
 6. Rør mornaysaus, grønnsaksbuljong og pastavann inn i soppblandingen.
