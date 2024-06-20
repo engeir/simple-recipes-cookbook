@@ -79,5 +79,7 @@ For more examples, check out some repos forked from this one!
 - [@bafulton](https://github.com/bafulton) ([repo](https://github.com/bafulton/recipes),
   [website](https://bafulton.github.io/recipes/))
 
-> :information_source: If you have a fork of the simple recipes cookbook and would like
-> to have it linked here, feel free to create a pull request!
+> [!TIP]
+>
+> If you have a fork of the simple recipes cookbook and would like to have it linked
+> here, feel free to create a pull request!
