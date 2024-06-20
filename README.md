@@ -81,5 +81,5 @@ For more examples, check out some repos forked from this one!
 
 > [!TIP]
 >
-> If you have a fork of the simple recipes cookbook and would like
-> to have it linked here, feel free to create a pull request!
+> If you have a fork of the simple recipes cookbook and would like to have it linked
+> here, feel free to create a pull request!
