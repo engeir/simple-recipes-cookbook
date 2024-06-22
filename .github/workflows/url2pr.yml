@@ -24,8 +24,8 @@ jobs:
           curl https://mise.jdx.dev/install.sh | sh
           echo "$HOME/.local/share/mise/bin" >> $GITHUB_PATH
           echo "$HOME/.local/share/mise/shims" >> $GITHUB_PATH
-          mise trust
-          mise i
+          # mise trust
+          # mise i
           mise run recipe-scrapers:install
           echo "PARSED=$(mise run recipe-scrapers:run ${{ fromJson(steps.parse.outputs.payload).Lenke }} | jq)" >> $GITHUB_ENV
           echo "$PARSED"
