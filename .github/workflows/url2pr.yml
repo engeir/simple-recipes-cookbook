@@ -23,6 +23,8 @@ jobs:
           echo "$HOME/.local/share/mise/shims" >> $GITHUB_PATH
           mise trust
           mise i
+          mise run recipe-scrapers:install
+          echo "PARSED=$(mise run recipe-scrapers:run ${{ fromJson(steps.parse.outputs.payload).Lenke }} | jq)" >> $GITHUB_ENV
       - name: Set up environment variables
         run: |
           echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV

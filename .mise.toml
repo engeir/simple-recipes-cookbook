@@ -1,7 +1,11 @@
 [env]
-_.python.venv = ".venv"
+_.python.venv = { path = ".venv", create = true }
+
+[settings]
+experimental = true
 
 [tools]
+"jq" = "latest"
 "npm:cwebp" = "latest"
 "python" = "latest"
 
