@@ -2,7 +2,7 @@
 name: Recipe contribution (English)
 description: Suggest a recipe.
 title: "[RECIPE]: "
-labels: ["recipe", "en"]
+labels: ["recipe", "en", "long-format"]
 assignees:
   - engeir
 body:

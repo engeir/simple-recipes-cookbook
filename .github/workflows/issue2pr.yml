@@ -4,7 +4,7 @@ on:
     types: [opened, edited, labeled]
 jobs:
   convert-issue-to-pr-nb:
-    if: contains(github.event.issue.labels.*.name, 'nb') && contains(github.event.issue.labels.*.name, 'recipe')
+    if: contains(github.event.issue.labels.*.name, 'nb') && contains(github.event.issue.labels.*.name, 'recipe') && contains(github.event.issue.labels.*.name, 'long-format')
     permissions:
       contents: write
       pull-requests: write
@@ -27,7 +27,7 @@ jobs:
           echo "TMPDIR=/tmp/src/${{ fromJson(steps.parse.outputs.payload).Kategori }}" >> $GITHUB_ENV
           echo "TMPFILE=/tmp/src/${{ fromJson(steps.parse.outputs.payload).Kategori }}/${{ fromJson(steps.parse.outputs.payload).Filnavn }}.md" >> $GITHUB_ENV
           echo "FILE_REL_TO_ROOT=src/${{ fromJson(steps.parse.outputs.payload).Kategori }}/${{ fromJson(steps.parse.outputs.payload).Filnavn }}.md" >> $GITHUB_ENV
-      - name: Show parsed payload data
+      - name: Create recipe
         run: |
           mkdir -p "$TMPDIR"
           touch "$TMPFILE"
