@@ -52,11 +52,21 @@ Enkel
 
 ## Steg
 
-1. Finhakk tomat og agurk. Skjær rødløk i tynne skiver. Skjær sitron i båter. Skjær kyllingbryst i 3 cm tykke strimler på et eget skjærebrett. Bland kylling, Middelhavsdrøm, en skvett olivenolje, salt og en klype pepper i en skål.
-2. Kok opp en kjele med vann og kyllingbuljong. Tilsett couscous og olivenolje. Rør godt før du legger lokk på og fjerner kjelen fra varmen. La hvile under lokk i 5 min, eller til vannet er absorbert.
-3. Varm opp en skvett olivenolje i en stekepanne på middels høy varme. Stek kylling i 3-4 min på hver side, eller til gjennomstekt. TIPS: Kyllingen er ferdig når kjøttet er hvitt og uten antydninger av rødt.
-4. Finhakk basilikum. Bland tomat, agurk, rødløk og en klype salt og pepper i en skål. Smuldre over gresk salatost og bland godt. Tilsett evt. en skvett olivenolje om du ønsker. Bland basilikum, olivenolje, en stor skvett sitronsaft og en klype salt og pepper i en liten skål.
-5. Når couscousen er ferdig, bland inn en skvett sitronsaft og en klype salt og pepper. Rør med en gaffel.
+1. Finhakk tomat og agurk. Skjær rødløk i tynne skiver. Skjær sitron i båter. Skjær
+   kyllingbryst i 3 cm tykke strimler på et eget skjærebrett. Bland kylling,
+   Middelhavsdrøm, en skvett olivenolje, salt og en klype pepper i en skål.
+2. Kok opp en kjele med vann og kyllingbuljong. Tilsett couscous og olivenolje. Rør godt
+   før du legger lokk på og fjerner kjelen fra varmen. La hvile under lokk i 5 min,
+   eller til vannet er absorbert.
+3. Varm opp en skvett olivenolje i en stekepanne på middels høy varme. Stek kylling i
+   3-4 min på hver side, eller til gjennomstekt. TIPS: Kyllingen er ferdig når kjøttet
+   er hvitt og uten antydninger av rødt.
+4. Finhakk basilikum. Bland tomat, agurk, rødløk og en klype salt og pepper i en skål.
+   Smuldre over gresk salatost og bland godt. Tilsett evt. en skvett olivenolje om du
+   ønsker. Bland basilikum, olivenolje, en stor skvett sitronsaft og en klype salt og
+   pepper i en liten skål.
+5. Når couscousen er ferdig, bland inn en skvett sitronsaft og en klype salt og pepper.
+   Rør med en gaffel.
 
 <script type="application/ld+json">
 {
@@ -78,6 +88,17 @@ Enkel
   "recipeCategory": "hovedrett",
   "recipeCuisine": "gresk",
   "keywords": "basilikum, couscous, kylling, sitrus",
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "Kalorier": "139 kcal",
+    "Energi (kJ)": "581.65 kJ",
+    "Fett": "6.77 g",
+    "Mettet fett": "2.53 g",
+    "Karbohydrater": "8.58 g",
+    "Sukker": "1.74 g",
+    "Protein": "9.55 g",
+    "Natrium": "71.93 mg"
+  },
   "recipeIngredient": [
     "2.5 dl vann",
     "2.5 dl kyllingbuljong",
