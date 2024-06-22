@@ -16,6 +16,9 @@ jobs:
         uses: onmax/issue-form-parser@v1.5
         with:
           issue_number: ${{ github.event.issue.number }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.4'
       - name: Install scripts with mise
         run: |
           curl https://mise.jdx.dev/install.sh | sh
