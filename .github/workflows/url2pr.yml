@@ -31,13 +31,13 @@ jobs:
           echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
           echo "ISSUEUSER=$(curl -s ${{ github.event.issue.user.url }} | jq -r '.name')" >> $GITHUB_ENV
           echo "ISSUEUSER_ID=$(curl -s ${{ github.event.issue.user.url }} | jq -r '.id')" >> $GITHUB_ENV
-          if [[ "${{ fromJson(PARSED).author.name }}" == "" ]]; then echo "CREATOR=$ISSUEUSER" >> $GITHUB_ENV; else echo "CREATOR=${{ fromJson(PARSED).author.name }}" >> $GITHUB_ENV; fi
+          if [[ "${{ fromJson(env.PARSED).author.name }}" == "" ]]; then echo "CREATOR=$ISSUEUSER" >> $GITHUB_ENV; else echo "CREATOR=${{ fromJson(env.PARSED).author.name }}" >> $GITHUB_ENV; fi
           echo "CREATORTITLE=Person" >> $GITHUB_ENV
-          if [[ "${{ fromJson(PARSED).author.name }}" == "" ]]; then echo "CREATORURL=${{ github.event.issue.html_url }}" >> $GITHUB_ENV; else echo "CREATORURL=${{ fromJson(PARSED).author.url }}" >> $GITHUB_ENV; fi
+          if [[ "${{ fromJson(env.PARSED).author.name }}" == "" ]]; then echo "CREATORURL=${{ github.event.issue.html_url }}" >> $GITHUB_ENV; else echo "CREATORURL=${{ fromJson(env.PARSED).author.url }}" >> $GITHUB_ENV; fi
           echo "CATEGORY=${{ fromJson(steps.parse.outputs.payload).Kategori }}"
           echo "TMPDIR=/tmp/src/$CATEGORY" >> $GITHUB_ENV
-          echo "TMPFILE=/tmp/src/$CATEGORY/${{ fromJson(PARSED).pattern }}.md" >> $GITHUB_ENV
-          echo "FILE_REL_TO_ROOT=src/$CATEGORY/${{ fromJson(PARSED).pattern }}.md" >> $GITHUB_ENV
+          echo "TMPFILE=/tmp/src/$CATEGORY/${{ fromJson(env.PARSED).pattern }}.md" >> $GITHUB_ENV
+          echo "FILE_REL_TO_ROOT=src/$CATEGORY/${{ fromJson(env.PARSED).pattern }}.md" >> $GITHUB_ENV
       - name: Create recipe
         run: |
           mkdir -p "$TMPDIR"
@@ -45,7 +45,7 @@ jobs:
 
           cat << EOF > "$TMPFILE"
           ---
-          description: "${{ fromJson(PARSED).totalTime }} | ${{ fromJson(steps.parse.outputs.payload).Vanskelighetsgrad }}"
+          description: "${{ fromJson(env.PARSED).totalTime }} | ${{ fromJson(steps.parse.outputs.payload).Vanskelighetsgrad }}"
           authors:
             - name: "$ISSUEUSER (@${{ github.event.issue.user.login }})"
               link: "${{ github.event.issue.user.html_url }}"
@@ -63,27 +63,27 @@ jobs:
           cat << EOF >> "$TMPFILE"
           ---
 
-          # ${{ fromJson(PARSED).name }}
+          # ${{ fromJson(env.PARSED).name }}
 
-          ![](/static/${{ fromJson(PARSED).pattern }}/${{ fromJson(PARSED).pattern }}.webp)
+          ![](/static/${{ fromJson(env.PARSED).pattern }}/${{ fromJson(env.PARSED).pattern }}.webp)
 
           EOF
-          if [[ "${{ fromJson(PARSED).author.name }}" != "" ]] && [[ "${{ fromJson(steps.parse.outputs.payload).Lenke }}" != "" ]]; then
+          if [[ "${{ fromJson(env.PARSED).author.name }}" != "" ]] && [[ "${{ fromJson(steps.parse.outputs.payload).Lenke }}" != "" ]]; then
           cat << EOF >> "$TMPFILE"
           !!!info
 
           Denne oppskriften er originalt fra
-          [!badge variant="dark" iconAlign="right" margin="0 0 0 4" icon=":cook:" size="l" target="blank" text="${{ fromJson(PARSED).author.name }}"](${{ fromJson(steps.parse.outputs.payload).Lenke }})
+          [!badge variant="dark" iconAlign="right" margin="0 0 0 4" icon=":cook:" size="l" target="blank" text="${{ fromJson(env.PARSED).author.name }}"](${{ fromJson(steps.parse.outputs.payload).Lenke }})
 
           !!!
 
           EOF
-          elif [[ "${{ fromJson(PARSED).author.name }}" != "" ]]; then
+          elif [[ "${{ fromJson(env.PARSED).author.name }}" != "" ]]; then
           cat << EOF >> "$TMPFILE"
           !!!info
 
           Denne oppskriften er originalt fra
-          [!badge variant="dark" iconAlign="right" margin="0 0 0 4" icon=":cook:" size="l" target="blank" text="${{ fromJson(PARSED).author.name }}"]
+          [!badge variant="dark" iconAlign="right" margin="0 0 0 4" icon=":cook:" size="l" target="blank" text="${{ fromJson(env.PARSED).author.name }}"]
 
           !!!
 
@@ -92,9 +92,9 @@ jobs:
           cat << EOF >> "$TMPFILE"
           <!-- dprint-ignore-start -->
           ||| :timer_clock: Tid
-          ${{ fromJson(PARSED).totalTime }}
+          ${{ fromJson(env.PARSED).totalTime }}
           ||| :knife_fork_plate: Porsjoner
-          ${{ fromJson(PARSED).recipeYield }}
+          ${{ fromJson(env.PARSED).recipeYield }}
           ||| :cook: Vanskelighetsgrad
           ${{ fromJson(steps.parse.outputs.payload).Vanskelighetsgrad }}
           |||
@@ -105,7 +105,7 @@ jobs:
           EOF
           while IFS= read -r ingredient; do
               echo "- $ingredient" >>"$TMPFILE"
-          done < <(echo "${{ fromJson(PARSED).recipeIngredient }}")
+          done < <(echo "${{ fromJson(env.PARSED).recipeIngredient }}")
           cat << EOF >> "$TMPFILE"
 
           ## Steg
@@ -115,11 +115,11 @@ jobs:
           while IFS= read -r step; do
               echo "$count. $step">>"$TMPFILE"
               ((count ++))
-          done < <(echo "${{ fromJson(PARSED).recipeInstructions }}" | jq '.[][].["text"]')
+          done < <(echo "${{ fromJson(env.PARSED).recipeInstructions }}" | jq '.[][].["text"]')
           cat << EOF >> "$TMPFILE"
 
           <script type="application/ld+json">
-          "${{ fromJson(PARSED) }}"
+          "${{ fromJson(env.PARSED) }}"
           </script>
           EOF
           cat "$TMPFILE"
@@ -130,16 +130,16 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
-          branch: "${{ fromJson(PARSED).pattern }}"
+          branch: "${{ fromJson(env.PARSED).pattern }}"
           add-paths: |
             ${{ env.FILE_REL_TO_ROOT }}
           delete-branch: true
           author: ${{ github.event.issue.user.login }} <${{ env.ISSUEUSER_ID }}+${{ github.event.issue.user.login }}@users.noreply.github.com>
           reviewers: ${{ github.repository_owner }}
           assignees: ${{ github.repository_owner }}
-          title: "feat(recipe): ${{ fromJson(PARSED).name }}"
+          title: "feat(recipe): ${{ fromJson(env.PARSED).name }}"
           body: |
-            :robot: Jeg lagde akkurat en PR for å legge til ${{ fromJson(PARSED).name }} på vegne av [@${{ github.event.issue.user.login }}](${{ github.event.issue.user.html_url }}).
+            :robot: Jeg lagde akkurat en PR for å legge til ${{ fromJson(env.PARSED).name }} på vegne av [@${{ github.event.issue.user.login }}](${{ github.event.issue.user.html_url }}).
 
             Resolves #${{ github.event.issue.number }}
           labels: |
