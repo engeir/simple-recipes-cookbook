@@ -1,0 +1,126 @@
+name: Prøv lykken (Norsk)
+description: Foreslå en oppskrift kun via URL
+title: "[RECIPE]: "
+labels: ["recipe", "nb", "recipe-scrapers"]
+assignees:
+  - engeir
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Takk for at du bidrar med en oppskrift! Denne måten å foreslå oppskrifter på
+        feiler noen ganger, men ved hjelp av recipe-scrapers klarer vi kanskje å lese
+        den inn automatisk. Om den automatiske PR-en feiler, legg inn oppskriften
+        manuelt via den andre innmeldingsmetoden.
+  - type: input
+    id: bidragsyter-url
+    attributes:
+      label: Lenke
+      description: Lim inn lenken til oppskriften.
+      placeholder: "f.eks. https://mere.eirik.re/bakst/bananbrod/"
+    validations:
+      required: true
+  - type: dropdown
+    id: vanskelighetsgrad
+    attributes:
+      label: Vanskelighetsgrad
+      description: Hvor vanskelig er det å lage retten?
+      multiple: false
+      options:
+        - Enkel
+        - Middels
+        - Vanskelig
+    validations:
+      required: true
+  - type: dropdown
+    id: kategori
+    attributes:
+      label: Kategori
+      description: Innen hvilken kategori passer retten?
+      options:
+        - hovedrett
+        - enkel-servering
+        - dessert
+        - bakst
+        - drikke
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: emner
+    validations:
+      required: true
+    attributes:
+      label: Emner
+      description: Hva slags emner passer til retten?
+      multiple: true
+      options:
+        - appelsin
+        - avokado
+        - banan
+        - basilikum
+        - blåmuggost
+        - bolle
+        - brød
+        - byggryn
+        - couscous
+        - drink
+        - egg
+        - fisk
+        - fløte
+        - frisk
+        - frokost
+        - gelatin
+        - grillmat
+        - halloumi
+        - hvetemel
+        - jul
+        - kaffe
+        - kake
+        - kardemumme
+        - kjøttdeig
+        - konfekt
+        - krem
+        - kylling
+        - mais
+        - majones
+        - mango
+        - nudler
+        - ost
+        - pasta
+        - peanøtt
+        - pizza
+        - potet
+        - prosciutto
+        - punch
+        - pære
+        - rask
+        - reker
+        - ris
+        - risotto
+        - rømme
+        - safran
+        - salat
+        - sitrus
+        - sjokolade
+        - sjømat
+        - skinke
+        - sopp
+        - sunn
+        - suppe
+        - tilbehør
+        - tofu
+        - tomat
+        - turmat
+        - vegansk
+        - vegetar
+        - vin
+        - vodka
+        - wok
+  - type: input
+    id: andre-kategorier-emner
+    attributes:
+      label: Ekstraemner
+      description: Er det andre kategorier eller emner som passer?
+    validations:
+      required: false

@@ -2,7 +2,7 @@
 name: Oppskriftsforslag (Norsk)
 description: Foreslå en oppskrift.
 title: "[RECIPE]: "
-labels: ["recipe", "nb"]
+labels: ["recipe", "nb", "long-format"]
 assignees:
   - engeir
 body:

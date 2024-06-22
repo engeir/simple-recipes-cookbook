@@ -1,0 +1,125 @@
+name: Wild mode (English)
+description: Suggest a recipe using only its URL.
+title: "[RECIPE]: "
+labels: ["recipe", "en", "recipe-scrapers"]
+assignees:
+  - engeir
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing a recipe! This issue template will sometimes fail,
+        but with the use of the recipe-scrapers we might be able to parse it
+        automatically. If the automatically created PR fails, please suggest the recipe
+        via the other issue template.
+  - type: input
+    id: controbutor-url
+    attributes:
+      label: URL
+      description: Paste the URL to the recipe.
+      placeholder: "e.g. https://mere.eirik.re/bakst/bananbrod/"
+    validations:
+      required: true
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Difficulty
+      description: How hard is it to cook the dish?
+      multiple: false
+      options:
+        - Easy
+        - Medium
+        - Hard
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: In what category does the dish fit best?
+      options:
+        - main course
+        - easy serving
+        - dessert
+        - baking
+        - drinks
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: tags
+    validations:
+      required: true
+    attributes:
+      label: Tags
+      description: What tags are relevant for the dish?
+      multiple: true
+      options:
+        - Christmas
+        - avocado
+        - banana
+        - barbecue food
+        - barley
+        - basil
+        - blue cheese
+        - bread
+        - breakfast
+        - bun
+        - cake
+        - cardamom
+        - cheese
+        - chicken
+        - chocolate
+        - citrus
+        - coffee
+        - confectionery
+        - corn
+        - couscous
+        - cream
+        - drink
+        - egg
+        - fish
+        - fresh
+        - gelatin
+        - halloumi
+        - ham
+        - healthy
+        - hiking food
+        - mango
+        - mayonnaise
+        - minced meat
+        - mushrooms
+        - noodles
+        - orange
+        - pasta
+        - peanut
+        - pear
+        - pizza
+        - potato
+        - prosciutto
+        - punch
+        - quick
+        - rice
+        - risotto
+        - saffron
+        - salad
+        - seafood
+        - shrimp
+        - side dish
+        - soup
+        - sour cream
+        - stir-fry
+        - tofu
+        - tomato
+        - vegan
+        - vegetarian
+        - vodka
+        - wheat flour
+        - wine
+  - type: input
+    id: other-tags
+    attributes:
+      label: Extra-tags
+      description: Are there more tags that are relevant, other than those listed above?
+    validations:
+      required: false

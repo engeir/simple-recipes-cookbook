@@ -1,0 +1,54 @@
+#!/usr/bin/python3
+# mise description="Create thumbnails of all JPG images in the static directory"
+
+# WARNING: This assumes the very specific original file size of 4000x3000 pixels, which
+# is the default on my phone.
+#
+# This script will convert all JPG images in the static directory to webp format. Only
+# images in the "static" directory, and that lie in their own sub-directory will be
+# converted. The name of the directory inside "static" is used as the file name.
+#
+# The conversion will crop the image file size to below 500kB, and then resize it to
+# 4000x2000 pixels, assuming an original size of 4000x3000 pixels. The output will be
+# saved in the same directory as the original image with a .webp extension.
+#
+# E.g.:
+#     src/static/mmm-delicious-dish/IMG_20210701_123456.jpg
+# will be converted to
+#     src/static/mmm-delicious-dish/mmm-delicious-dish.webp
+
+import pathlib
+import subprocess
+
+
+def check_if_appropriate(i: pathlib.Path) -> pathlib.Path:
+    parts = i.parts
+    if parts[1] != "static":
+        return pathlib.Path("none")
+    if parts[2] == parts[-1]:
+        return pathlib.Path("none")
+    else:
+        name = parts[2]
+    outname = i.parent / f"{name}.webp"
+    return pathlib.Path("none") if outname.exists() else outname
+
+
+def do_conversion(i: pathlib.Path, name: pathlib.Path) -> None:
+    """Convert the image to be suitable as a thumbnail."""
+    subprocess.run(["cwebp", "-size", "500000", i, "-o", name])
+    subprocess.run(["cwebp", "-crop", "0", "500", "4000", "2000", name, "-o", name])
+
+
+def main() -> None:
+    out = pathlib.Path().rglob("*.[Jj][Pp][Gg]")
+    for i in out:
+        print(f"Found {i}", end="")
+        if (name := check_if_appropriate(i)).name != "none":
+            print(". Converting...")
+            do_conversion(i, name)
+        else:
+            print(", but is has already been converted.")
+
+
+if __name__ == "__main__":
+    main()
