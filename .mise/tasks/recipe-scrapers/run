@@ -4,6 +4,7 @@
 from recipe_scrapers import scrape_me
 import argparse
 import json
+import re
 
 
 # Get the first CLI argument
@@ -101,14 +102,15 @@ def update_keys(recipe: dict, key: str) -> dict:
             recipe["recipeYield"] = recipe.pop(key)
     return recipe
 
+
 def to_kebab_case(s: str) -> str:
     s = s.lower().replace(" ", "-")
     # Replace æ, ø, and å with ae, o, and a
-    import re
     s = re.sub(r"æ", "ae", s)
     s = re.sub(r"ø", "o", s)
     s = re.sub(r"å", "a", s)
     return s
+
 
 for m in methods:
     recipe = print_info(m)
