@@ -7,7 +7,7 @@ experimental = true
 [tools]
 "jq" = "latest"
 "npm:cwebp" = "latest"
-"python" = "latest"
+"python" = "3.12.4"
 
 [tasks.serve]
 description = "Serve the site locally"
