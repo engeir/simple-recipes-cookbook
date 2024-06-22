@@ -40,15 +40,81 @@ methods = {
 }
 
 
-def print_info(method: str) -> None:
+def print_info(method: str) -> dict:
     """Prints the information from the scraper."""
     try:
         info = getattr(scraped, method)()
     except Exception as _:
-        pass
-    else:
-        print(json.dumps(info, indent=2))
+        return {}
+    return info if isinstance(info, dict) else {}
 
+
+def update_keys(recipe: dict, key: str) -> dict:
+    match key:
+        case "author":
+            recipe[key] = {
+                "@type": "Person",
+                "name": recipe[key],
+                "url": recipe["canonical_url"],
+            }
+            recipe.pop("canonical_url")
+        case "canonical_url":
+            pass
+        case "category":
+            recipe["recipeCategory"] = recipe.pop(key)
+        case "cook_time":
+            recipe["cookTime"] = recipe.pop(key)
+        case "cuisine":
+            recipe["recipeCuisine"] = recipe.pop(key)
+        case "host":
+            recipe["publisher"] = {"@type": "Organization", "name": recipe.pop(key)}
+        case "image":
+            pass
+        case "ingredients":
+            recipe["recipeIngredient"] = recipe.pop(key)
+        case "ingredient_groups":
+            recipe.pop(key)
+        case "instructions_list":
+            recipe["recipeInstructions"] = [
+                {"@type": "HowToStep", "text": i} for i in recipe.pop(key)
+            ]
+        case "instructions":
+            recipe.pop(key)
+        case "keywords":
+            pass
+        case "language":
+            recipe["inLanguage"] = recipe.pop(key)
+        case "nutrients":
+            recipe["nutrition"] = {
+                "@type": "NutritionInformation",
+                **recipe.pop(key),
+            }
+        case "prep_time":
+            recipe["prepTime"] = recipe.pop(key)
+        case "site_name":
+            pass
+        case "title":
+            recipe["name"] = recipe.pop(key)
+        case "total_time":
+            recipe["totalTime"] = recipe.pop(key)
+        case "yields":
+            recipe["recipeYield"] = recipe.pop(key)
+    return recipe
+
+def to_kebab_case(s: str) -> str:
+    s = s.lower().replace(" ", "-")
+    # Replace æ, ø, and å with ae, o, and a
+    import re
+    s = re.sub(r"æ", "ae", s)
+    s = re.sub(r"ø", "o", s)
+    s = re.sub(r"å", "a", s)
+    return s
 
 for m in methods:
-    print_info(m)
+    recipe = print_info(m)
+    recipe["@context"] = "https://schema.org"
+    recipe["@type"] = "Recipe"
+    for key in list(recipe):
+        recipe = update_keys(recipe, key)
+    recipe["pattern"] = to_kebab_case(recipe["name"])
+    print(json.dumps(recipe, indent=2))
