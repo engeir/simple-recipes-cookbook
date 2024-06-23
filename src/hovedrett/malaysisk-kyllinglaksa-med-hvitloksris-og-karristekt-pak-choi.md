@@ -7,6 +7,7 @@ authors:
 date: 2024-06-23
 category:
   - Eirik Rolland Enger
+  - HelloFresh
   - hovedrett
 tag:
   - kylling
@@ -54,12 +55,21 @@ Enkel
 
 ## Steg
 
-1. Press eller finhakk hvitløk. Smelt smør [1 ss | 2 ss] i en stor kjele på middels høy varme. Stek hvitløk i 1-2 min. Tilsett vann [3 dl | 6 dl] og kok opp. Tilsett ris og salt [1/2 ts | 1 ts] og kok under lokk på lav varme i 12 min. Skru av varmen og la hvile under lokk i 10 min, eller til vannet er absorbert. TIPS: Ikke fjern lokket, risen skal dampes.
+1. Press eller finhakk hvitløk. Smelt smør [1 ss | 2 ss] i en stor kjele på middels høy
+   varme. Stek hvitløk i 1-2 min. Tilsett vann [3 dl | 6 dl] og kok opp. Tilsett ris og
+   salt [1/2 ts | 1 ts] og kok under lokk på lav varme i 12 min. Skru av varmen og la
+   hvile under lokk i 10 min, eller til vannet er absorbert. TIPS: Ikke fjern lokket,
+   risen skal dampes.
 2. Grovhakk paprika (uten frø) og pak choi. Skjær lime i båter.
-3. Varm opp olivenolje [1 ss | 2 ss] i en stekepanne på middels høy varme. Stek kylling i 2-3 min, til brunet. Krydre med en klype salt og pepper. Sett til side på en tallerken. OBS! Kyllingen blir stekt ferdig i steg 5.
+3. Varm opp olivenolje [1 ss | 2 ss] i en stekepanne på middels høy varme. Stek kylling
+   i 2-3 min, til brunet. Krydre med en klype salt og pepper. Sett til side på en
+   tallerken. OBS! Kyllingen blir stekt ferdig i steg 5.
 4. Tilsett paprika, Curry-on og Ga-Laksa og stek i 2-3 min.
-5. Tilsett kokosmelk, soyasaus, en skvett limesaft og kylling. La putre i 3-4 min. Tilsett pak choi det siste minuttet. Smak til med salt og pepper. TIPS: Kyllingen er ferdig når kjøttet er hvitt og uten antydninger av rødt.
-6. Anrett ris og kyllinglaksa i dype tallerkener. Server resterende limebåter på siden og press en skvett limesaft over.
+5. Tilsett kokosmelk, soyasaus, en skvett limesaft og kylling. La putre i 3-4 min.
+   Tilsett pak choi det siste minuttet. Smak til med salt og pepper. TIPS: Kyllingen er
+   ferdig når kjøttet er hvitt og uten antydninger av rødt.
+6. Anrett ris og kyllinglaksa i dype tallerkener. Server resterende limebåter på siden
+   og press en skvett limesaft over.
 
 <script type="application/ld+json">
 {
