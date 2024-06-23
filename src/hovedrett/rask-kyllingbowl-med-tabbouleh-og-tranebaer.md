@@ -7,6 +7,7 @@ authors:
 date: 2024-06-23
 category:
   - Eirik Rolland Enger
+  - HelloFresh
   - hovedrett
 tag:
   - kylling
