@@ -7,8 +7,10 @@ authors:
 date: 2024-06-23
 category:
   - Eirik Rolland Enger
+  - HelloFresh
   - hovedrett
 tag:
+  - bacon
   - basilikum
   - fløte
   - ost
@@ -54,10 +56,14 @@ Enkel
 
 ## Steg
 
-1. Skjær tomat og squash i 2 cm biter. Varm opp en stekepanne på middels høy varme. Stek bacon, squash og tomat i 4-5 min, eller til baconet er gjennomstekt og squashen mør.
+1. Skjær tomat og squash i 2 cm biter. Varm opp en stekepanne på middels høy varme. Stek
+   bacon, squash og tomat i 4-5 min, eller til baconet er gjennomstekt og squashen mør.
 2. Senk varmen til middels og tilsett tortelloni. Stek videre i 1 min.
-3. Tilsett matfløte [1/2 pakke, 2P], vann [1 dl | 2 dl], kyllingbuljong, Mamas Favoritt og salt [1/4 ts | 1/2 ts]. Kok i 3-4 min, eller til sausen har tyknet og pastaen er 'al dente'. TIPS: 'Al dente' betyr at pastaen er myk med litt tyggemotstand.
-4. Anrett pasta i dype tallerkener. Topp med finrevet ost og en klype chiliflak. Pynt med basilikumblader. TIPS: Tilsett chiliflak etter smak - det er sterkt.
+3. Tilsett matfløte [1/2 pakke, 2P], vann [1 dl | 2 dl], kyllingbuljong, Mamas Favoritt
+   og salt [1/4 ts | 1/2 ts]. Kok i 3-4 min, eller til sausen har tyknet og pastaen er
+   'al dente'. TIPS: 'Al dente' betyr at pastaen er myk med litt tyggemotstand.
+4. Anrett pasta i dype tallerkener. Topp med finrevet ost og en klype chiliflak. Pynt
+   med basilikumblader. TIPS: Tilsett chiliflak etter smak - det er sterkt.
 
 <script type="application/ld+json">
 {
