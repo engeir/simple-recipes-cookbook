@@ -57,9 +57,17 @@ Enkel
 
 ## Steg
 
-1. Kok opp en mellomstor kjele med vann [2,5 dl | 4,5 dl]. Tilsett bulgur, kyllingbuljong og salt [1/4 ts | 1/2 ts], og senk til middels varme. La putre under lokk i 9-10 min, eller til mør. I mellomtiden, bland kylling, Hello Sunrise og chiliflak i en mellomstor skål. TIPS: Reduser eller dropp chili, hvis du ikke liker sterk mat.
+1. Kok opp en mellomstor kjele med vann [2,5 dl | 4,5 dl]. Tilsett bulgur,
+   kyllingbuljong og salt [1/4 ts | 1/2 ts], og senk til middels varme. La putre under
+   lokk i 9-10 min, eller til mør. I mellomtiden, bland kylling, Hello Sunrise og
+   chiliflak i en mellomstor skål. TIPS: Reduser eller dropp chili, hvis du ikke liker
+   sterk mat.
 2. Skyll spinat. Grovhakk tomat, persille og agurk. Halver sitron [1/2 stk, 2P].
-3. Varm opp en skvett olivenolje i en stor stekepanne på middels høy varme. Stek kylling i 4-5 min, eller til gyllen og gjennomstekt. Snu kylling iblant. Bland inn agurk, spinat, tomat, persille, salt [1/2 ts | 1 ts], sitronsaft [1 ss | 2 ss], olivenolje [1 ss | 2 ss] og tranebær i bulgur rett før servering. TIPS: Kyllingen er ferdig når kjøttet er hvitt og uten antydninger av rødt.
+3. Varm opp en skvett olivenolje i en stor stekepanne på middels høy varme. Stek kylling
+   i 4-5 min, eller til gyllen og gjennomstekt. Snu kylling iblant. Bland inn agurk,
+   spinat, tomat, persille, salt [1/2 ts | 1 ts], sitronsaft [1 ss | 2 ss], olivenolje
+   [1 ss | 2 ss] og tranebær i bulgur rett før servering. TIPS: Kyllingen er ferdig når
+   kjøttet er hvitt og uten antydninger av rødt.
 4. Anrett bulgur tabbouleh i skåler. Topp med kylling og en klatt yoghurt.
 
 <script type="application/ld+json">
