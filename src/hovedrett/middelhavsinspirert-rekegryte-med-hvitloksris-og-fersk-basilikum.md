@@ -7,6 +7,7 @@ authors:
 date: 2024-06-23
 category:
   - Eirik Rolland Enger
+  - HelloFresh
   - hovedrett
 tag:
   - fløte
@@ -59,12 +60,23 @@ Enkel
 
 ## Steg
 
-1. Finhakk eller press hvitløk. Varm opp olivenolje [1/2 ss | 1 ss] i en kjele på middels varme. Stek hvitløk i 30 sek, til velduftende. Tilsett vann [3 dl | 5,5 dl] og kok opp. Tilsett ris og salt [1/2 ts | 1 ts] og rør godt. Senk til middels lav varme og la putre under lokk i 14 min. Fjern fra varmen og la stå med lokk i ytterligere 10 min. TIPS: Ikke fjern lokket mens risen hviler.
+1. Finhakk eller press hvitløk. Varm opp olivenolje [1/2 ss | 1 ss] i en kjele på
+   middels varme. Stek hvitløk i 30 sek, til velduftende. Tilsett vann [3 dl | 5,5 dl]
+   og kok opp. Tilsett ris og salt [1/2 ts | 1 ts] og rør godt. Senk til middels lav
+   varme og la putre under lokk i 14 min. Fjern fra varmen og la stå med lokk i
+   ytterligere 10 min. TIPS: Ikke fjern lokket mens risen hviler.
 2. I mellomtiden, grovhakk tomat og basilikumblader. Skyll spinat.
-3. Varm opp olivenolje [1 ss | 2 ss] i en stor stekepanne på middels høy varme. Tilsett tomat, Mamas Favoritt, Hvitløksflørt, chiliflak [1/2 pakke, 2P] og salt [1/2 ts | 1 ts], og stek videre i 2-3 min, til tomatene er myke. TIPS: Tilsett chiliflak etter smak - det er sterkt.
-4. Krydre reker med en klype salt. Tilsett calabresepesto, reker, matfløte [1/2 pakke, 2P], grønnsaksbuljong og vann [1 dl | 2 dl] til stekepannen. Kok i 3-4 min, eller til sausen har tyknet og rekene er gjennomkokt. Smak til med en klype salt og pepper. TIPS: Rekene er ferdige når de er rosa utenpå og matt i midten.
+3. Varm opp olivenolje [1 ss | 2 ss] i en stor stekepanne på middels høy varme. Tilsett
+   tomat, Mamas Favoritt, Hvitløksflørt, chiliflak [1/2 pakke, 2P] og salt [1/2 ts | 1
+   ts], og stek videre i 2-3 min, til tomatene er myke. TIPS: Tilsett chiliflak etter
+   smak - det er sterkt.
+4. Krydre reker med en klype salt. Tilsett calabresepesto, reker, matfløte [1/2 pakke,
+   2P], grønnsaksbuljong og vann [1 dl | 2 dl] til stekepannen. Kok i 3-4 min, eller til
+   sausen har tyknet og rekene er gjennomkokt. Smak til med en klype salt og pepper.
+   TIPS: Rekene er ferdige når de er rosa utenpå og matt i midten.
 5. Rett før servering, rør spinat inn i sausen.
-6. Anrett hvitløksris i dype tallerkener. Topp med kremet rekegryte. Pynt med basilikum på toppen.
+6. Anrett hvitløksris i dype tallerkener. Topp med kremet rekegryte. Pynt med basilikum
+   på toppen.
 
 <script type="application/ld+json">
 {
