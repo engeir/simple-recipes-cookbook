@@ -7,6 +7,7 @@ authors:
 date: 2024-06-23
 category:
   - Eirik Rolland Enger
+  - HelloFresh
   - hovedrett
 tag:
   - fløte
@@ -56,11 +57,25 @@ Enkel
 
 ## Steg
 
-1. Kok opp saltet vann i en kjele. Skjær poteter (uskrelt) i 3 cm biter. Kok poteter i 12-15 min, eller til de lett kan stikkes i med en kniv. Hell ut vannet. Krydre med en klype salt og pepper. Sett på lokk og sett til side.
-2. Riv løk [1/2 stk, 2P] grovt. Bland kjøttdeig, løk, egg [1 stk | 2 stk], brødrasp, ketchup [1 ss | 2 ss] og salt [1/2 ts | 1 ts] i en skål. Varm opp olivenolje [1 ss | 2 ss] i en stekepanne på middels høy varme. Form hakkebiffer (3 per person) med en skje. Legg direkte i pannen. Trykk dem litt flatere. Stek, snu hvert 2-3 min, til gjennomstekt. Pakk inn i folie og sett til side. VIKTIG: Kjøttet er ferdig når det er gjennomstekt og uten antydninger av rødt.
-3. Skjær sopp i 1 cm biter. Varm opp stekepannen brukt til hakkebiff på middels høy varme (ikke vask den). Tilsett en skvett olivenolje om nødvendig. Stek sopp i 3-4 min, eller til gylne og brunet. Krydre med en klype salt.
-4. Fjern kjernen og skjær eple i tynne skiver. Skjær selleri i tynne skiver på skrått. Grovhakk persille. Bland eple, selleri, persille og en klype salt i en skål. Tilsett en skvett olivenolje om ønskelig.
-5. Senk varmen på stekepannen til lav og tilsett matfløte [1/2 pakke, 2P], soyasaus [1/2 pakke, 2P], salt [1/4 ts | 1/2 ts] og en stor klype pepper med soppen. La småkoke til servering, ca. 1-2 min. Rett før servering, tilsett smør [1 ss | 2 ss] til kjelen med poteter. Bland godt.
+1. Kok opp saltet vann i en kjele. Skjær poteter (uskrelt) i 3 cm biter. Kok poteter i
+   12-15 min, eller til de lett kan stikkes i med en kniv. Hell ut vannet. Krydre med en
+   klype salt og pepper. Sett på lokk og sett til side.
+2. Riv løk [1/2 stk, 2P] grovt. Bland kjøttdeig, løk, egg [1 stk | 2 stk], brødrasp,
+   ketchup [1 ss | 2 ss] og salt [1/2 ts | 1 ts] i en skål. Varm opp olivenolje [1 ss |
+   2 ss] i en stekepanne på middels høy varme. Form hakkebiffer (3 per person) med en
+   skje. Legg direkte i pannen. Trykk dem litt flatere. Stek, snu hvert 2-3 min, til
+   gjennomstekt. Pakk inn i folie og sett til side. VIKTIG: Kjøttet er ferdig når det er
+   gjennomstekt og uten antydninger av rødt.
+3. Skjær sopp i 1 cm biter. Varm opp stekepannen brukt til hakkebiff på middels høy
+   varme (ikke vask den). Tilsett en skvett olivenolje om nødvendig. Stek sopp i 3-4
+   min, eller til gylne og brunet. Krydre med en klype salt.
+4. Fjern kjernen og skjær eple i tynne skiver. Skjær selleri i tynne skiver på skrått.
+   Grovhakk persille. Bland eple, selleri, persille og en klype salt i en skål. Tilsett
+   en skvett olivenolje om ønskelig.
+5. Senk varmen på stekepannen til lav og tilsett matfløte [1/2 pakke, 2P], soyasaus [1/2
+   pakke, 2P], salt [1/4 ts | 1/2 ts] og en stor klype pepper med soppen. La småkoke til
+   servering, ca. 1-2 min. Rett før servering, tilsett smør [1 ss | 2 ss] til kjelen med
+   poteter. Bland godt.
 6. Anrett hakkebiff, poteter og salat på tallerkener. Hell soppsaus over hakkebiffene.
 
 <script type="application/ld+json">
