@@ -20,24 +20,20 @@ jobs:
         with:
           python-version: "3.12.4"
       - name: Install scripts with mise
+        id: scraper
         run: |
-          curl https://mise.jdx.dev/install.sh | sh
-          echo "$HOME/.local/share/mise/bin" >> $GITHUB_PATH
-          echo "$HOME/.local/share/mise/shims" >> $GITHUB_PATH
-          # mise trust
-          # mise i
-          mise run recipe-scrapers:install
-          echo "PARSED=$(mise run recipe-scrapers:run ${{ fromJson(steps.parse.outputs.payload).Lenke }} | jq)" >> $GITHUB_ENV
-          echo "$PARSED"
+          python -m pip install recipe-scrapers
+          echo "PARSED=$(python ./.mise/tasks/recipe-scrapers/run ${{ fromJson(steps.parse.outputs.payload).Lenke }} | jq -c)" >> $GITHUB_ENV
       - name: Set up environment variables
         run: |
           echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
           echo "ISSUEUSER=$(curl -s ${{ github.event.issue.user.url }} | jq -r '.name')" >> $GITHUB_ENV
           echo "ISSUEUSER_ID=$(curl -s ${{ github.event.issue.user.url }} | jq -r '.id')" >> $GITHUB_ENV
-          if [[ "${{ fromJson(env.PARSED).author.name }}" == "" ]]; then echo "CREATOR=$ISSUEUSER" >> $GITHUB_ENV; else echo "CREATOR=${{ fromJson(env.PARSED).author.name }}" >> $GITHUB_ENV; fi
+          if [[ "${{ fromJson(env.PARSED).author.name }}" == "" ]]; then echo "CREATOR=${{env.ISSUEUSER}}" >> $GITHUB_ENV; else echo "CREATOR=${{ fromJson(env.PARSED).author.name }}" >> $GITHUB_ENV; fi
           echo "CREATORTITLE=Person" >> $GITHUB_ENV
           if [[ "${{ fromJson(env.PARSED).author.name }}" == "" ]]; then echo "CREATORURL=${{ github.event.issue.html_url }}" >> $GITHUB_ENV; else echo "CREATORURL=${{ fromJson(env.PARSED).author.url }}" >> $GITHUB_ENV; fi
-          echo "CATEGORY=${{ fromJson(steps.parse.outputs.payload).Kategori }}"
+          CATEGORY=${{ fromJson(steps.parse.outputs.payload).Kategori }}
+          echo "CATEGORY=${{ fromJson(steps.parse.outputs.payload).Kategori }}" >> $GITHUB_ENV
           echo "TMPDIR=/tmp/src/$CATEGORY" >> $GITHUB_ENV
           echo "TMPFILE=/tmp/src/$CATEGORY/${{ fromJson(env.PARSED).pattern }}.md" >> $GITHUB_ENV
           echo "FILE_REL_TO_ROOT=src/$CATEGORY/${{ fromJson(env.PARSED).pattern }}.md" >> $GITHUB_ENV
@@ -108,7 +104,7 @@ jobs:
           EOF
           while IFS= read -r ingredient; do
               echo "- $ingredient" >>"$TMPFILE"
-          done < <(echo "${{ fromJson(env.PARSED).recipeIngredient }}")
+          done < <(echo $PARSED | jq -r '.recipeIngredient[]')
           cat << EOF >> "$TMPFILE"
 
           ## Steg
@@ -118,11 +114,13 @@ jobs:
           while IFS= read -r step; do
               echo "$count. $step">>"$TMPFILE"
               ((count ++))
-          done < <(echo "${{ fromJson(env.PARSED).recipeInstructions }}" | jq '.[][].["text"]')
+          done < <(echo "$PARSED" | jq -r '.recipeInstructions[].text')
           cat << EOF >> "$TMPFILE"
 
           <script type="application/ld+json">
-          "${{ fromJson(env.PARSED) }}"
+          EOF
+          echo "$PARSED" | jq >>"$TMPFILE"
+          cat << EOF >> "$TMPFILE"
           </script>
           EOF
           cat "$TMPFILE"
