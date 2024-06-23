@@ -7,6 +7,7 @@ authors:
 date: 2024-06-23
 category:
   - Eirik Rolland Enger
+  - HelloFresh
   - hovedrett
 tag:
   - fisk
@@ -61,11 +62,22 @@ Enkel
 
 ## Steg
 
-1. Kok opp en mellomstor kjele med vann [3 dl | 5,5 dl]. Tilsett ris og salt [1/2 ts | 1 ts]. Senk til middels varme, og la putre under lokk i 14 min. Ta kjelen av varmen og la hvile i 10 min. TIPS: Ikke fjern lokket mens risen hviler.
-2. Skrell gulrot i bånd med en potetskreller. Finhakk den siste biten. Bland hvitvinseddik, sukker [1/2 ts | 1 ts], vann [1 ss | 2 ss] og salt [1/4 ts | 1/2 ts] i en liten skål. Bland inn gulrot og sett skålen til side.
-3. Varm opp olivenolje [1/2 ss | 1 ss] i en stor stekepanne på middels høy varme. Tørk fisk med kjøkkenpapir, og krydre med salt [1/4 ts | 1/2 ts] og Ginger Ninja (ikke på skinnsiden). Stek fisk med skinnsiden ned i 3-5 min. Snu og stek videre i 2-3 min, eller til gylne og gjennomstekte. TIPS: Fisken er ferdig når kjøttet er matt.
-4. I mellomtiden, grovhakk pak choi, mynte og koriander. Bland soyasaus, søt chilisaus og vann [1 ss | 2 ss] i en liten skål. Senk til lav varme, og tilsett soyaglaze når fisken er gjennomstekt. Vend fisken i glaze.
-5. Hell av væske fra gulrot og bland med pak choi, salt [1/4 ts | 1/2 ts], mynte og koriander rett før servering. Tilsett en skvett olivenolje om ønskelig. Bland majones og sriracha [1/2 pakke, 2P] i en liten skål.
+1. Kok opp en mellomstor kjele med vann [3 dl | 5,5 dl]. Tilsett ris og salt [1/2 ts | 1
+   ts]. Senk til middels varme, og la putre under lokk i 14 min. Ta kjelen av varmen og
+   la hvile i 10 min. TIPS: Ikke fjern lokket mens risen hviler.
+2. Skrell gulrot i bånd med en potetskreller. Finhakk den siste biten. Bland
+   hvitvinseddik, sukker [1/2 ts | 1 ts], vann [1 ss | 2 ss] og salt [1/4 ts | 1/2 ts] i
+   en liten skål. Bland inn gulrot og sett skålen til side.
+3. Varm opp olivenolje [1/2 ss | 1 ss] i en stor stekepanne på middels høy varme. Tørk
+   fisk med kjøkkenpapir, og krydre med salt [1/4 ts | 1/2 ts] og Ginger Ninja (ikke på
+   skinnsiden). Stek fisk med skinnsiden ned i 3-5 min. Snu og stek videre i 2-3 min,
+   eller til gylne og gjennomstekte. TIPS: Fisken er ferdig når kjøttet er matt.
+4. I mellomtiden, grovhakk pak choi, mynte og koriander. Bland soyasaus, søt chilisaus
+   og vann [1 ss | 2 ss] i en liten skål. Senk til lav varme, og tilsett soyaglaze når
+   fisken er gjennomstekt. Vend fisken i glaze.
+5. Hell av væske fra gulrot og bland med pak choi, salt [1/4 ts | 1/2 ts], mynte og
+   koriander rett før servering. Tilsett en skvett olivenolje om ønskelig. Bland majones
+   og sriracha [1/2 pakke, 2P] i en liten skål.
 6. Anrett fisk, saus, salat og ris på tallerkener. Server med en klatt srirachamajones.
 
 <script type="application/ld+json">
