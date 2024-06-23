@@ -136,12 +136,14 @@ body:
       options:
         - appelsin
         - avokado
+        - bacon
         - banan
         - basilikum
         - blåmuggost
         - bolle
         - brød
         - byggryn
+        - bønner
         - couscous
         - drink
         - egg
@@ -187,6 +189,7 @@ body:
         - sopp
         - sunn
         - suppe
+        - taco
         - tilbehør
         - tofu
         - tomat

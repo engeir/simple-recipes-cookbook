@@ -136,10 +136,12 @@ body:
       options:
         - Christmas
         - avocado
+        - bacon
         - banana
         - barbecue food
         - barley
         - basil
+        - beans
         - blue cheese
         - bread
         - breakfast
@@ -188,6 +190,7 @@ body:
         - soup
         - sour cream
         - stir-fry
+        - taco
         - tofu
         - tomato
         - vegan
