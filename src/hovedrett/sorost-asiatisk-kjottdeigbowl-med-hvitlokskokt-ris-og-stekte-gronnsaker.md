@@ -7,6 +7,7 @@ authors:
 date: 2024-06-23
 category:
   - Eirik Rolland Enger
+  - HelloFresh
   - hovedrett
 tag:
   - kjøttdeig
@@ -54,12 +55,23 @@ Enkel
 
 ## Steg
 
-1. Finhakk eller press hvitløk. Varm opp olivenolje [½ ss | 1 ss] i en kjele på middels varme. Stek hvitløk i 30 sek. Tilsett ris, vann [3 dl | 6 dl] og salt [½ ts | 1 ts] og kok opp. Senk til lav varme og la småkoke under lokk i 12 min. Fjern fra varmen og la hvile under lokk i ytterligere 10 min. TIPS: Ikke fjern lokket, risen skal dampes.
-2. Skjær agurk i tynne skiver og krydre med en klype salt. Skjær gulrot (uskrelt) i tynne halvmåner. Grovhakk pak choi.
-3. Varm opp olivenolje [1/2 ss | 1 ss] i en stekepanne på middels høy varme. Stek gulrot i 3-4 min. Tilsett pak choi og stek i 2 min, eller til pak choi faller litt sammen. Krydre med en klype salt og pepper. Overfør til en skål.
-4. Tilsett en skvett olivenolje om nødvendig i stekepannen og varm opp på middels høy varme. Stek kjøttdeig krydret med Ga-Laksa og salt [¼ ts | ½ ts] i 3-4 min. VIKTIG: Kjøttdeigen er ferdig når den er uten antydninger av rødt.
-5. Tilsett grønnsaker tilbake i stekepannen og tilsett soyasaus [½ pakke, 2P] og sukker [1 ts | 2 ts]. Rør godt og stek i 1-2 min, til gjennomvarmt. Krydre med en klype salt og pepper.
-6. Anrett hvitløksris i dype tallerkener. Topp med kjøttdeig og stekte grønnsaker. Drypp sesammajones over. Pynt med agurk.
+1. Finhakk eller press hvitløk. Varm opp olivenolje [½ ss | 1 ss] i en kjele på middels
+   varme. Stek hvitløk i 30 sek. Tilsett ris, vann [3 dl | 6 dl] og salt [½ ts | 1 ts]
+   og kok opp. Senk til lav varme og la småkoke under lokk i 12 min. Fjern fra varmen og
+   la hvile under lokk i ytterligere 10 min. TIPS: Ikke fjern lokket, risen skal dampes.
+2. Skjær agurk i tynne skiver og krydre med en klype salt. Skjær gulrot (uskrelt) i
+   tynne halvmåner. Grovhakk pak choi.
+3. Varm opp olivenolje [1/2 ss | 1 ss] i en stekepanne på middels høy varme. Stek gulrot
+   i 3-4 min. Tilsett pak choi og stek i 2 min, eller til pak choi faller litt sammen.
+   Krydre med en klype salt og pepper. Overfør til en skål.
+4. Tilsett en skvett olivenolje om nødvendig i stekepannen og varm opp på middels høy
+   varme. Stek kjøttdeig krydret med Ga-Laksa og salt [¼ ts | ½ ts] i 3-4 min. VIKTIG:
+   Kjøttdeigen er ferdig når den er uten antydninger av rødt.
+5. Tilsett grønnsaker tilbake i stekepannen og tilsett soyasaus [½ pakke, 2P] og sukker
+   [1 ts | 2 ts]. Rør godt og stek i 1-2 min, til gjennomvarmt. Krydre med en klype salt
+   og pepper.
+6. Anrett hvitløksris i dype tallerkener. Topp med kjøttdeig og stekte grønnsaker. Drypp
+   sesammajones over. Pynt med agurk.
 
 <script type="application/ld+json">
 {
