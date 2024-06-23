@@ -7,6 +7,7 @@ authors:
 date: 2024-06-23
 category:
   - Eirik Rolland Enger
+  - HelloFresh
   - hovedrett
 tag:
   - kylling
@@ -51,12 +52,25 @@ Enkel
 
 ## Steg
 
-1. Kok opp en mellomstor kjele med lettsaltet vann. Del poteteri to. Kok poteter i 10-12 min, eller til de enkelt kan deles med en kniv.
-2. Varm opp en skvett olivenolje i en stor stekepanne på middels høy varme. Krydre kylling med en klype salt. Stek kylling under omrøring i 4-5 min, til gyllen og gjennomstekt. Sett til side på en tallerken. TIPS: Kyllingen er ferdig når kjøttet er hvitt og uten antydninger av rødt.
-3. Fjern frøene og finhakk chili [1/2 stk, 2P]. Finhakk gressløk. Press eller finhakk hvitløk. Del eple i to, fjern kjernen og skjær i tynne skiver. Skyll spinat i et dørslag under kaldt vann.
-4. Varm opp en ny skvett olivenolje (ved behov) i stekepannen på middels høy varme. Stek hvitløk og chili i 1 min. Tilsett vann [1/2 dl | 1 dl], kyllingbuljong og salt [1/4 ts | 1/2 ts]. La putre i 1-2 min. Rør inn creme fraiche [1/2 pakke, 2P], gressløk (spar litt til pynt) og kylling. Varm opp i 1 min. Smak til med salt og pepper. TIPS: Tilsett en skvett vann hvis sausen er for tykk.
-5. Bland rødkål med en klype salt og pepper i en skål. Tilsett eventuelt en skvett olivenolje. Masser i 1 min. Tilsett eple og bland godt. Hell vannet av kjelen med poteter og bland inn spinat. Smak til med salt og pepper.
-6. Anrett poteter med spinat, kylling og rødkålsalat på tallerkener. Øs gressløksaus over kylling. Pynt med resterende gressløk.
+1. Kok opp en mellomstor kjele med lettsaltet vann. Del poteteri to. Kok poteter i 10-12
+   min, eller til de enkelt kan deles med en kniv.
+2. Varm opp en skvett olivenolje i en stor stekepanne på middels høy varme. Krydre
+   kylling med en klype salt. Stek kylling under omrøring i 4-5 min, til gyllen og
+   gjennomstekt. Sett til side på en tallerken. TIPS: Kyllingen er ferdig når kjøttet er
+   hvitt og uten antydninger av rødt.
+3. Fjern frøene og finhakk chili [1/2 stk, 2P]. Finhakk gressløk. Press eller finhakk
+   hvitløk. Del eple i to, fjern kjernen og skjær i tynne skiver. Skyll spinat i et
+   dørslag under kaldt vann.
+4. Varm opp en ny skvett olivenolje (ved behov) i stekepannen på middels høy varme. Stek
+   hvitløk og chili i 1 min. Tilsett vann [1/2 dl | 1 dl], kyllingbuljong og salt [1/4
+   ts | 1/2 ts]. La putre i 1-2 min. Rør inn creme fraiche [1/2 pakke, 2P], gressløk
+   (spar litt til pynt) og kylling. Varm opp i 1 min. Smak til med salt og pepper. TIPS:
+   Tilsett en skvett vann hvis sausen er for tykk.
+5. Bland rødkål med en klype salt og pepper i en skål. Tilsett eventuelt en skvett
+   olivenolje. Masser i 1 min. Tilsett eple og bland godt. Hell vannet av kjelen med
+   poteter og bland inn spinat. Smak til med salt og pepper.
+6. Anrett poteter med spinat, kylling og rødkålsalat på tallerkener. Øs gressløksaus
+   over kylling. Pynt med resterende gressløk.
 
 <script type="application/ld+json">
 {
