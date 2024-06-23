@@ -7,6 +7,7 @@ authors:
 date: 2024-06-23
 category:
   - Eirik Rolland Enger
+  - HelloFresh
   - hovedrett
 tag:
   - ris
@@ -57,10 +58,17 @@ Enkel
 
 ## Steg
 
-1. Kok opp vann [3 dl | 6 dl] i en mellomstor kjele med lokk. Tilsett ris og salt [1/2 ts | 1 ts]. Senk til lav varme og la putre under lokk i 14 min. Fjern fra varmen.
-2. I mellomtiden, skjær paprika i 2 cm biter. Grovhakk tomat. Del lime [1/2 stk, 2P] i to. Skyll kikerter. Skyll spinat.
-3. Varm opp olivenolje [1 ss | 2 ss] i en stor stekepanne på middels høy varme. Stek grønn karripasta i 30 sek, eller til velduftende. Tilsett paprika, tomat, kikerter, vann [1 dl | 2 dl], salt [1/4 ts | 1/2 ts] og kokosmelk. La putre i 2-3 min, eller til paprika er mør. Bland spinat sammen med ris. Tilsett limesaft [1 ss | 2 ss] til sausen rett før servering.
-4. Anrett spinatris på tallerkener. Topp med kikertekarri. Topp med revet korianderblad og chiliflak [1/2 pose, 2P]. TIPS: Tilsett chiliflak etter smak - det er sterkt.
+1. Kok opp vann [3 dl | 6 dl] i en mellomstor kjele med lokk. Tilsett ris og salt [1/2
+   ts | 1 ts]. Senk til lav varme og la putre under lokk i 14 min. Fjern fra varmen.
+2. I mellomtiden, skjær paprika i 2 cm biter. Grovhakk tomat. Del lime [1/2 stk, 2P] i
+   to. Skyll kikerter. Skyll spinat.
+3. Varm opp olivenolje [1 ss | 2 ss] i en stor stekepanne på middels høy varme. Stek
+   grønn karripasta i 30 sek, eller til velduftende. Tilsett paprika, tomat, kikerter,
+   vann [1 dl | 2 dl], salt [1/4 ts | 1/2 ts] og kokosmelk. La putre i 2-3 min, eller
+   til paprika er mør. Bland spinat sammen med ris. Tilsett limesaft [1 ss | 2 ss] til
+   sausen rett før servering.
+4. Anrett spinatris på tallerkener. Topp med kikertekarri. Topp med revet korianderblad
+   og chiliflak [1/2 pose, 2P]. TIPS: Tilsett chiliflak etter smak - det er sterkt.
 
 <script type="application/ld+json">
 {
