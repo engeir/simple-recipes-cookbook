@@ -7,6 +7,7 @@ authors:
 date: 2024-06-23
 category:
   - Eirik Rolland Enger
+  - HelloFresh
   - hovedrett
 tag:
   - nudler
@@ -52,9 +53,16 @@ Enkel
 
 ## Steg
 
-1. Kok opp saltet vann i en kjele. Kok nudler i 4-6 min, eller til møre. Hell av vannet og skyll under kaldt vann. TIPS: Kokevannet bør være like salt som sjøvann.
-2. I mellomtiden, skjær løk i tynne, halve skiver. Skjær vårløk i tynne skiver. Finhakk eller press hvitløk.
-3. Varm opp en skvett olivenolje i en stekepanne på middels høy varme. Stek løk og wokmix i 3-4 min. Tilsett reker og salt [1/4 ts | 1/2 ts]. Stek videre i 3-4 min, eller til gjennomstekt. Tilsett hvitløk, soyasaus, hvitvinseddik, chiliflak, søt chilisaus og nudler. Bland godt. Kok i 1-2 min, eller til tyknet. TIPS: Rekene er ferdige når de er rosa på utsiden og matte inni. TIPS: Tilsett chili etter smak - det er sterkt.
+1. Kok opp saltet vann i en kjele. Kok nudler i 4-6 min, eller til møre. Hell av vannet
+   og skyll under kaldt vann. TIPS: Kokevannet bør være like salt som sjøvann.
+2. I mellomtiden, skjær løk i tynne, halve skiver. Skjær vårløk i tynne skiver. Finhakk
+   eller press hvitløk.
+3. Varm opp en skvett olivenolje i en stekepanne på middels høy varme. Stek løk og
+   wokmix i 3-4 min. Tilsett reker og salt [1/4 ts | 1/2 ts]. Stek videre i 3-4 min,
+   eller til gjennomstekt. Tilsett hvitløk, soyasaus, hvitvinseddik, chiliflak, søt
+   chilisaus og nudler. Bland godt. Kok i 1-2 min, eller til tyknet. TIPS: Rekene er
+   ferdige når de er rosa på utsiden og matte inni. TIPS: Tilsett chili etter smak - det
+   er sterkt.
 4. Anrett wok og nudleri skåler. Topp med peanøtter, sesamfrø og vårløk.
 
 <script type="application/ld+json">
