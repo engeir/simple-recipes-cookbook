@@ -7,6 +7,7 @@ authors:
 date: 2024-06-23
 category:
   - Eirik Rolland Enger
+  - HelloFresh
   - hovedrett
 tag:
   - fisk
@@ -56,12 +57,28 @@ Enkel
 
 ## Steg
 
-1. Sett ovnen på 240°C/220°C (varmluft). Finhakk hvitløk. Smelt smør [1/ 2 ss | 1 ss] i en kjele på middels varme. Tilsett halvparten av hvitløken og stek i 30 sek. Tilsett vann [3 dl | 6 dl] og kok opp. Tilsett ris og salt [1/ 2 ts | 1 ts] og rør godt. Senk til middels lav varme og la småkoke under lokk i 12 min. Ta kjelen av varmen og la hvile i 10 min, eller til risen er myk. TIPS: Ikke fjern lokket mens risen hviler.
-2. I mellomtiden, skjær brokkoli i 2 cm buketter. Skjær stilken i 2 cm biter. Fordel brokkoli på et stekebrett med bakepapir. Krydre med en klype salt og pepper. Drypp over en skvett olivenolje og bland godt. Bak i ovnen i 10-12 min, eller til myke.
-3. Imens brokkoli er i ovnen, bland hvetemel [2 ss | 4 ss], salt [1/ 2 ts | 1 ts] og en klype pepper i en dyp tallerken. Tørk fisken lett med kjøkkenpapir. Dypp fisk i melblanding på alle sider, til dekket.
-4. Varm opp olivenolje [1 ss | 2 ss] i en stor stekepanne på middels høy varme. Stek fisk i 2-3 min på hver side, til gyllen. Sett til side på en tallerken. Imens fisken steker, skjær lime [1/ 2 stk, 2P] i båter. TIPS: Fisken er ferdig når kjøttet er melkehvitt og matt.
-5. Smelt smør [1 ss | 2 ss] i stekepannen (ikke vask den) på middels varme. Stek resterende hvitløk i 30 sek. Rør inn teriyakisaus, en stor skvett limesaft, en klype chiliflak, vann [1 dl | 2 dl] og salt [1/ 4 ts | 1/ 2 ts]. Kok i 1 min, til lett tyknet. TIPS: Tilsett chiliflak etter smak - det er sterkt.
-6. Rør opp risen med en gaffel og fordel i dype tallerkener. Legg på brokkoli og hyse. Øs teriyakisaus og lime over fisken. Strø over sprøstekt løk [1/ 2 pakke, 2P] og en klype chiliflak, om ønskelig.
+1. Sett ovnen på 240°C/220°C (varmluft). Finhakk hvitløk. Smelt smør [1/ 2 ss | 1 ss] i
+   en kjele på middels varme. Tilsett halvparten av hvitløken og stek i 30 sek. Tilsett
+   vann [3 dl | 6 dl] og kok opp. Tilsett ris og salt [1/ 2 ts | 1 ts] og rør godt. Senk
+   til middels lav varme og la småkoke under lokk i 12 min. Ta kjelen av varmen og la
+   hvile i 10 min, eller til risen er myk. TIPS: Ikke fjern lokket mens risen hviler.
+2. I mellomtiden, skjær brokkoli i 2 cm buketter. Skjær stilken i 2 cm biter. Fordel
+   brokkoli på et stekebrett med bakepapir. Krydre med en klype salt og pepper. Drypp
+   over en skvett olivenolje og bland godt. Bak i ovnen i 10-12 min, eller til myke.
+3. Imens brokkoli er i ovnen, bland hvetemel [2 ss | 4 ss], salt [1/ 2 ts | 1 ts] og en
+   klype pepper i en dyp tallerken. Tørk fisken lett med kjøkkenpapir. Dypp fisk i
+   melblanding på alle sider, til dekket.
+4. Varm opp olivenolje [1 ss | 2 ss] i en stor stekepanne på middels høy varme. Stek
+   fisk i 2-3 min på hver side, til gyllen. Sett til side på en tallerken. Imens fisken
+   steker, skjær lime [1/ 2 stk, 2P] i båter. TIPS: Fisken er ferdig når kjøttet er
+   melkehvitt og matt.
+5. Smelt smør [1 ss | 2 ss] i stekepannen (ikke vask den) på middels varme. Stek
+   resterende hvitløk i 30 sek. Rør inn teriyakisaus, en stor skvett limesaft, en klype
+   chiliflak, vann [1 dl | 2 dl] og salt [1/ 4 ts | 1/ 2 ts]. Kok i 1 min, til lett
+   tyknet. TIPS: Tilsett chiliflak etter smak - det er sterkt.
+6. Rør opp risen med en gaffel og fordel i dype tallerkener. Legg på brokkoli og hyse.
+   Øs teriyakisaus og lime over fisken. Strø over sprøstekt løk [1/ 2 pakke, 2P] og en
+   klype chiliflak, om ønskelig.
 
 <script type="application/ld+json">
 {
