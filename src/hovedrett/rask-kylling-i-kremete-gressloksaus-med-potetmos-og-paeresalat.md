@@ -7,6 +7,7 @@ authors:
 date: 2024-06-23
 category:
   - Eirik Rolland Enger
+  - HelloFresh
   - hovedrett
 tag:
   - fløte
@@ -55,10 +56,21 @@ Enkel
 
 ## Steg
 
-1. Tilsett potet, melk [1/2 dl | 1 dl], vann [1/2 dl | 1 dl] og salt [1 ts | 2 ts] i en mellomstor kjele. Kok på middels varme i 5 min. Mos potet og sett til side under lokk. TIPS: Tilsett en klatt smør om ønskelig.
-2. Skjær kyllingbryst i tre skiver på eget skjærebrett. Finhakk gressløk. Varm opp olivenolje [1/2 ss | 1 ss] i en stor stekepanne på middels høy varme. Tilsett kylling og krydre med salt [1/4 ts | 1/2 ts]. Stek i 3-4 min per side, eller til brunet og gjennomstekt. TIPS: Kyllingen er ferdig når kjøttet er hvitt og uten antydninger av rødt.
-3. Senk til middels varme, og tilsett kyllingbuljong, vann [1/2 dl | 1 dl], matfløte [1/2 pakke, 2P] og gressløk i pannen. La putre i 1-2 min, til gjennomvarmt. Skyll ruccola. Halver pære, fjern kjerne og skjær i tynne skiver. Bland ruccola, pære, olivenolje [1/2 ss | 1 ss] og salt [1/4 ts | 1/2 ts] i en stor skål rett før servering.
-4. Anrett kylling, potetmos og salat på tallerkener. Hell resterende saus over kyllingen.
+1. Tilsett potet, melk [1/2 dl | 1 dl], vann [1/2 dl | 1 dl] og salt [1 ts | 2 ts] i en
+   mellomstor kjele. Kok på middels varme i 5 min. Mos potet og sett til side under
+   lokk. TIPS: Tilsett en klatt smør om ønskelig.
+2. Skjær kyllingbryst i tre skiver på eget skjærebrett. Finhakk gressløk. Varm opp
+   olivenolje [1/2 ss | 1 ss] i en stor stekepanne på middels høy varme. Tilsett kylling
+   og krydre med salt [1/4 ts | 1/2 ts]. Stek i 3-4 min per side, eller til brunet og
+   gjennomstekt. TIPS: Kyllingen er ferdig når kjøttet er hvitt og uten antydninger av
+   rødt.
+3. Senk til middels varme, og tilsett kyllingbuljong, vann [1/2 dl | 1 dl], matfløte
+   [1/2 pakke, 2P] og gressløk i pannen. La putre i 1-2 min, til gjennomvarmt. Skyll
+   ruccola. Halver pære, fjern kjerne og skjær i tynne skiver. Bland ruccola, pære,
+   olivenolje [1/2 ss | 1 ss] og salt [1/4 ts | 1/2 ts] i en stor skål rett før
+   servering.
+4. Anrett kylling, potetmos og salat på tallerkener. Hell resterende saus over
+   kyllingen.
 
 <script type="application/ld+json">
 {
