@@ -7,6 +7,7 @@ authors:
 date: 2024-06-23
 category:
   - Eirik Rolland Enger
+  - HelloFresh
   - hovedrett
 tag:
   - sitrus
@@ -52,12 +53,21 @@ Enkel
 
 ## Steg
 
-1. Hvis du ikke har en mikrobølgeovn; sett ovnen på 220°C/200°C varmluft. Skjær agurk og tomat i 1 cm biter. Riv gulrot (uskrellet) grovt. Skjær vårløk i tynne skiver. Grovhakk koriander (spar litt til pynt). Skjær lime [½ stk, 2P] i båter.
-2. Bland tomat, grovhakket koriander, vårløk, en stor skvett limesaft og en klype salt og pepper i en skål.
-3. Grovhakk reker på et eget skjærebrett. Varm opp en skvett olivenolje i en stekepanne på middels høy varme. Stek reker krydret med Jorda Rundt [½ pakke, 2P] og en klype salt i 2-3 min, til gjennomstekte.
-4. Legg tortillabrød på en tallerken og varm i mikroen i 30-60 sek. Bruker du ovn, pakk tortillabrød inn i folie og varm i 4-5 min.
-5. Bland søt chilisaus, srirachamajones, en skvett limesaft og en klype salt og pepper i en skål.
-6. Sett alt frem på bordet. Fyll tortillabrød med gulrot, agurk, rødkål, pico de gallo og reker. Topp med bang bang-saus og pynt med koriander. Press en skvett limesaft over.
+1. Hvis du ikke har en mikrobølgeovn; sett ovnen på 220°C/200°C varmluft. Skjær agurk og
+   tomat i 1 cm biter. Riv gulrot (uskrellet) grovt. Skjær vårløk i tynne skiver.
+   Grovhakk koriander (spar litt til pynt). Skjær lime [½ stk, 2P] i båter.
+2. Bland tomat, grovhakket koriander, vårløk, en stor skvett limesaft og en klype salt
+   og pepper i en skål.
+3. Grovhakk reker på et eget skjærebrett. Varm opp en skvett olivenolje i en stekepanne
+   på middels høy varme. Stek reker krydret med Jorda Rundt [½ pakke, 2P] og en klype
+   salt i 2-3 min, til gjennomstekte.
+4. Legg tortillabrød på en tallerken og varm i mikroen i 30-60 sek. Bruker du ovn, pakk
+   tortillabrød inn i folie og varm i 4-5 min.
+5. Bland søt chilisaus, srirachamajones, en skvett limesaft og en klype salt og pepper i
+   en skål.
+6. Sett alt frem på bordet. Fyll tortillabrød med gulrot, agurk, rødkål, pico de gallo
+   og reker. Topp med bang bang-saus og pynt med koriander. Press en skvett limesaft
+   over.
 
 <script type="application/ld+json">
 {
