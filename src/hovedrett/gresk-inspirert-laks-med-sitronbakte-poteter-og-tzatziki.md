@@ -38,29 +38,41 @@ Enkel
 ## Ingredienser
 
 - 300 g Laksefilet
-- 50 g Gresk salatost
+- 50 g Gresk salatost, feta
 - 4 g Middelhavsdrøm
 - 500 g Poteter
-- ½ stk Sitron
-- ½ g Oregano, tørket
+- 0.5 stk Sitron
+- 0.5 g Oregano, tørket
 - 1 stk Agurk
 - 1 pakke Yoghurt
-- ½ stk Hvitløk
+- 0.5 stk Hvitløk
 - 2 stk Tomat
-- ½ stk Rødløk
+- 0.5 stk Rødløk
 - 15 ml Balsamico
 - 1 ss Olivenolje (steg 3)
-- ½ ss Olivenolje (steg 5)
-- ¼ ts Salt (steg 5)
+- 0.5 ss Olivenolje (steg 5)
+- 0.25 ts Salt (steg 5)
 
 ## Steg
 
-1. Forvarm ovnen til 240°C/220°C (varmluft). Skjær poteter (uskrelt) i 2 cm båter. Del sitron [1/2 stk, 2P] i to. Overfør potetbåter til et stekebrett [2 brett, 4P] med bakepapir. Drypp over en skvett olivenolje og sitronsaft [1 ss | 2 ss]. Krydre med oregano [1/2 pose, 2P] og en klype salt og pepper. Bland godt. Bak i ovnen i 25-35 min, eller til møre.
-2. I mellomtiden, skrell og riv hvitløk [1/2 stk, 2P] fint. Riv agurk. Pakk agurk inn i et kjøkkenhåndkle og press ut væske. Bland agurk, yoghurt, hvitløk og en klype salt og pepper i en skål.
-3. Smuldre gresk salatost [1/2 pakke, 2P] i en liten skål. Bland inn Middelhavsdrøm, olivenolje [1 ss | 2 ss] og en klype pepper. TIPS: Smuldre gresk salatost så godt som mulig slik at den kan dekke laksen jevnt.
-4. Tørk fisk lett med kjøkkenpapir. Overfør fisk med skinnsiden ned på et stekebrett med bakepapir. Topp fisk med gresk salatost. Når potetbåtene har 10 min igjen, sett fisk inn i ovnen og bak i 9-10 min, eller til gjennomstekt. TIPS: Fisken er ferdig når kjøttet får en matt farge i midten.
-5. Grovhakk tomat. Finhakk rødløk [1/2 stk, 2P]. Bland rødløk, tomat, balsamico, olivenolje [1/2 ss | 1 ss], salt [1/4 ts | 1/2 ts] og en klype pepper i en skål.
-6. Anrett fisk, potetbåter og tomatsalat på tallerkener. Anrett en klatt tzatziki på siden.
+1. Forvarm ovnen til 240°C/220°C (varmluft). Skjær poteter (uskrelt) i 2 cm båter. Del
+   sitron i to. Overfør potetbåter til et stekebrett med bakepapir. Drypp over en skvett
+   olivenolje og sitronsaft. Krydre med oregano og en klype salt og pepper. Bland godt.
+   Bak i ovnen i 25-35 min, eller til møre.
+2. I mellomtiden, skrell og riv hvitløk fint. Riv agurk. Pakk agurk inn i et
+   kjøkkenhåndkle og press ut væske. Bland agurk, yoghurt, hvitløk og en klype salt og
+   pepper i en skål.
+3. Smuldre gresk salatost i en liten skål. Bland inn Middelhavsdrøm, olivenolje og en
+   klype pepper. TIPS: Smuldre gresk salatost så godt som mulig slik at den kan dekke
+   laksen jevnt.
+4. Tørk fisk lett med kjøkkenpapir. Overfør fisk med skinnsiden ned på et stekebrett med
+   bakepapir. Topp fisk med gresk salatost. Når potetbåtene har 10 min igjen, sett fisk
+   inn i ovnen og bak i 9-10 min, eller til gjennomstekt. TIPS: Fisken er ferdig når
+   kjøttet får en matt farge i midten.
+5. Grovhakk tomat. Finhakk rødløk. Bland rødløk, tomat, balsamico, olivenolje, salt og
+   en klype pepper i en skål.
+6. Anrett fisk, potetbåter og tomatsalat på tallerkener. Anrett en klatt tzatziki på
+   siden.
 
 <script type="application/ld+json">
 {
