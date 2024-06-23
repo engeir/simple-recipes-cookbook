@@ -7,10 +7,12 @@ authors:
 date: 2024-06-23
 category:
   - Eirik Rolland Enger
+  - HelloFresh
   - hovedrett
 tag:
   - frisk
   - kjøttdeig
+  - taco
 ---
 
 # Japansk taco med krydret kjøttdeig og sprø kålsalat
@@ -52,10 +54,21 @@ Enkel
 
 ## Steg
 
-1. Hvis du ikke har mikrobølgeovn, sett ovnen på 220°C/200°C (varmluft). Riv ingefær (uskrelt) og hvitløk fint. Halver rødløk og skjær i tynne skiver. Skjær lime i båter. Del chili i to på langs, fjern frø og skjær i tynne skiver. Riv gulrot (uskrelt).
-2. Varm opp olivenolje [1 ss | 2 ss] i en stor stekepanne på middels høy varme. Stek kjøttdeig, rødløk og en klype salt i 5-6 min, eller til brunet. Mens kjøttdeigen steker, bland salat, gulrot, en skvett limesaft, olivenolje [1 ss | 2 ss], salt [1/4 ts | 1/ 2 ts] og en klype pepper i en skål. VIKTIG: Kjøttdeigen er ferdig når den er uten antydninger av rødt.
-3. Tilsett hvitløk og ingefær [2 ts | 4 ts] til kjøttdeig og stek videre i 1 min. Tilsett asiatisk woksaus [1/2 pakke, 2P] og bland godt. Krydre med en stor klype pepper. Varm tortillabrød i mikroen i 30-60 sek, eller pakk inn i folie og varm i ovnen i 4-5 min.
-4. Sett alt på bordet. Smør hvert tortillabrød med asiatisk majones. Topp med salat, kjøttdeig og chili. Server resterende limebåter på siden. TIPS: Tilsett chili etter smak - det er sterkt.
+1. Hvis du ikke har mikrobølgeovn, sett ovnen på 220°C/200°C (varmluft). Riv ingefær
+   (uskrelt) og hvitløk fint. Halver rødløk og skjær i tynne skiver. Skjær lime i båter.
+   Del chili i to på langs, fjern frø og skjær i tynne skiver. Riv gulrot (uskrelt).
+2. Varm opp olivenolje [1 ss | 2 ss] i en stor stekepanne på middels høy varme. Stek
+   kjøttdeig, rødløk og en klype salt i 5-6 min, eller til brunet. Mens kjøttdeigen
+   steker, bland salat, gulrot, en skvett limesaft, olivenolje [1 ss | 2 ss], salt [1/4
+   ts | 1/ 2 ts] og en klype pepper i en skål. VIKTIG: Kjøttdeigen er ferdig når den er
+   uten antydninger av rødt.
+3. Tilsett hvitløk og ingefær [2 ts | 4 ts] til kjøttdeig og stek videre i 1 min.
+   Tilsett asiatisk woksaus [1/2 pakke, 2P] og bland godt. Krydre med en stor klype
+   pepper. Varm tortillabrød i mikroen i 30-60 sek, eller pakk inn i folie og varm i
+   ovnen i 4-5 min.
+4. Sett alt på bordet. Smør hvert tortillabrød med asiatisk majones. Topp med salat,
+   kjøttdeig og chili. Server resterende limebåter på siden. TIPS: Tilsett chili etter
+   smak - det er sterkt.
 
 <script type="application/ld+json">
 {
