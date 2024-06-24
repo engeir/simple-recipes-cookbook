@@ -60,8 +60,11 @@ Enkel
 2. I mellomtiden, finhakk løk. Riv gulrot (uskrelt) grovt.
 3. Varm opp olivenolje i en stor stekepanne på middels høy varme. Stek kylling, løk, gulrot og salt under omrøring i 4-5 min, til brunet. TIPS: Kyllingen er ferdig når kjøttet er hvitt og uten antydninger av rødt.
 4. I mellomtiden, grovhakk oliven. Grovhakk basilikum.
-5. Tilsett hakkede tomater, pastavann, Hvitløksflørt, Middelhavsdrøm, sukker og smør i pannen med kylling. Krydre med salt og en klype pepper. La putre i 3-4 min, eller til sausen tykner. Bland inn pasta. TIPS: Tilsett mer pastavann om pastaen virker tørr.
-6. Fordel pasta i skåler. Topp med finrevet ost, oliven og basilikum. TIPS: Reduser eller dropp oliven, hvis du ikke liker det.
+5. Tilsett hakkede tomater, pastavann, Hvitløksflørt, Middelhavsdrøm, sukker og smør i
+   pannen med kylling. Krydre med salt og en klype pepper. La putre i 3-4 min, eller til
+   sausen tykner. Bland inn pasta. TIPS: Tilsett mer pastavann om pastaen virker tørr.
+7. Fordel pasta i skåler. Topp med finrevet ost, oliven og basilikum. TIPS: Reduser
+   eller dropp oliven, hvis du ikke liker det.
 
 <script type="application/ld+json">
 {
