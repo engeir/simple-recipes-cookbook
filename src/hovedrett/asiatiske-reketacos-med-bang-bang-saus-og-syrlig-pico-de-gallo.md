@@ -13,6 +13,7 @@ tag:
   - sitrus
   - sjømat
   - tomat
+  - taco
 ---
 
 # Asiatiske reketacos med bang bang-saus og syrlig pico de gallo
