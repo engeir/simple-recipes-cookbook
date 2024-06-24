@@ -7,6 +7,7 @@ authors:
 date: 2024-06-24
 category:
   - Eirik Rolland Enger
+  - HelloFresh
   - hovedrett
 tag:
   - basilikum
@@ -29,7 +30,7 @@ Denne oppskriften er originalt fra
 ||| :timer_clock: Tid
 50
 ||| :knife_fork_plate: Porsjoner
-2 servings
+2 porsjoner
 ||| :cook: Vanskelighetsgrad
 Enkel
 |||
@@ -41,25 +42,25 @@ Enkel
 - 1 pakke Spaghetti
 - 1 stk Gulrot
 - 1 stk Løk
-- ½ pakke Hakkede tomater
+- 0.5 pakke Hakkede tomater
 - 4 g Middelhavsdrøm
 - 4 g Hvitløksflørt
 - 35 g Kalamataoliven
 - 1 pose Basilikum
 - 20 g Finrevet ost
 - 1 ss Olivenolje (steg 3)
-- ¼ ts Salt (steg 3)
-- ½ ts Sukker (steg 5)
+- 0.25 ts Salt (steg 3)
+- 0.5 ts Sukker (steg 5)
 - 1 ss Smør (steg 5)
-- ¼ ts Salt (steg 5)
+- 0.24 ts Salt (steg 5)
 
 ## Steg
 
-1. Kok opp en stor kjele med saltet vann. Kok pasta i 8-9 min, til 'al dente'. Spar litt pastavann [1 dl | 2 dl], og hell av resten. TIPS: Kokevannet skal være like salt som sjøvann. TIPS: ‘Al dente’ betyr at pastaen er myk med litt tyggemotstand.
+1. Kok opp en stor kjele med saltet vann. Kok pasta i 8-9 min, til 'al dente'. Spar litt pastavann, og hell av resten. TIPS: Kokevannet skal være like salt som sjøvann. TIPS: ‘Al dente’ betyr at pastaen er myk med litt tyggemotstand.
 2. I mellomtiden, finhakk løk. Riv gulrot (uskrelt) grovt.
-3. Varm opp olivenolje [1 ss | 2 ss] i en stor stekepanne på middels høy varme. Stek kylling, løk, gulrot og salt [1/4 ts | 1/2 ts] under omrøring i 4-5 min, til brunet. TIPS: Kyllingen er ferdig når kjøttet er hvitt og uten antydninger av rødt.
-4. I mellomtiden, grovhakk oliven [1/2 pakke, 2P]. Grovhakk basilikum.
-5. Tilsett hakkede tomater [1/2 pakke, 2P], pastavann, Hvitløksflørt, Middelhavsdrøm, sukker [1/2 ts | 1 ts] og smør [1 ss | 2 ss] i pannen med kylling. Krydre med salt [1/4 ts | 1/2 ts] og en klype pepper. La putre i 3-4 min, eller til sausen tykner. Bland inn pasta. TIPS: Tilsett mer pastavann om pastaen virker tørr.
+3. Varm opp olivenolje i en stor stekepanne på middels høy varme. Stek kylling, løk, gulrot og salt under omrøring i 4-5 min, til brunet. TIPS: Kyllingen er ferdig når kjøttet er hvitt og uten antydninger av rødt.
+4. I mellomtiden, grovhakk oliven. Grovhakk basilikum.
+5. Tilsett hakkede tomater, pastavann, Hvitløksflørt, Middelhavsdrøm, sukker og smør i pannen med kylling. Krydre med salt og en klype pepper. La putre i 3-4 min, eller til sausen tykner. Bland inn pasta. TIPS: Tilsett mer pastavann om pastaen virker tørr.
 6. Fordel pasta i skåler. Topp med finrevet ost, oliven og basilikum. TIPS: Reduser eller dropp oliven, hvis du ikke liker det.
 
 <script type="application/ld+json">
@@ -85,22 +86,22 @@ Enkel
     "1 pakke Spaghetti",
     "1 stk Gulrot",
     "1 stk Løk",
-    "½ pakke Hakkede tomater",
+    "0.5 pakke Hakkede tomater",
     "4 g Middelhavsdrøm",
     "4 g Hvitløksflørt",
     "35 g Kalamataoliven",
     "1 pose Basilikum",
     "20 g Finrevet ost",
     "1 ss Olivenolje (steg 3)",
-    "¼ ts Salt (steg 3)",
-    "½ ts Sukker (steg 5)",
+    "0.25 ts Salt (steg 3)",
+    "0.5 ts Sukker (steg 5)",
     "1 ss Smør (steg 5)",
-    "¼ ts Salt (steg 5)"
+    "0.25 ts Salt (steg 5)"
   ],
   "recipeInstructions": [
     {
       "@type": "HowToStep",
-      "text": "Kok opp en stor kjele med saltet vann. Kok pasta i 8-9 min, til 'al dente'. Spar litt pastavann [1 dl | 2 dl], og hell av resten. TIPS: Kokevannet skal være like salt som sjøvann. TIPS: ‘Al dente’ betyr at pastaen er myk med litt tyggemotstand."
+      "text": "Kok opp en stor kjele med saltet vann. Kok pasta i 8-9 min, til 'al dente'. Spar litt pastavann, og hell av resten. TIPS: Kokevannet skal være like salt som sjøvann. TIPS: ‘Al dente’ betyr at pastaen er myk med litt tyggemotstand."
     },
     {
       "@type": "HowToStep",
@@ -108,15 +109,15 @@ Enkel
     },
     {
       "@type": "HowToStep",
-      "text": "Varm opp olivenolje [1 ss | 2 ss] i en stor stekepanne på middels høy varme. Stek kylling, løk, gulrot og salt [1/4 ts | 1/2 ts] under omrøring i 4-5 min, til brunet. TIPS: Kyllingen er ferdig når kjøttet er hvitt og uten antydninger av rødt."
+      "text": "Varm opp olivenolje i en stor stekepanne på middels høy varme. Stek kylling, løk, gulrot og salt under omrøring i 4-5 min, til brunet. TIPS: Kyllingen er ferdig når kjøttet er hvitt og uten antydninger av rødt."
     },
     {
       "@type": "HowToStep",
-      "text": "I mellomtiden, grovhakk oliven [1/2 pakke, 2P]. Grovhakk basilikum."
+      "text": "I mellomtiden, grovhakk oliven. Grovhakk basilikum."
     },
     {
       "@type": "HowToStep",
-      "text": "Tilsett hakkede tomater [1/2 pakke, 2P], pastavann, Hvitløksflørt, Middelhavsdrøm, sukker [1/2 ts | 1 ts] og smør [1 ss | 2 ss] i pannen med kylling. Krydre med salt [1/4 ts | 1/2 ts] og en klype pepper. La putre i 3-4 min, eller til sausen tykner. Bland inn pasta. TIPS: Tilsett mer pastavann om pastaen virker tørr."
+      "text": "Tilsett hakkede tomater, pastavann, Hvitløksflørt, Middelhavsdrøm, sukker og smør i pannen med kylling. Krydre med salt og en klype pepper. La putre i 3-4 min, eller til sausen tykner. Bland inn pasta. TIPS: Tilsett mer pastavann om pastaen virker tørr."
     },
     {
       "@type": "HowToStep",
@@ -138,7 +139,7 @@ Enkel
   "prepTime": 25,
   "name": "Kyllingpasta alla cacciatore med kalamataoliven og finrevet ost",
   "totalTime": 50,
-  "recipeYield": "2 servings",
+  "recipeYield": "2 porsjoner",
   "pattern": "kyllingpasta-alla-cacciatore-med-kalamataoliven-og-finrevet-ost"
 }
 </script>
