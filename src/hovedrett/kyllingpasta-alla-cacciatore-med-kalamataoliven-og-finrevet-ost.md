@@ -60,7 +60,9 @@ Enkel
    pastavann, og hell av resten. TIPS: Kokevannet skal være like salt som sjøvann. TIPS:
    ‘Al dente’ betyr at pastaen er myk med litt tyggemotstand.
 2. I mellomtiden, finhakk løk. Riv gulrot (uskrelt) grovt.
-3. Varm opp olivenolje i en stor stekepanne på middels høy varme. Stek kylling, løk, gulrot og salt under omrøring i 4-5 min, til brunet. TIPS: Kyllingen er ferdig når kjøttet er hvitt og uten antydninger av rødt.
+3. Varm opp olivenolje i en stor stekepanne på middels høy varme. Stek kylling, løk,
+   gulrot og salt under omrøring i 4-5 min, til brunet. TIPS: Kyllingen er ferdig når
+   kjøttet er hvitt og uten antydninger av rødt.
 4. I mellomtiden, grovhakk oliven. Grovhakk basilikum.
 5. Tilsett hakkede tomater, pastavann, Hvitløksflørt, Middelhavsdrøm, sukker og smør i
    pannen med kylling. Krydre med salt og en klype pepper. La putre i 3-4 min, eller til
