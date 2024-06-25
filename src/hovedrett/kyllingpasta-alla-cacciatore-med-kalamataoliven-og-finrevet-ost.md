@@ -43,8 +43,8 @@ Enkel
 - 1 stk Gulrot
 - 1 stk Løk
 - 0.5 pakke Hakkede tomater
-- 4 g Middelhavsdrøm
-- 4 g Hvitløksflørt
+- 4 g Middelhavsdrøm (eller rosmarin, chilipulver, oregano, timian, basilikum)
+- 4 g Hvitløksflørt (eller hvitløkspulver, persille, rosmarin, timian)
 - 35 g Kalamataoliven
 - 1 pose Basilikum
 - 20 g Finrevet ost
