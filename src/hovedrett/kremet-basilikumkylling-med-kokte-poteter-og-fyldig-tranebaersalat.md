@@ -38,18 +38,18 @@ Enkel
 
 ## Ingredienser
 
-- 4 g Hvitløksflørt
-- 150 ml Matfløte
-- 300 g Kyllingbryst
-- 500 g Poteter
-- 1 stk Hvitløk
-- 4 g Grønnsaksbuljong
-- 1 pose Basilikum
-- 1 stk Eple
-- 75 g Spisskål, skåret
-- 20 g Tranebær
-- ¼ ts Salt (steg 5)
-- 1 ss Smør (steg 5)
+- 4 g hvitløksflørt (eller hvitl�kspulver, persille, rosmarin, timian)
+- 150 ml matfløte
+- 300 g kyllingbryst
+- 500 g poteter
+- 1 stk hvitløk
+- 4 g grønnsaksbuljong
+- 1 pose basilikum
+- 1 stk eple
+- 75 g spisskål, skåret
+- 20 g tranebær
+- 0.25 ts salt (steg 5)
+- 1 ss smør (steg 5)
 
 ## Steg
 
