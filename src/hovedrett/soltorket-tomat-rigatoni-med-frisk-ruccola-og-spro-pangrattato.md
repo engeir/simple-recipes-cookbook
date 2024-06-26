@@ -7,6 +7,7 @@ authors:
 date: 2024-06-26
 category:
   - Eirik Rolland Enger
+  - HelloFresh
   - hovedrett
 tag:
   - fløte
@@ -31,7 +32,7 @@ Denne oppskriften er originalt fra
 ||| :timer_clock: Tid
 30
 ||| :knife_fork_plate: Porsjoner
-2 servings
+2 porsjoner
 ||| :cook: Vanskelighetsgrad
 Enkel
 |||
@@ -51,15 +52,15 @@ Enkel
 - 1 pose Oregano
 - 12.5 g Panko paneringsmel
 - 1 ss Smør (steg 2)
-- ½ ss Olivenolje (steg 3)
-- ½ ts Salt (steg 3)
-- ¼ ts Sukker (steg 3)
+- 0.5 ss Olivenolje (steg 3)
+- 0.5 ts Salt (steg 3)
+- 0.25 ts Sukker (steg 3)
 
 ## Steg
 
-1. Kok opp saltet vann i en stor kjele. Kok rigatoni i 11-12 min, eller til 'al dente'. Spar litt pastavann [1,5 dl | 3 dl] i en kopp og hell av resten. TIPS: Kokevannet bør være like salt som sjøvann. TIPS: 'Al dente' betyr at pastaen er myk med litt tyggemotstand.
-2. I mellomtiden, smelt smør [1 ss | 2 ss] i en stor stekepanne på middels høy varme. Rist panko [1/2 pakke, 2P] i 3-4 min, eller til gyllent og sprøtt. Krydre med en klype salt og pepper, og sett til side. Grovhakk soltørkede tomater, squash og oregano. Skyll ruccola.
-3. Varm opp olivenolje [1/2 ss | 1 ss] i samme stekepanne brukt til panko på middels høy varme. Tilsett squash, soltørkerede tomater, oregano og Mamas Favoritt. Stek i 2-3 min. Rør inn pastavann, matfløte [1/2 pakke, 2P], grønnsaksbuljong, cherrytomat, salt [1/2 ts | 1 ts], en klype pepper og sukker [1/4 ts | 1/2 ts]. La putre i 1-2 min, eller til tyknet. Rør inn pasta når den er ferdigkokt. TIPS: Tilsett mer pastavann om sausen føles for tykk.
+1. Kok opp saltet vann i en stor kjele. Kok rigatoni i 11-12 min, eller til 'al dente'. Spar litt pastavann i en kopp og hell av resten. TIPS: Kokevannet bør være like salt som sjøvann. TIPS: 'Al dente' betyr at pastaen er myk med litt tyggemotstand.
+2. I mellomtiden, smelt smør i en stor stekepanne på middels høy varme. Rist panko i 3-4 min, eller til gyllent og sprøtt. Krydre med en klype salt og pepper, og sett til side. Grovhakk soltørkede tomater, squash og oregano. Skyll ruccola.
+3. Varm opp olivenolje i samme stekepanne brukt til panko på middels høy varme. Tilsett squash, soltørkerede tomater, oregano og Mamas Favoritt. Stek i 2-3 min. Rør inn pastavann, matfløte, grønnsaksbuljong, cherrytomat, salt, en klype pepper og sukker. La putre i 1-2 min, eller til tyknet. Rør inn pasta når den er ferdigkokt. TIPS: Tilsett mer pastavann om sausen føles for tykk.
 4. Anrett pasta i skåler. Topp med pangrattato, ruccola og finrevet ost.
 
 <script type="application/ld+json">
@@ -99,22 +100,22 @@ Enkel
     "1 pose Oregano",
     "12.5 g Panko paneringsmel",
     "1 ss Smør (steg 2)",
-    "½ ss Olivenolje (steg 3)",
-    "½ ts Salt (steg 3)",
-    "¼ ts Sukker (steg 3)"
+    "0.5 ss Olivenolje (steg 3)",
+    "0.5 ts Salt (steg 3)",
+    "0.25 ts Sukker (steg 3)"
   ],
   "recipeInstructions": [
     {
       "@type": "HowToStep",
-      "text": "Kok opp saltet vann i en stor kjele. Kok rigatoni i 11-12 min, eller til 'al dente'. Spar litt pastavann [1,5 dl | 3 dl] i en kopp og hell av resten. TIPS: Kokevannet bør være like salt som sjøvann. TIPS: 'Al dente' betyr at pastaen er myk med litt tyggemotstand."
+      "text": "Kok opp saltet vann i en stor kjele. Kok rigatoni i 11-12 min, eller til 'al dente'. Spar litt pastavann i en kopp og hell av resten. TIPS: Kokevannet bør være like salt som sjøvann. TIPS: 'Al dente' betyr at pastaen er myk med litt tyggemotstand."
     },
     {
       "@type": "HowToStep",
-      "text": "I mellomtiden, smelt smør [1 ss | 2 ss] i en stor stekepanne på middels høy varme. Rist panko [1/2 pakke, 2P] i 3-4 min, eller til gyllent og sprøtt. Krydre med en klype salt og pepper, og sett til side. Grovhakk soltørkede tomater, squash og oregano. Skyll ruccola."
+      "text": "I mellomtiden, smelt smør i en stor stekepanne på middels høy varme. Rist panko i 3-4 min, eller til gyllent og sprøtt. Krydre med en klype salt og pepper, og sett til side. Grovhakk soltørkede tomater, squash og oregano. Skyll ruccola."
     },
     {
       "@type": "HowToStep",
-      "text": "Varm opp olivenolje [1/2 ss | 1 ss] i samme stekepanne brukt til panko på middels høy varme. Tilsett squash, soltørkerede tomater, oregano og Mamas Favoritt. Stek i 2-3 min. Rør inn pastavann, matfløte [1/2 pakke, 2P], grønnsaksbuljong, cherrytomat, salt [1/2 ts | 1 ts], en klype pepper og sukker [1/4 ts | 1/2 ts]. La putre i 1-2 min, eller til tyknet. Rør inn pasta når den er ferdigkokt. TIPS: Tilsett mer pastavann om sausen føles for tykk."
+      "text": "Varm opp olivenolje i samme stekepanne brukt til panko på middels høy varme. Tilsett squash, soltørkerede tomater, oregano og Mamas Favoritt. Stek i 2-3 min. Rør inn pastavann, matfløte, grønnsaksbuljong, cherrytomat, salt, en klype pepper og sukker. La putre i 1-2 min, eller til tyknet. Rør inn pasta når den er ferdigkokt. TIPS: Tilsett mer pastavann om sausen føles for tykk."
     },
     {
       "@type": "HowToStep",
@@ -136,7 +137,7 @@ Enkel
   "prepTime": 15,
   "name": "Soltørket tomat-rigatoni med frisk ruccola og sprø pangrattato",
   "totalTime": 30,
-  "recipeYield": "2 servings",
+  "recipeYield": "2 porsjoner",
   "pattern": "soltorket-tomat-rigatoni-med-frisk-ruccola-og-spro-pangrattato"
 }
 </script>
