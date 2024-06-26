@@ -45,7 +45,7 @@ Enkel
 - 125 g Cherrytomater
 - 1 stk Squash
 - 150 ml Matfløte
-- 4 g Mamas Favoritt
+- 4 g Mamas Favoritt (eller paprikakrydder)
 - 4 g Grønnsaksbuljong
 - 40 g Ruccola
 - 20 g Finrevet ost
