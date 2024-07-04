@@ -1,9 +1,12 @@
 on:
-  - push
-  - pull_request
-name: dprint check and commit
+  push:
+    branches:
+      - main
+  pull_request:
+name: dprint check
 jobs:
-  fix-style:
+  check-style:
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -11,18 +14,16 @@ jobs:
         run: |
           curl -fsSL https://dprint.dev/install.sh | sh -s 0.45.0 > /dev/null 2>&1
           $HOME/.dprint/bin/dprint check --allow-no-files
-      - name: Check for changes
-        id: check_changes
+  fix-style:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check with dprint
         run: |
-          git diff --exit-code || echo "Changes detected"
-        continue-on-error: true
-      - name: Commit formatted file
-        if: steps.check_changes.outcome == 'failure'
-        run: |
-          git config --global user.email "actions@github.com"
-          git config --global user.name "GitHub Actions"
-          git add .
-          git commit -m "Auto-format code"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          curl -fsSL https://dprint.dev/install.sh | sh -s 0.45.0 > /dev/null 2>&1
+          $HOME/.dprint/bin/dprint fmt --allow-no-files
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Apply dpring format changes
+
