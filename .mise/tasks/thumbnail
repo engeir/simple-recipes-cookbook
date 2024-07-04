@@ -16,6 +16,10 @@
 #     src/static/mmm-delicious-dish/IMG_20210701_123456.jpg
 # will be converted to
 #     src/static/mmm-delicious-dish/mmm-delicious-dish.webp
+#
+# The two commands are
+#     cwebp -size 500000 "$1" -o "$2"
+#     cwebp -crop 0 500 4000 2000 "$1" -o "$2"
 
 import pathlib
 import subprocess

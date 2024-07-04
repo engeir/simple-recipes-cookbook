@@ -1,0 +1,13 @@
+[project]
+name = "simple-recipes-cookbook"
+version = "0.1.0"
+description = "Simple recipes scripts"
+authors = [{ name = "engeir", email = "engeir@pm.me" }]
+dependencies = ["recipe-scrapers>=14.57.0"]
+readme = "README.md"
+requires-python = ">= 3.12"
+
+[tool.rye]
+managed = true
+virtual = true
+dev-dependencies = []

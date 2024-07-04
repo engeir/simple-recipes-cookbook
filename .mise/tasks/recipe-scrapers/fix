@@ -1,0 +1,27 @@
+#!./.venv/bin/python
+# mise description="Fix misrepresented characters"
+
+from recipe_scrapers import scrape_me
+import argparse
+
+# Get the first CLI argument
+parser = argparse.ArgumentParser()
+parser.add_argument("url", type=str, help="The URL to scrape")
+params = parser.parse_args()
+
+scraped = scrape_me(params.url, wild_mode=True)
+
+
+def maybe_fix_encoding(utf8_string, possible_codec="cp1252"):
+    """Attempts to fix mangled text caused by interpreting UTF8 as cp1252.
+
+    For other codecs: https://docs.python.org/3/library/codecs.html
+
+    Notes
+    -----
+    From https://stackoverflow.com/a/66579518.
+    """
+    try:
+        return utf8_string.encode(possible_codec).decode("utf8")
+    except UnicodeError:
+        return utf8_string
