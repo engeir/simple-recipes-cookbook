@@ -27,6 +27,9 @@ jobs:
         run: |
           curl -fsSL https://dprint.dev/install.sh | sh -s 0.45.0 >/dev/null 2>&1
           "$HOME"/.dprint/bin/dprint fmt --allow-no-files
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
       - name: Setup mise
         uses: jdx/mise-action@v2
         with:
