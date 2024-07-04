@@ -12,8 +12,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Check with dprint
         run: |
-          curl -fsSL https://dprint.dev/install.sh | sh -s 0.45.0 > /dev/null 2>&1
-          $HOME/.dprint/bin/dprint check --allow-no-files
+          curl -fsSL https://dprint.dev/install.sh | sh -s 0.45.0 >/dev/null 2>&1
+          "$HOME"/.dprint/bin/dprint check --allow-no-files
   fix-style:
     if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
@@ -25,8 +25,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: Check with dprint
         run: |
-          curl -fsSL https://dprint.dev/install.sh | sh -s 0.45.0 > /dev/null 2>&1
-          $HOME/.dprint/bin/dprint fmt --allow-no-files
+          curl -fsSL https://dprint.dev/install.sh | sh -s 0.45.0 >/dev/null 2>&1
+          "$HOME"/.dprint/bin/dprint fmt --allow-no-files
+      - name: Setup mise
+        uses: jdx/mise-action@v2
+        with:
+          experimental: true
+      - name: Create missing thumbnails
+        run: |
+          mise run thumbnail
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: Apply dpring format changes
+          commit_message: Apply dprint format changes and thumbnail generation
