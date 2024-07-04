@@ -67,8 +67,7 @@ Enkel
 3. Varm opp olivenolje i samme stekepanne brukt til panko på middels høy varme. Tilsett
    squash, soltørkerede tomater, oregano og Mamas Favoritt. Stek i 2-3 min. Rør inn
    pastavann, matfløte, grønnsaksbuljong, cherrytomat, salt, en klype pepper og sukker.
-   La putre i 1-2 min, eller til tyknet. Rør inn pasta når den er ferdigkokt. TIPS:
-   Tilsett mer pastavann om sausen føles for tykk.
+   La putre i 1-2 min, eller til tyknet. Rør inn pasta når den er ferdigkokt. TIPS: Tilsett mer pastavann om sausen føles for tykk.
 4. Anrett pasta i skåler. Topp med pangrattato, ruccola og finrevet ost.
 
 <script type="application/ld+json">
