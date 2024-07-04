@@ -61,12 +61,12 @@ Enkel
    olivenolje i en stekepanne på middels høy varme. Stek kylling i 3-4 min på hver side,
    til brunet og gjennomstekt. Overfør til en tallerken. TIPS: Kyllingen er ferdig når
    kjøttet er hvitt og uten antydninger av rødt.
-4. Skjær eple i tynne, halve skiver. Masser spisskål i 30 sek med
-   hendene i en stor skål. Tilsett eventuelt en skvett olivenolje om du ønsker. Tilsett
-   eple, tranebær, en klype salt og pepper og bland godt.
-5. Press eller finhakk hvitløk. Smelt smør med en skvett olivenolje i
-   stekepannen på middels høy varme. Stek hvitløk i 1-2 min. Tilsett matfløte, grønnsaksbuljong og halvparten av basilikum. La putre i 1-2 min. Krydre
-   med salt og en stor klype pepper.
+4. Skjær eple i tynne, halve skiver. Masser spisskål i 30 sek med hendene i en stor
+   skål. Tilsett eventuelt en skvett olivenolje om du ønsker. Tilsett eple, tranebær, en
+   klype salt og pepper og bland godt.
+5. Press eller finhakk hvitløk. Smelt smør med en skvett olivenolje i stekepannen på
+   middels høy varme. Stek hvitløk i 1-2 min. Tilsett matfløte, grønnsaksbuljong og
+   halvparten av basilikum. La putre i 1-2 min. Krydre med salt og en stor klype pepper.
 6. Anrett kokte poteter, kylling og tranebærsalat på tallerkener. Øs over basilikumsaus.
    Topp med resterende basilikum.
 
