@@ -32,7 +32,7 @@ Denne oppskriften er originalt fra
 ||| :knife_fork_plate: Porsjoner
 2 servings
 ||| :cook: Vanskelighetsgrad
-Enkel
+Enkel 
 |||
 <!-- dprint-ignore-end -->
 
