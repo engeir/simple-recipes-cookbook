@@ -60,7 +60,7 @@ Enkel
 
 1. Kok opp saltet vann i en stor kjele. Kok rigatoni i 11-12 min, eller til 'al dente'.
    Spar litt pastavann i en kopp og hell av resten. TIPS: Kokevannet bør være like salt
-   som sjøvann. TIPS: 'Al dente' betyr at pastaen er myk med litt tyggemotstand.
+   som sjøvann. TIPS: 'Al dente' betyr at pastaen er myk med litt tyggemotstand. 
 2. I mellomtiden, smelt smør i en stor stekepanne på middels høy varme. Rist panko i 3-4
    min, eller til gyllent og sprøtt. Krydre med en klype salt og pepper, og sett til
    side. Grovhakk soltørkede tomater, squash og oregano. Skyll ruccola.
