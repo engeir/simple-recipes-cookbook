@@ -23,10 +23,6 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - name: Check with dprint
-        run: |
-          curl -fsSL https://dprint.dev/install.sh | sh -s 0.45.0 >/dev/null 2>&1
-          "$HOME"/.dprint/bin/dprint fmt --allow-no-files
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -34,9 +30,14 @@ jobs:
         uses: jdx/mise-action@v2
         with:
           experimental: true
-      - name: Create missing thumbnails
+      - name: Create missing thumbnails and fix letters
         run: |
           mise run thumbnail
+          mise run fix
+      - name: Check with dprint
+        run: |
+          curl -fsSL https://dprint.dev/install.sh | sh -s 0.45.0 >/dev/null 2>&1
+          "$HOME"/.dprint/bin/dprint fmt --allow-no-files
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Apply dprint format changes and thumbnail generation
