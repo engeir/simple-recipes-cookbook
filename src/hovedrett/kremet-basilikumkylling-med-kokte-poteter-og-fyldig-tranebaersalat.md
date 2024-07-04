@@ -10,12 +10,12 @@ category:
   - hovedrett
 tag:
   - basilikum
-  - flÃ¸te
+  - fløte
   - kylling
   - potet
 ---
 
-# Kremet basilikumkylling med kokte poteter og fyldig tranebÃ¦rsalat
+# Kremet basilikumkylling med kokte poteter og fyldig tranebærsalat
 
 ![](/static/kremet-basilikumkylling-med-kokte-poteter-og-fyldig-tranebaersalat/kremet-basilikumkylling-med-kokte-poteter-og-fyldig-tranebaersalat.webp)
 
@@ -39,37 +39,37 @@ Enkel
 ## Ingredienser
 
 - 4 g hvitlÃ¸ksflÃ¸rt (eller hvitl¿kspulver, persille, rosmarin, timian)
-- 150 ml matflÃ¸te
+- 150 ml matfløte
 - 300 g kyllingbryst
 - 500 g poteter
-- 1 stk hvitlÃ¸k
-- 4 g grÃ¸nnsaksbuljong
+- 1 stk hvitløk
+- 4 g grønnsaksbuljong
 - 1 pose basilikum
 - 1 stk eple
-- 75 g spisskÃ¥l, skÃ¥ret
-- 20 g tranebÃ¦r
+- 75 g spisskål, skåret
+- 20 g tranebær
 - 0.25 ts salt (steg 5)
-- 1 ss smÃ¸r (steg 5)
+- 1 ss smør (steg 5)
 
 ## Steg
 
 1. Kok opp en kjele med saltet vann. Del poteter (uskrellet) i to. Grovhakk basilikum.
-2. Kok poteter i 10-15 min, til mÃ¸re. Hell av vannet. Krydre med en klype pepper og
-   tilsett eventuelt en klatt smÃ¸r. Bland godt. SkjÃ¦r kylling i 3 cm tykke strimler
-   pÃ¥ et eget skjÃ¦rebrett.
-3. Bland HvitlÃ¸ksflÃ¸rt og en skvett olivenolje med kylling i en skÃ¥l. Varm opp en
-   skvett olivenolje i en stekepanne pÃ¥ middels hÃ¸y varme. Stek kylling i 3-4 min pÃ¥
-   hver side, til brunet og gjennomstekt. OverfÃ¸r til en tallerken. TIPS: Kyllingen er
-   ferdig nÃ¥r kjÃ¸ttet er hvitt og uten antydninger av rÃ¸dt.
-4. SkjÃ¦r eple i tynne, halve skiver. Masser spisskÃ¥l [1/2 pakke, 2P] i 30 sek med
-   hendene i en stor skÃ¥l. Tilsett eventuelt en skvett olivenolje om du Ã¸nsker.
-   Tilsett eple, tranebÃ¦r, en klype salt og pepper og bland godt.
-5. Press eller finhakk hvitlÃ¸k. Smelt smÃ¸r [1 ss | 2 ss] med en skvett olivenolje i
-   stekepannen pÃ¥ middels hÃ¸y varme. Stek hvitlÃ¸k i 1-2 min. Tilsett matflÃ¸te [1/2
-   pakke, 2P], grÃ¸nnsaksbuljong og halvparten av basilikum. La putre i 1-2 min. Krydre
+2. Kok poteter i 10-15 min, til møre. Hell av vannet. Krydre med en klype pepper og
+   tilsett eventuelt en klatt smør. Bland godt. Skjær kylling i 3 cm tykke strimler på
+   et eget skjærebrett.
+3. Bland Hvitløksflørt og en skvett olivenolje med kylling i en skål. Varm opp en skvett
+   olivenolje i en stekepanne på middels høy varme. Stek kylling i 3-4 min på hver side,
+   til brunet og gjennomstekt. Overfør til en tallerken. TIPS: Kyllingen er ferdig når
+   kjøttet er hvitt og uten antydninger av rødt.
+4. Skjær eple i tynne, halve skiver. Masser spisskål [1/2 pakke, 2P] i 30 sek med
+   hendene i en stor skål. Tilsett eventuelt en skvett olivenolje om du ønsker. Tilsett
+   eple, tranebær, en klype salt og pepper og bland godt.
+5. Press eller finhakk hvitløk. Smelt smør [1 ss | 2 ss] med en skvett olivenolje i
+   stekepannen på middels høy varme. Stek hvitløk i 1-2 min. Tilsett matfløte [1/2
+   pakke, 2P], grønnsaksbuljong og halvparten av basilikum. La putre i 1-2 min. Krydre
    med salt [1/4 ts | 1/2 ts] og en stor klype pepper.
-6. Anrett kokte poteter, kylling og tranebÃ¦rsalat pÃ¥ tallerkener. Ã˜s over
-   basilikumsaus. Topp med resterende basilikum.
+6. Anrett kokte poteter, kylling og tranebærsalat på tallerkener. Øs over basilikumsaus.
+   Topp med resterende basilikum.
 
 <script type="application/ld+json">
 {
@@ -90,18 +90,18 @@ Enkel
     "name": "hellofresh.com"
   },
   "recipeIngredient": [
-    "4 g HvitlÃ¸ksflÃ¸rt",
-    "150 ml MatflÃ¸te",
+    "4 g Hvitløksflørt",
+    "150 ml Matfløte",
     "300 g Kyllingbryst",
     "500 g Poteter",
-    "1 stk HvitlÃ¸k",
-    "4 g GrÃ¸nnsaksbuljong",
+    "1 stk Hvitløk",
+    "4 g Grønnsaksbuljong",
     "1 pose Basilikum",
     "1 stk Eple",
-    "75 g SpisskÃ¥l, skÃ¥ret",
-    "20 g TranebÃ¦r",
-    "Â¼ ts Salt (steg 5)",
-    "1 ss SmÃ¸r (steg 5)"
+    "75 g Spisskål, skåret",
+    "20 g Tranebær",
+    "¼ ts Salt (steg 5)",
+    "1 ss Smør (steg 5)"
   ],
   "recipeInstructions": [
     {
@@ -110,23 +110,23 @@ Enkel
     },
     {
       "@type": "HowToStep",
-      "text": "Kok poteter i 10-15 min, til mÃ¸re. Hell av vannet. Krydre med en klype pepper og tilsett eventuelt en klatt smÃ¸r. Bland godt. SkjÃ¦r kylling i 3 cm tykke strimler pÃ¥ et eget skjÃ¦rebrett."
+      "text": "Kok poteter i 10-15 min, til møre. Hell av vannet. Krydre med en klype pepper og tilsett eventuelt en klatt smør. Bland godt. Skjær kylling i 3 cm tykke strimler på et eget skjærebrett."
     },
     {
       "@type": "HowToStep",
-      "text": "Bland HvitlÃ¸ksflÃ¸rt og en skvett olivenolje med kylling i en skÃ¥l. Varm opp en skvett olivenolje i en stekepanne pÃ¥ middels hÃ¸y varme. Stek kylling i 3-4 min pÃ¥ hver side, til brunet og gjennomstekt. OverfÃ¸r til en tallerken. TIPS: Kyllingen er ferdig nÃ¥r kjÃ¸ttet er hvitt og uten antydninger av rÃ¸dt."
+      "text": "Bland Hvitløksflørt og en skvett olivenolje med kylling i en skål. Varm opp en skvett olivenolje i en stekepanne på middels høy varme. Stek kylling i 3-4 min på hver side, til brunet og gjennomstekt. Overfør til en tallerken. TIPS: Kyllingen er ferdig når kjøttet er hvitt og uten antydninger av rødt."
     },
     {
       "@type": "HowToStep",
-      "text": "SkjÃ¦r eple i tynne, halve skiver. Masser spisskÃ¥l [1/2 pakke, 2P] i 30 sek med hendene i en stor skÃ¥l. Tilsett eventuelt en skvett olivenolje om du Ã¸nsker. Tilsett eple, tranebÃ¦r, en klype salt og pepper og bland godt."
+      "text": "Skjær eple i tynne, halve skiver. Masser spisskål [1/2 pakke, 2P] i 30 sek med hendene i en stor skål. Tilsett eventuelt en skvett olivenolje om du ønsker. Tilsett eple, tranebær, en klype salt og pepper og bland godt."
     },
     {
       "@type": "HowToStep",
-      "text": "Press eller finhakk hvitlÃ¸k. Smelt smÃ¸r [1 ss | 2 ss] med en skvett olivenolje i stekepannen pÃ¥ middels hÃ¸y varme. Stek hvitlÃ¸k i 1-2 min. Tilsett matflÃ¸te [1/2 pakke, 2P], grÃ¸nnsaksbuljong og halvparten av basilikum. La putre i 1-2 min. Krydre med salt [1/4 ts | 1/2 ts] og en stor klype pepper."
+      "text": "Press eller finhakk hvitløk. Smelt smør [1 ss | 2 ss] med en skvett olivenolje i stekepannen på middels høy varme. Stek hvitløk i 1-2 min. Tilsett matfløte [1/2 pakke, 2P], grønnsaksbuljong og halvparten av basilikum. La putre i 1-2 min. Krydre med salt [1/4 ts | 1/2 ts] og en stor klype pepper."
     },
     {
       "@type": "HowToStep",
-      "text": "Anrett kokte poteter, kylling og tranebÃ¦rsalat pÃ¥ tallerkener. Ã˜s over basilikumsaus. Topp med resterende basilikum."
+      "text": "Anrett kokte poteter, kylling og tranebærsalat på tallerkener. Øs over basilikumsaus. Topp med resterende basilikum."
     }
   ],
   "inLanguage": "nb-NO",
@@ -142,7 +142,7 @@ Enkel
     "servingSize": "581"
   },
   "prepTime": 20,
-  "name": "Kremet basilikumkylling med kokte poteter og fyldig tranebÃ¦rsalat",
+  "name": "Kremet basilikumkylling med kokte poteter og fyldig tranebærsalat",
   "totalTime": 40,
   "recipeYield": "2 servings",
   "pattern": "kremet-basilikumkylling-med-kokte-poteter-og-fyldig-tranebaersalat"
