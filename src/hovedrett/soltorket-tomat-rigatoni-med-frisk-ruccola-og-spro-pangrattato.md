@@ -17,7 +17,7 @@ tag:
   - vegetar
 ---
 
-# Soltørket tomat-rigatoni med frisk ruccola og sprø pangrattato
+# Soltørket tomat-rigatoni med frisk ruccola og sprø pangrattato 
 
 ![](/static/soltorket-tomat-rigatoni-med-frisk-ruccola-og-spro-pangrattato/soltorket-tomat-rigatoni-med-frisk-ruccola-og-spro-pangrattato.webp)
 
@@ -64,8 +64,7 @@ Enkel
 2. I mellomtiden, smelt smør i en stor stekepanne på middels høy varme. Rist panko i 3-4
    min, eller til gyllent og sprøtt. Krydre med en klype salt og pepper, og sett til
    side. Grovhakk soltørkede tomater, squash og oregano. Skyll ruccola.
-3. Varm opp olivenolje i samme stekepanne brukt til panko på middels høy varme. Tilsett
-   squash, soltørkerede tomater, oregano og Mamas Favoritt. Stek i 2-3 min. Rør inn
+3. Varm opp olivenolje i samme stekepanne brukt til panko på middels høy varme. Tilsett squash, soltørkerede tomater, oregano og Mamas Favoritt. Stek i 2-3 min. Rør inn
    pastavann, matfløte, grønnsaksbuljong, cherrytomat, salt, en klype pepper og sukker.
    La putre i 1-2 min, eller til tyknet. Rør inn pasta når den er ferdigkokt. TIPS:
    Tilsett mer pastavann om sausen føles for tykk.
