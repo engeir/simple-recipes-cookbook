@@ -6,6 +6,7 @@ authors:
     avatar: "https://avatars.githubusercontent.com/u/38856990?v=4"
 category:
   - Eirik Rolland Enger
+  - HelloFresh
   - hovedrett
 tag:
   - ost

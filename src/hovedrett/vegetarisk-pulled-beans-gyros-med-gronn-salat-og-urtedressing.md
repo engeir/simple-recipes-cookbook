@@ -14,6 +14,7 @@ tag:
   - vegansk
   - vegetar
   - bønner
+  - taco
 ---
 
 # Vegetarisk pulled beans-gyros med grønn salat og urtedressing

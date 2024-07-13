@@ -39,8 +39,11 @@ def check_if_appropriate(i: pathlib.Path) -> pathlib.Path:
 
 def do_conversion(i: pathlib.Path, name: pathlib.Path) -> None:
     """Convert the image to be suitable as a thumbnail."""
-    subprocess.run(["cwebp", "-size", "500000", i, "-o", name])
-    subprocess.run(["cwebp", "-crop", "0", "500", "4000", "2000", name, "-o", name])
+    mise_run = ["mise", "exec", "npm:cwebp@latest", "--"]
+    subprocess.run(mise_run + ["cwebp", "-size", "500000", i, "-o", name])
+    subprocess.run(
+        mise_run + ["cwebp", "-crop", "0", "500", "4000", "2000", name, "-o", name]
+    )
 
 
 def main() -> None:

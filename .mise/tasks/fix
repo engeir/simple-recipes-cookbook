@@ -1,0 +1,43 @@
+#!/usr/bin/python3
+# mise description="Fix misrepresented characters"
+
+import pathlib
+
+
+def maybe_fix_encoding(utf8_string, possible_codec="cp1252"):
+    """Attempts to fix mangled text caused by interpreting UTF8 as cp1252.
+
+    For other codecs: https://docs.python.org/3/library/codecs.html
+
+    Notes
+    -----
+    From https://stackoverflow.com/a/66579518.
+    """
+    try:
+        return utf8_string.encode(possible_codec).decode("utf8")
+    except UnicodeError:
+        return utf8_string
+
+
+def open_and_close(f: pathlib.Path) -> None:
+    # Step 1: Read the file
+    with open(f, "r") as file:
+        lines = file.readlines()
+    # Step 2: Process the content
+    formatted_lines = []
+    for line in lines:
+        new_line = maybe_fix_encoding(line)
+        formatted_lines.append(new_line)
+    # Step 3: Write back to the file
+    with open(f, "w") as file:
+        file.writelines(formatted_lines)
+
+
+def main() -> None:
+    out = pathlib.Path().rglob("*.md")
+    for i in out:
+        open_and_close(i)
+
+
+if __name__ == "__main__":
+    main()

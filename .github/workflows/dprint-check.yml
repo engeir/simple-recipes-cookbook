@@ -1,28 +1,43 @@
 on:
-  - push
-  - pull_request
-name: dprint check and commit
+  push:
+    branches:
+      - main
+  pull_request:
+name: dprint check
 jobs:
-  fix-style:
+  check-style:
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: Check with dprint
         run: |
-          curl -fsSL https://dprint.dev/install.sh | sh -s 0.45.0 > /dev/null 2>&1
-          $HOME/.dprint/bin/dprint check --allow-no-files
-      - name: Check for changes
-        id: check_changes
+          curl -fsSL https://dprint.dev/install.sh | sh -s 0.45.0 >/dev/null 2>&1
+          "$HOME"/.dprint/bin/dprint check --allow-no-files
+  fix-style:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Setup mise
+        uses: jdx/mise-action@v2
+        with:
+          experimental: true
+      - name: Create missing thumbnails and fix letters
         run: |
-          git diff --exit-code || echo "Changes detected"
-        continue-on-error: true
-      - name: Commit formatted file
-        if: steps.check_changes.outcome == 'failure'
+          mise run thumbnail
+          mise run fix
+      - name: Check with dprint
         run: |
-          git config --global user.email "actions@github.com"
-          git config --global user.name "GitHub Actions"
-          git add .
-          git commit -m "Auto-format code"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          curl -fsSL https://dprint.dev/install.sh | sh -s 0.45.0 >/dev/null 2>&1
+          "$HOME"/.dprint/bin/dprint fmt --allow-no-files
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Apply dprint format changes and thumbnail generation
