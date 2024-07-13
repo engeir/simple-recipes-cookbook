@@ -12,12 +12,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("url", type=str, help="The URL to scrape")
 params = parser.parse_args()
 
-scraped = scrape_me(
-    # "https://mere.eirik.re/hovedrett/char-siu-inspirert-kjottdeig/", wild_mode=True,
-    params.url,
-    wild_mode=True,
-    # "https://www.hellofresh.no/recipes/char-siu-inspirert-kjottdeig-63ea00c81c9cdaabe476a6c2",
-)
+scraped = scrape_me(params.url, wild_mode=True)
 
 methods = {
     # "canonical_url",

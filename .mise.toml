@@ -17,26 +17,11 @@ description = "Format files"
 run = "dprint fmt --incremental=true --allow-no-files"
 alias = "fmt"
 
-[tasks.reduce]
-description = "Reduce the file size of an image"
-run = """
-#!/usr/bin/env bash
-
-cwebp -size 500000 "$1" -o "$2"
-"""
-
-[tasks.crop]
-description = "Crop an image"
-run = """
-#!/usr/bin/env bash
-
-cwebp -crop 0 500 4000 2000 "$1" -o "$2"
-"""
-
-[tasks.create-thumbnail]
-description = "Run both image filter tasks to create a thumbnail"
-run = ["reduce", "crop"]
-
 [tasks."recipe-scrapers:install"]
-description = "Installs the recipe-scrapers package via pip"
-run = "python -m pip install recipe-scrapers"
+description = "Installs recipe-scrapers via rye"
+run = """
+#!/usr/bin/env bash
+curl -sSf https://rye.astral.sh/get | RYE_INSTALL_OPTION="--yes" bash
+source "$HOME/.rye/env"
+rye sync -f
+"""
