@@ -20,6 +20,14 @@ body:
       placeholder: "f.eks. https://mere.eirik.re/bakst/bananbrod/"
     validations:
       required: true
+  - type: input
+    id: oppskrift-tittel
+    attributes:
+      label: Tittel
+      description: Hva skal retten hete?
+      placeholder: "f.eks. Bananbrød"
+    validations:
+      required: true
   - type: dropdown
     id: vanskelighetsgrad
     attributes:

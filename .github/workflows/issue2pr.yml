@@ -155,9 +155,6 @@ jobs:
           EOF
           cat "$TMPFILE"
           mv "$TMPFILE" ./"$FILE_REL_TO_ROOT"
-      # - name: Update main branch
-      #   run: |
-      #     git pull --rebase
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
@@ -327,9 +324,6 @@ jobs:
           EOF
           cat "$TMPFILE"
           mv "$TMPFILE" ./"$FILE_REL_TO_ROOT"
-      # - name: Update main branch
-      #   run: |
-      #     git pull --rebase
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
@@ -373,6 +367,7 @@ jobs:
           mise settings set experimental true
           mise run recipe-scrapers:install
           echo "PARSED=$(mise run recipe-scrapers:run ${{ fromJson(steps.parse.outputs.payload).Lenke }} | jq -c)" >> $GITHUB_ENV
+          echo "TITLE=$(mise run recipe-scrapers:title-to-filepath ${{ fromJson(steps.parse.outputs.payload).Tittel }} | jq -c)" >> $GITHUB_ENV
       - name: Set up environment variables
         run: |
           echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
@@ -384,8 +379,9 @@ jobs:
           CATEGORY=${{ fromJson(steps.parse.outputs.payload).Kategori }}
           echo "CATEGORY=${{ fromJson(steps.parse.outputs.payload).Kategori }}" >> $GITHUB_ENV
           echo "TMPDIR=/tmp/src/$CATEGORY" >> $GITHUB_ENV
-          echo "TMPFILE=/tmp/src/$CATEGORY/${{ fromJson(env.PARSED).pattern }}.md" >> $GITHUB_ENV
-          echo "FILE_REL_TO_ROOT=src/$CATEGORY/${{ fromJson(env.PARSED).pattern }}.md" >> $GITHUB_ENV
+          echo "TMPFILE=/tmp/src/$CATEGORY/${{ fromJson(env.TITLE) }}.md" >> $GITHUB_ENV
+          echo "FILE_REL_TO_ROOT=src/$CATEGORY/${{ fromJson(env.TITLE) }}.md" >> $GITHUB_ENV
+          echo "STATIC_DIR=src/static/${{ fromJson(env.TITLE) }}/" >> $GITHUB_ENV
       - name: Create recipe
         run: |
           mkdir -p "$TMPDIR"
@@ -411,9 +407,9 @@ jobs:
           cat << EOF >> "$TMPFILE"
           ---
 
-          # ${{ fromJson(env.PARSED).name }}
+          # ${{ fromJson(env.TITLE) }}
 
-          ![](/static/${{ fromJson(env.PARSED).pattern }}/${{ fromJson(env.PARSED).pattern }}.webp)
+          ![](/static/${{ fromJson(env.TITLE) }}/${{ fromJson(env.TITLE) }}.webp)
 
           EOF
           if [[ "${{ fromJson(env.PARSED).author.name }}" != "" ]] && [[ "${{ fromJson(steps.parse.outputs.payload).Lenke }}" != "" ]]; then
@@ -474,13 +470,11 @@ jobs:
           EOF
           cat "$TMPFILE"
           mv "$TMPFILE" ./"$FILE_REL_TO_ROOT"
-      # - name: Update main branch
-      #   run: |
-      #     git pull --rebase
+          mkdir -p ./"$STATIC_DIR"
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
-          branch: "${{ fromJson(env.PARSED).pattern }}"
+          branch: "${{ fromJson(env.TITLE) }}"
           add-paths: |
             ${{ env.FILE_REL_TO_ROOT }}
           delete-branch: true
@@ -489,7 +483,7 @@ jobs:
           assignees: ${{ github.repository_owner }}
           title: "feat(recipe): ${{ fromJson(env.PARSED).name }}"
           body: |
-            :robot: Jeg lagde akkurat en PR for å legge til ${{ fromJson(env.PARSED).name }} på vegne av [@${{ github.event.issue.user.login }}](${{ github.event.issue.user.html_url }}).
+            :robot: Jeg lagde akkurat en PR for å legge til ${{ fromJson(env.TITLE) }} på vegne av [@${{ github.event.issue.user.login }}](${{ github.event.issue.user.html_url }}).
 
             Resolves #${{ github.event.issue.number }}
           labels: |
@@ -520,6 +514,7 @@ jobs:
           mise settings set experimental true
           mise run recipe-scrapers:install
           echo "PARSED=$(mise run recipe-scrapers:run ${{ fromJson(steps.parse.outputs.payload).URL }} | jq -c)" >> $GITHUB_ENV
+          echo "TITLE=$(mise run recipe-scrapers:title-to-filepath ${{ fromJson(steps.parse.outputs.payload).Title }} | jq -c)" >> $GITHUB_ENV
       - name: Set up environment variables
         run: |
           echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
@@ -531,8 +526,9 @@ jobs:
           CATEGORY=${{ fromJson(steps.parse.outputs.payload).Category }}
           echo "CATEGORY=${{ fromJson(steps.parse.outputs.payload).Category }}" >> $GITHUB_ENV
           echo "TMPDIR=/tmp/src/$CATEGORY" >> $GITHUB_ENV
-          echo "TMPFILE=/tmp/src/$CATEGORY/${{ fromJson(env.PARSED).pattern }}.md" >> $GITHUB_ENV
-          echo "FILE_REL_TO_ROOT=src/$CATEGORY/${{ fromJson(env.PARSED).pattern }}.md" >> $GITHUB_ENV
+          echo "TMPFILE=/tmp/src/$CATEGORY/${{ fromJson(env.TITLE) }}.md" >> $GITHUB_ENV
+          echo "FILE_REL_TO_ROOT=src/$CATEGORY/${{ fromJson(env.TITLE) }}.md" >> $GITHUB_ENV
+          echo "STATIC_DIR=src/static/${{ fromJson(env.TITLE) }}/" >> $GITHUB_ENV
       - name: Create recipe
         run: |
           mkdir -p "$TMPDIR"
@@ -560,7 +556,7 @@ jobs:
 
           # ${{ fromJson(env.PARSED).name }}
 
-          ![](/static/${{ fromJson(env.PARSED).pattern }}/${{ fromJson(env.PARSED).pattern }}.webp)
+          ![](/static/${{ fromJson(env.TITLE) }}/${{ fromJson(env.TITLE) }}.webp)
 
           EOF
           if [[ "${{ fromJson(env.PARSED).author.name }}" != "" ]] && [[ "${{ fromJson(steps.parse.outputs.payload).URL }}" != "" ]]; then
@@ -621,13 +617,11 @@ jobs:
           EOF
           cat "$TMPFILE"
           mv "$TMPFILE" ./"$FILE_REL_TO_ROOT"
-      # - name: Update main branch
-      #   run: |
-      #     git pull --rebase
+          mkdir -p ./"$STATIC_DIR"
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
-          branch: "${{ fromJson(env.PARSED).pattern }}"
+          branch: "${{ fromJson(env.TITLE) }}"
           add-paths: |
             ${{ env.FILE_REL_TO_ROOT }}
           delete-branch: true
@@ -636,7 +630,7 @@ jobs:
           assignees: ${{ github.repository_owner }}
           title: "feat(recipe): ${{ fromJson(env.PARSED).name }}"
           body: |
-            :robot: I just made a PR to add ${{ fromJson(env.PARSED).name }} on behalf of [@${{ github.event.issue.user.login }}](${{ github.event.issue.user.html_url }}).
+            :robot: I just made a PR to add ${{ fromJson(env.TITLE) }} on behalf of [@${{ github.event.issue.user.login }}](${{ github.event.issue.user.html_url }}).
 
             Resolves #${{ github.event.issue.number }}
           labels: |

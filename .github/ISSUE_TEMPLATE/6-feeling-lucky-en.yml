@@ -20,6 +20,14 @@ body:
       placeholder: "e.g. https://mere.eirik.re/bakst/bananbrod/"
     validations:
       required: true
+  - type: input
+    id: recipe-titel
+    attributes:
+      label: Title
+      description: What should we name the recipe?
+      placeholder: "e.g. Banana bread"
+    validations:
+      required: true
   - type: dropdown
     id: difficulty
     attributes:

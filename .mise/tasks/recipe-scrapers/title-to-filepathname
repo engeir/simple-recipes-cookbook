@@ -1,0 +1,23 @@
+#!./.venv/bin/python
+# mise description="Convert a human readable recipe name to a file path friendly name"
+
+import argparse
+import re
+
+
+# Get the first CLI argument
+parser = argparse.ArgumentParser()
+parser.add_argument("title", type=str, help="The title to convert")
+params = parser.parse_args()
+
+
+def to_kebab_case(s: str) -> str:
+    s = s.lower().replace(" ", "-")
+    # Replace æ, ø, and å with ae, o, and a
+    s = re.sub(r"æ", "ae", s)
+    s = re.sub(r"ø", "o", s)
+    s = re.sub(r"å", "a", s)
+    return s
+
+
+print(to_kebab_case(params.title))
