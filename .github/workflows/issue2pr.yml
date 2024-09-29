@@ -367,7 +367,7 @@ jobs:
           mise settings set experimental true
           mise run recipe-scrapers:install
           echo "PARSED=$(mise run recipe-scrapers:run ${{ fromJson(steps.parse.outputs.payload).Lenke }} | jq -c)" >> $GITHUB_ENV
-          echo "TITLE=$(mise run recipe-scrapers:title-to-filepath ${{ fromJson(steps.parse.outputs.payload).Tittel }} | jq -c)" >> $GITHUB_ENV
+          echo "TITLE=$(mise run recipe-scrapers:title-to-filepathname ${{ fromJson(steps.parse.outputs.payload).Tittel }})" >> $GITHUB_ENV
       - name: Set up environment variables
         run: |
           echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
@@ -514,7 +514,7 @@ jobs:
           mise settings set experimental true
           mise run recipe-scrapers:install
           echo "PARSED=$(mise run recipe-scrapers:run ${{ fromJson(steps.parse.outputs.payload).URL }} | jq -c)" >> $GITHUB_ENV
-          echo "TITLE=$(mise run recipe-scrapers:title-to-filepath ${{ fromJson(steps.parse.outputs.payload).Title }} | jq -c)" >> $GITHUB_ENV
+          echo "TITLE=$(mise run recipe-scrapers:title-to-filepathname ${{ fromJson(steps.parse.outputs.payload).Title }})" >> $GITHUB_ENV
       - name: Set up environment variables
         run: |
           echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
