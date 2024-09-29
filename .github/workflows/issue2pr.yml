@@ -155,9 +155,9 @@ jobs:
           EOF
           cat "$TMPFILE"
           mv "$TMPFILE" ./"$FILE_REL_TO_ROOT"
-      - name: Update main branch
-        run: |
-          git pull --rebase
+      # - name: Update main branch
+      #   run: |
+      #     git pull --rebase
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
@@ -327,9 +327,9 @@ jobs:
           EOF
           cat "$TMPFILE"
           mv "$TMPFILE" ./"$FILE_REL_TO_ROOT"
-      - name: Update main branch
-        run: |
-          git pull --rebase
+      # - name: Update main branch
+      #   run: |
+      #     git pull --rebase
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
@@ -474,9 +474,9 @@ jobs:
           EOF
           cat "$TMPFILE"
           mv "$TMPFILE" ./"$FILE_REL_TO_ROOT"
-      - name: Update main branch
-        run: |
-          git pull --rebase
+      # - name: Update main branch
+      #   run: |
+      #     git pull --rebase
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
@@ -621,9 +621,9 @@ jobs:
           EOF
           cat "$TMPFILE"
           mv "$TMPFILE" ./"$FILE_REL_TO_ROOT"
-      - name: Update main branch
-        run: |
-          git pull --rebase
+      # - name: Update main branch
+      #   run: |
+      #     git pull --rebase
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
