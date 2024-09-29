@@ -159,7 +159,7 @@ jobs:
         run: |
           git pull --rebase
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v7
         with:
           branch: "${{ fromJson(steps.parse.outputs.payload).Filnavn }}"
           add-paths: |
@@ -331,7 +331,7 @@ jobs:
         run: |
           git pull --rebase
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v7
         with:
           branch: "${{ fromJson(steps.parse.outputs.payload).Filename }}"
           add-paths: |
@@ -478,7 +478,7 @@ jobs:
         run: |
           git pull --rebase
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v7
         with:
           branch: "${{ fromJson(env.PARSED).pattern }}"
           add-paths: |
@@ -625,7 +625,7 @@ jobs:
         run: |
           git pull --rebase
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v7
         with:
           branch: "${{ fromJson(env.PARSED).pattern }}"
           add-paths: |
