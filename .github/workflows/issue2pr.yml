@@ -477,6 +477,7 @@ jobs:
           branch: "${{ env.TITLE }}"
           add-paths: |
             ${{ env.FILE_REL_TO_ROOT }}
+            ${{ env.STATIC_DIR }}
           delete-branch: true
           author: ${{ github.event.issue.user.login }} <${{ env.ISSUEUSER_ID }}+${{ github.event.issue.user.login }}@users.noreply.github.com>
           reviewers: ${{ github.repository_owner }}
@@ -624,6 +625,7 @@ jobs:
           branch: "${{ env.TITLE }}"
           add-paths: |
             ${{ env.FILE_REL_TO_ROOT }}
+            ${{ env.STATIC_DIR }}
           delete-branch: true
           author: ${{ github.event.issue.user.login }} <${{ env.ISSUEUSER_ID }}+${{ github.event.issue.user.login }}@users.noreply.github.com>
           reviewers: ${{ github.repository_owner }}
