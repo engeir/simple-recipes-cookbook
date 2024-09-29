@@ -379,9 +379,9 @@ jobs:
           CATEGORY=${{ fromJson(steps.parse.outputs.payload).Kategori }}
           echo "CATEGORY=${{ fromJson(steps.parse.outputs.payload).Kategori }}" >> $GITHUB_ENV
           echo "TMPDIR=/tmp/src/$CATEGORY" >> $GITHUB_ENV
-          echo "TMPFILE=/tmp/src/$CATEGORY/${{ fromJson(env.TITLE) }}.md" >> $GITHUB_ENV
-          echo "FILE_REL_TO_ROOT=src/$CATEGORY/${{ fromJson(env.TITLE) }}.md" >> $GITHUB_ENV
-          echo "STATIC_DIR=src/static/${{ fromJson(env.TITLE) }}/" >> $GITHUB_ENV
+          echo "TMPFILE=/tmp/src/$CATEGORY/${{ env.TITLE }}.md" >> $GITHUB_ENV
+          echo "FILE_REL_TO_ROOT=src/$CATEGORY/${{ env.TITLE }}.md" >> $GITHUB_ENV
+          echo "STATIC_DIR=src/static/${{ env.TITLE }}/" >> $GITHUB_ENV
       - name: Create recipe
         run: |
           mkdir -p "$TMPDIR"
@@ -407,9 +407,9 @@ jobs:
           cat << EOF >> "$TMPFILE"
           ---
 
-          # ${{ fromJson(env.TITLE) }}
+          # ${{ env.TITLE }}
 
-          ![](/static/${{ fromJson(env.TITLE) }}/${{ fromJson(env.TITLE) }}.webp)
+          ![](/static/${{ env.TITLE }}/${{ env.TITLE }}.webp)
 
           EOF
           if [[ "${{ fromJson(env.PARSED).author.name }}" != "" ]] && [[ "${{ fromJson(steps.parse.outputs.payload).Lenke }}" != "" ]]; then
@@ -474,7 +474,7 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
-          branch: "${{ fromJson(env.TITLE) }}"
+          branch: "${{ env.TITLE }}"
           add-paths: |
             ${{ env.FILE_REL_TO_ROOT }}
           delete-branch: true
@@ -483,7 +483,7 @@ jobs:
           assignees: ${{ github.repository_owner }}
           title: "feat(recipe): ${{ fromJson(env.PARSED).name }}"
           body: |
-            :robot: Jeg lagde akkurat en PR for å legge til ${{ fromJson(env.TITLE) }} på vegne av [@${{ github.event.issue.user.login }}](${{ github.event.issue.user.html_url }}).
+            :robot: Jeg lagde akkurat en PR for å legge til ${{ env.TITLE }} på vegne av [@${{ github.event.issue.user.login }}](${{ github.event.issue.user.html_url }}).
 
             Resolves #${{ github.event.issue.number }}
           labels: |
@@ -526,9 +526,9 @@ jobs:
           CATEGORY=${{ fromJson(steps.parse.outputs.payload).Category }}
           echo "CATEGORY=${{ fromJson(steps.parse.outputs.payload).Category }}" >> $GITHUB_ENV
           echo "TMPDIR=/tmp/src/$CATEGORY" >> $GITHUB_ENV
-          echo "TMPFILE=/tmp/src/$CATEGORY/${{ fromJson(env.TITLE) }}.md" >> $GITHUB_ENV
-          echo "FILE_REL_TO_ROOT=src/$CATEGORY/${{ fromJson(env.TITLE) }}.md" >> $GITHUB_ENV
-          echo "STATIC_DIR=src/static/${{ fromJson(env.TITLE) }}/" >> $GITHUB_ENV
+          echo "TMPFILE=/tmp/src/$CATEGORY/${{ env.TITLE }}.md" >> $GITHUB_ENV
+          echo "FILE_REL_TO_ROOT=src/$CATEGORY/${{ env.TITLE }}.md" >> $GITHUB_ENV
+          echo "STATIC_DIR=src/static/${{ env.TITLE }}/" >> $GITHUB_ENV
       - name: Create recipe
         run: |
           mkdir -p "$TMPDIR"
@@ -556,7 +556,7 @@ jobs:
 
           # ${{ fromJson(env.PARSED).name }}
 
-          ![](/static/${{ fromJson(env.TITLE) }}/${{ fromJson(env.TITLE) }}.webp)
+          ![](/static/${{ env.TITLE }}/${{ env.TITLE }}.webp)
 
           EOF
           if [[ "${{ fromJson(env.PARSED).author.name }}" != "" ]] && [[ "${{ fromJson(steps.parse.outputs.payload).URL }}" != "" ]]; then
@@ -621,7 +621,7 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
-          branch: "${{ fromJson(env.TITLE) }}"
+          branch: "${{ env.TITLE }}"
           add-paths: |
             ${{ env.FILE_REL_TO_ROOT }}
           delete-branch: true
@@ -630,7 +630,7 @@ jobs:
           assignees: ${{ github.repository_owner }}
           title: "feat(recipe): ${{ fromJson(env.PARSED).name }}"
           body: |
-            :robot: I just made a PR to add ${{ fromJson(env.TITLE) }} on behalf of [@${{ github.event.issue.user.login }}](${{ github.event.issue.user.html_url }}).
+            :robot: I just made a PR to add ${{ env.TITLE }} on behalf of [@${{ github.event.issue.user.login }}](${{ github.event.issue.user.html_url }}).
 
             Resolves #${{ github.event.issue.number }}
           labels: |
