@@ -78,6 +78,8 @@ For more examples, check out some repos forked from this one!
   [website](https://4thehalibit.github.io/Westbergs-Cookbook/))
 - [@bafulton](https://github.com/bafulton) ([repo](https://github.com/bafulton/recipes),
   [website](https://bafulton.github.io/recipes/))
+- [@FrLdy](https://github.com/FrLdy)
+  ([repo](https://github.com/FrLdy/recettes), [website](https://frldy.github.io/recettes/))
 
 > [!TIP]
 >
