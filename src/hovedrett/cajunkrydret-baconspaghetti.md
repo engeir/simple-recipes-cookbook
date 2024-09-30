@@ -54,9 +54,17 @@ Enkel
 
 ## Steg
 
-1. Kok opp en stor kjele med saltet vann. Kok spaghetti i 8-9 min, eller til 'al dente'. Spar litt pastavann i en kopp, og hell av resten. TIPS: Kokevannet skal være like salt som sjøvann. TIPS: ‘Al dente’ betyr at pastaen er myk med litt tyggemotstand.
-2. I mellomtiden, skjær paprika i 1 cm tynne strimler. Skyll ruccola. Varm opp en mellomstor stekepanne på middels høy varme. Stek bacon, cherrytomater og paprika i 4-5 min, eller til myknet. Tilsett tomatpure, chiliflak, røkt paprikapulver og Ay Cajun-ba. Stek i 30 sek, til velduftende. TIPS: Tilsett chiliflak etter smak - det er sterkt.
-3. Tilsett matfløte, kyllingbuljong, finrevet ost og pastavann i stekepannen. Vend spaghetti i sausen. Bland inn ruccola rett før servering. TIPS: Tilsett en skvett vann om spaghettien virker tørr.
+1. Kok opp en stor kjele med saltet vann. Kok spaghetti i 8-9 min, eller til 'al dente'.
+   Spar litt pastavann i en kopp, og hell av resten. TIPS: Kokevannet skal være like
+   salt som sjøvann. TIPS: ‘Al dente’ betyr at pastaen er myk med litt tyggemotstand.
+2. I mellomtiden, skjær paprika i 1 cm tynne strimler. Skyll ruccola. Varm opp en
+   mellomstor stekepanne på middels høy varme. Stek bacon, cherrytomater og paprika i
+   4-5 min, eller til myknet. Tilsett tomatpure, chiliflak, røkt paprikapulver og Ay
+   Cajun-ba. Stek i 30 sek, til velduftende. TIPS: Tilsett chiliflak etter smak - det er
+   sterkt.
+3. Tilsett matfløte, kyllingbuljong, finrevet ost og pastavann i stekepannen. Vend
+   spaghetti i sausen. Bland inn ruccola rett før servering. TIPS: Tilsett en skvett
+   vann om spaghettien virker tørr.
 4. Anrett spaghetti i dype tallerkener.
 
 <script type="application/ld+json">
