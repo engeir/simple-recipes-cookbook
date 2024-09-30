@@ -368,6 +368,7 @@ jobs:
           mise run recipe-scrapers:install
           echo "PARSED=$(mise run recipe-scrapers:run ${{ fromJson(steps.parse.outputs.payload).Lenke }} | jq -c)" >> $GITHUB_ENV
           echo "TITLE=$(mise run recipe-scrapers:title-to-filepathname '${{ fromJson(steps.parse.outputs.payload).Tittel }}')" >> $GITHUB_ENV
+          echo "TITLEHUMAN=${{ fromJson(steps.parse.outputs.payload).Tittel }}" >> $GITHUB_ENV
       - name: Set up environment variables
         run: |
           echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
@@ -407,7 +408,7 @@ jobs:
           cat << EOF >> "$TMPFILE"
           ---
 
-          # ${{ env.TITLE }}
+          # ${{ env.TITLEHUMAN }}
 
           ![](/static/${{ env.TITLE }}/${{ env.TITLE }}.webp)
 
@@ -471,6 +472,7 @@ jobs:
           cat "$TMPFILE"
           mv "$TMPFILE" ./"$FILE_REL_TO_ROOT"
           mkdir -p ./"$STATIC_DIR"
+          touch ./"$STATIC_DIR"/image.txt
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
@@ -484,7 +486,7 @@ jobs:
           assignees: ${{ github.repository_owner }}
           title: "feat(recipe): ${{ fromJson(env.PARSED).name }}"
           body: |
-            :robot: Jeg lagde akkurat en PR for å legge til ${{ env.TITLE }} på vegne av [@${{ github.event.issue.user.login }}](${{ github.event.issue.user.html_url }}).
+            :robot: Jeg lagde akkurat en PR for å legge til ${{ env.TITLEHUMAN }} på vegne av [@${{ github.event.issue.user.login }}](${{ github.event.issue.user.html_url }}).
 
             Resolves #${{ github.event.issue.number }}
           labels: |
@@ -516,6 +518,7 @@ jobs:
           mise run recipe-scrapers:install
           echo "PARSED=$(mise run recipe-scrapers:run ${{ fromJson(steps.parse.outputs.payload).URL }} | jq -c)" >> $GITHUB_ENV
           echo "TITLE=$(mise run recipe-scrapers:title-to-filepathname '${{ fromJson(steps.parse.outputs.payload).Title }}')" >> $GITHUB_ENV
+          echo "TITLEHUMAN=${{ fromJson(steps.parse.outputs.payload).Title }}" >> $GITHUB_ENV
       - name: Set up environment variables
         run: |
           echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
@@ -555,7 +558,7 @@ jobs:
           cat << EOF >> "$TMPFILE"
           ---
 
-          # ${{ fromJson(env.PARSED).name }}
+          # ${{ env.TITLEHUMAN }}
 
           ![](/static/${{ env.TITLE }}/${{ env.TITLE }}.webp)
 
@@ -619,6 +622,7 @@ jobs:
           cat "$TMPFILE"
           mv "$TMPFILE" ./"$FILE_REL_TO_ROOT"
           mkdir -p ./"$STATIC_DIR"
+          touch ./"$STATIC_DIR"/image.txt
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
@@ -632,7 +636,7 @@ jobs:
           assignees: ${{ github.repository_owner }}
           title: "feat(recipe): ${{ fromJson(env.PARSED).name }}"
           body: |
-            :robot: I just made a PR to add ${{ env.TITLE }} on behalf of [@${{ github.event.issue.user.login }}](${{ github.event.issue.user.html_url }}).
+            :robot: I just made a PR to add ${{ env.TITLEHUMAN }} on behalf of [@${{ github.event.issue.user.login }}](${{ github.event.issue.user.html_url }}).
 
             Resolves #${{ github.event.issue.number }}
           labels: |
