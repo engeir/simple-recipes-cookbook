@@ -62,12 +62,24 @@ Middels
 
 ## Steg
 
-1. Skjær bacon i små biter. Ha olje i en varm panne og stek til baconet til det er gyllent. Ha i litt mer olje og brun kjøttdeig i olje på sterk varme i to omganger.
-2. Senk varmen litt og ha i løk, gulrot og stilkselleri og la det steke til grønnsakene er blitt myke og blanke. Ha baconet og kjøttdeigen tilbake i stekepanna og bland alt sammen.
-3. Lag en grop i midten av stekepannen. Ha i litt mer olje og fres tomat puréen i noen minutter. Ha i hermetisk tomat, kraft og krydder. La kjøttsausen småkoke i minst 10 minutter, til den begynner å tykne. Har du litt god tid? La gjerne sausen småkoke under lokk i ca. 1 ½ time, for å utvikle ekstra god smak. Husk å rør litt i kjelen underveis, slik at det ikke fester seg på bunnen av gryta. Smak til med salt og pepper.
-4. Smelt smør i en kjele og rør inn mel. Spe med melk under omrøring og la sausen koke i ca. 10 minutter. Den skal være forholdsvis tykk. Ha i parmesan og la osten smelte. Smak til ostesausen med krydder.
-5. Legg kjøttsaus, pastaplater og ostesaus lagvis i en ildfast form. Avslutt med pastaplater og ostesaus. Dryss over revet ost til slutt.
-6. Sett formen i stekeovn på 200° C og stek i 30-40 minutter. Kjenn etter med en pinne eller spiss kniv om pastaen er mør. La lasagnen hvile noen minutter før servering.
+1. Skjær bacon i små biter. Ha olje i en varm panne og stek til baconet til det er
+   gyllent. Ha i litt mer olje og brun kjøttdeig i olje på sterk varme i to omganger.
+2. Senk varmen litt og ha i løk, gulrot og stilkselleri og la det steke til grønnsakene
+   er blitt myke og blanke. Ha baconet og kjøttdeigen tilbake i stekepanna og bland alt
+   sammen.
+3. Lag en grop i midten av stekepannen. Ha i litt mer olje og fres tomat puréen i noen
+   minutter. Ha i hermetisk tomat, kraft og krydder. La kjøttsausen småkoke i minst 10
+   minutter, til den begynner å tykne. Har du litt god tid? La gjerne sausen småkoke
+   under lokk i ca. 1 ½ time, for å utvikle ekstra god smak. Husk å rør litt i kjelen
+   underveis, slik at det ikke fester seg på bunnen av gryta. Smak til med salt og
+   pepper.
+4. Smelt smør i en kjele og rør inn mel. Spe med melk under omrøring og la sausen koke i
+   ca. 10 minutter. Den skal være forholdsvis tykk. Ha i parmesan og la osten smelte.
+   Smak til ostesausen med krydder.
+5. Legg kjøttsaus, pastaplater og ostesaus lagvis i en ildfast form. Avslutt med
+   pastaplater og ostesaus. Dryss over revet ost til slutt.
+6. Sett formen i stekeovn på 200° C og stek i 30-40 minutter. Kjenn etter med en pinne
+   eller spiss kniv om pastaen er mør. La lasagnen hvile noen minutter før servering.
 
 <script type="application/ld+json">
 {
