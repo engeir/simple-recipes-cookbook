@@ -50,15 +50,29 @@ Middels
 
 ## Steg
 
-1. Ha mel, sukker og salt i en bakebolle. Rør det raskt sammen. Hold gjerne tilbake 1 dl mel, som du kan tilsette senere om deigen blir for klissete.
-2. Visp sammen melk og egg. Bruk romtempererte råvarer eller varm forsiktig opp blandingen til 25-30 °C. Smuldre gjæren i melkeblandingen, og rør til den er helt oppløst. Bruker du tørrgjær kan den tilsettes i bollen med det tørre.
-3. Tilsett safran i melkeblandingen, og rør godt slik at melken får en fin, gul farge. Avkjøl.
-4. Ha melkeblandingen i bollen med det tørre, og elt i 5-10 minutter på lav hastighet til deigen samler seg og slipper bollen litt. Er deigen veldig klissete kan du tilsette resten av melet.
-5. Ha romtemperert smør i terninger, og elt til deigen er smidig og har en blank, fin overflate, ca. 10 minutter. Ta gjerne "glutentesten" mot slutten av eltingen. Strekk i deigen - føles den kort, bør den eltes litt til. Er den elastisk og smidig er den klar for heving.
-6. Dekk bakebollen med plastfolie og la den heve på et lunt sted til dobbel størrelse, 1 - 1,5 time.
-7. Ha deigen på melet bakebord. Trill tynne pølser og form dem til lussekatter – se bildet for inspirasjon. Bruk litt mel på kjøkkenbenken til utbakingen dersom nødvendig.
-8. Pynt med rosiner. Legg baksten på et bakepapirkledd stekebrett. Etterhev under et klede i 15–20 minutter. Pensle med egg.
-9. Stek lussekatter midt i ovnen på 225 °C i 8–10 minutter, til de er lyst gylne. Avkjøl på rist.
+1. Ha mel, sukker og salt i en bakebolle. Rør det raskt sammen. Hold gjerne tilbake 1 dl
+   mel, som du kan tilsette senere om deigen blir for klissete.
+2. Visp sammen melk og egg. Bruk romtempererte råvarer eller varm forsiktig opp
+   blandingen til 25-30 °C. Smuldre gjæren i melkeblandingen, og rør til den er helt
+   oppløst. Bruker du tørrgjær kan den tilsettes i bollen med det tørre.
+3. Tilsett safran i melkeblandingen, og rør godt slik at melken får en fin, gul farge.
+   Avkjøl.
+4. Ha melkeblandingen i bollen med det tørre, og elt i 5-10 minutter på lav hastighet
+   til deigen samler seg og slipper bollen litt. Er deigen veldig klissete kan du
+   tilsette resten av melet.
+5. Ha romtemperert smør i terninger, og elt til deigen er smidig og har en blank, fin
+   overflate, ca. 10 minutter. Ta gjerne "glutentesten" mot slutten av eltingen. Strekk
+   i deigen - føles den kort, bør den eltes litt til. Er den elastisk og smidig er den
+   klar for heving.
+6. Dekk bakebollen med plastfolie og la den heve på et lunt sted til dobbel størrelse,
+   1 - 1,5 time.
+7. Ha deigen på melet bakebord. Trill tynne pølser og form dem til lussekatter – se
+   bildet for inspirasjon. Bruk litt mel på kjøkkenbenken til utbakingen dersom
+   nødvendig.
+8. Pynt med rosiner. Legg baksten på et bakepapirkledd stekebrett. Etterhev under et
+   klede i 15–20 minutter. Pensle med egg.
+9. Stek lussekatter midt i ovnen på 225 °C i 8–10 minutter, til de er lyst gylne. Avkjøl
+   på rist.
 
 <script type="application/ld+json">
 {
