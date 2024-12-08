@@ -17,8 +17,8 @@ tag:
 
 !!!info
 
-Denne oppskriften er originalt fra
-[!badge variant="dark" iconAlign="right" margin="0 0 0 4" icon=":cook:" size="l" target="blank" text="Tone Enger"](_No response_)
+Denne oppskriften er originalt fra [!badge variant="dark" iconAlign="right" margin="0 0
+0 4" icon=":cook:" size="l" target="blank" text="Tone Enger"](_No response_)
 
 !!!
 
