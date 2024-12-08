@@ -12,6 +12,8 @@ tag:
   - egg
   - hvetemel
   - safran
+  - melk
+  - sukker
 ---
 
 # Lussekatter
@@ -43,7 +45,7 @@ Middels
 - 5 dl melk
 - 2 stk. egg
 - 50 g gjær
-- 0,25 g safran
+- 20 tråder eller 0.25 g safran
 - 200 g smør
 - 2 ss rosiner til pynt
 - 1 stk. egg til pensling
@@ -109,7 +111,7 @@ Middels
     "5 dl melk",
     "2 stk. egg",
     "50 g gjær",
-    "0,25 g safran",
+    "20 tråder eller 0.25 g safran",
     "200 g smør",
     "2 ss rosiner til pynt",
     "1 stk. egg til pensling"
