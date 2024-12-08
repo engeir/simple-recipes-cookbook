@@ -135,6 +135,7 @@ body:
       multiple: true
       options:
         - Christmas
+        - apple
         - avocado
         - bacon
         - banana
@@ -146,6 +147,7 @@ body:
         - bread
         - breakfast
         - bun
+        - butter
         - cake
         - cardamom
         - cheese
@@ -171,6 +173,7 @@ body:
         - minced meat
         - mushrooms
         - noodles
+        - oatmeal
         - orange
         - pasta
         - peanut
@@ -190,6 +193,7 @@ body:
         - soup
         - sour cream
         - stir-fry
+        - sugar
         - taco
         - tofu
         - tomato

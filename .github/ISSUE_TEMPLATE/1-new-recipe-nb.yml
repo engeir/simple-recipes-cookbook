@@ -147,6 +147,7 @@ body:
         - couscous
         - drink
         - egg
+        - eple
         - fisk
         - fløte
         - frisk
@@ -154,6 +155,7 @@ body:
         - gelatin
         - grillmat
         - halloumi
+        - havregryn
         - hvetemel
         - jul
         - kaffe
@@ -186,7 +188,9 @@ body:
         - sjokolade
         - sjømat
         - skinke
+        - smør
         - sopp
+        - sukker
         - sunn
         - suppe
         - taco
