@@ -9,6 +9,10 @@ category:
   - dessert
 tag:
   - hvetemel
+  - eple
+  - havregryn
+  - sukker
+  - smør
 ---
 
 # Eplepai
@@ -17,14 +21,15 @@ tag:
 
 !!!info
 
-Denne oppskriften er originalt fra [!badge variant="dark" iconAlign="right" margin="0 0
-0 4" icon=":cook:" size="l" target="blank" text="Tone Enger"](_No response_)
+Denne oppskriften er originalt fra
+[!badge variant="dark" iconAlign="right" margin="0 0
+0 4" icon=":cook:" size="l" target="blank" text="Tone Enger"]()
 
 !!!
 
 <!-- dprint-ignore-start -->
 ||| :timer_clock: Tid
-
+20 min
 ||| :knife_fork_plate: Porsjoner
 1 mellomstor langpanne
 ||| :cook: Vanskelighetsgrad
@@ -63,14 +68,14 @@ Enkel
     "url": "_No response_"
   },
   "datePublished": "2024-12-08",
-  "description": " | Enkel",
-  "prepTime": "",
-  "cookTime": "",
-  "totalTime": "",
+  "description": "Enkel",
+  "prepTime": "2 min",
+  "cookTime": "30 min",
+  "totalTime": "30 min",
   "recipeYield": "1 mellomstor langpanne",
   "recipeCategory": "dessert",
   "recipeCuisine": "norsk",
-  "keywords": "hvetemel",
+  "keywords": "hvetemel, eple, havregryn, sukker, smør",
   "recipeIngredient": [
     "100 g hvetemel",
     "100 g sukker",
