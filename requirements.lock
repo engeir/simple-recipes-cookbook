@@ -7,6 +7,7 @@
 #   all-features: false
 #   with-sources: false
 #   generate-hashes: false
+#   universal: false
 
 beautifulsoup4==4.12.3
     # via mf2py
