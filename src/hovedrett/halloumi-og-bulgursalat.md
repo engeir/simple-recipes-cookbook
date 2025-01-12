@@ -56,12 +56,21 @@ Enkel
 
 ## Steg
 
-1. Kok opp en mellomstor kjele med vann. Tilsett bulgur, grønnsaksbuljong og salt. Senk til middels lav varme og la putre under lokk i 9-10 min, eller til 'al dente'.
-2. I mellomtiden, varm opp en stekepanne på middels høy varme. Rist gresskarkjerner i 2-3 min, eller til de begynner å poppe. Sett til side. Grovhakk dill. Bland yoghurt, dill, salt og en klype pepper i en mellomstor skål. Sett til side.
-3. Skjær halloumi i tynne skiver (2 per person). Varm opp en skvett olivenolje i samme stekepanne på middels høy varme. Stek halloumi med Mamas Favoritt i 2-3 min på hver side, eller til gyllen. Sett til side.
-4. Varm opp olivenolje i en mellomstor stekepanne på middels høy varme. Skjær rødbete i 3 cm store biter. Stek rødbete og rødkål i 3-4 min, til myknet. Tilsett balsamico og salt, og stek videre i 1 min. Sett til side i en skål.
-5. Skrell gulrot i lange bånd med en potetskreller. Finhakk den siste biten. Skyll salatblanding. Vend salatblandingen i kjelen med ferdigkokt bulgur.
-6. Anrett bulgursalat, rødbete og rødkål, og gulrot i skåler. Topp med halloumi, dilldressing og gresskarkjerner.
+1. Kok opp en mellomstor kjele med vann. Tilsett bulgur, grønnsaksbuljong og salt. Senk
+   til middels lav varme og la putre under lokk i 9-10 min, eller til 'al dente'.
+2. I mellomtiden, varm opp en stekepanne på middels høy varme. Rist gresskarkjerner i
+   2-3 min, eller til de begynner å poppe. Sett til side. Grovhakk dill. Bland yoghurt,
+   dill, salt og en klype pepper i en mellomstor skål. Sett til side.
+3. Skjær halloumi i tynne skiver (2 per person). Varm opp en skvett olivenolje i samme
+   stekepanne på middels høy varme. Stek halloumi med Mamas Favoritt i 2-3 min på hver
+   side, eller til gyllen. Sett til side.
+4. Varm opp olivenolje i en mellomstor stekepanne på middels høy varme. Skjær rødbete i
+   3 cm store biter. Stek rødbete og rødkål i 3-4 min, til myknet. Tilsett balsamico og
+   salt, og stek videre i 1 min. Sett til side i en skål.
+5. Skrell gulrot i lange bånd med en potetskreller. Finhakk den siste biten. Skyll
+   salatblanding. Vend salatblandingen i kjelen med ferdigkokt bulgur.
+6. Anrett bulgursalat, rødbete og rødkål, og gulrot i skåler. Topp med halloumi,
+   dilldressing og gresskarkjerner.
 
 <script type="application/ld+json">
 {
