@@ -67,18 +67,22 @@ body:
         - apple
         - avocado
         - bacon
+        - balsamic vinegar
         - banana
         - barbecue food
         - barley
         - basil
         - beans
+        - beetroot
         - blue cheese
         - bread
         - breakfast
         - bun
+        - bulgur
         - butter
         - cake
         - cardamom
+        - carrot
         - cheese
         - chicken
         - chocolate
@@ -88,6 +92,7 @@ body:
         - corn
         - couscous
         - cream
+        - dill
         - drink
         - egg
         - fish
@@ -111,8 +116,10 @@ body:
         - pizza
         - potato
         - prosciutto
+        - pumpkin seeds
         - punch
         - quick
+        - red cabbage
         - rice
         - risotto
         - saffron
@@ -132,6 +139,7 @@ body:
         - vodka
         - wheat flour
         - wine
+        - yogurt
   - type: input
     id: other-tags
     attributes:
