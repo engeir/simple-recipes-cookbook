@@ -10,6 +10,14 @@ category:
   - hovedrett
 tag:
   - halloumi
+  - bulgur
+  - rødkål
+  - rødbete
+  - gulrot
+  - balsamico
+  - dill
+  - yoghurt
+  - gresskarkjerner
 ---
 
 # Halloumi og bulgursalat
@@ -48,11 +56,11 @@ Enkel
 - 4 g Grønnsaksbuljong
 - 4 g Mamas Favoritt
 - 2.5 dl Vann til bulgur
-- ¼ ts Salt til bulgur
+- 0.25 ts Salt til bulgur
 - 1 ss Olje til bulgur
-- ¼ ts Salt til saus
-- ½ ss Olje til grønnsaker
-- ¼ ts Salt til grønnsaker
+- 0.25 ts Salt til saus
+- 0.5 ss Olje til grønnsaker
+- 0.25 ts Salt til grønnsaker
 
 ## Steg
 
@@ -84,8 +92,7 @@ Enkel
   "keywords": [
     "Rask",
     "Vegetar",
-    "Klimasmart",
-    "new"
+    "Klimasmart"
   ],
   "site_name": "HelloFresh",
   "@context": "https://schema.org",
@@ -111,11 +118,11 @@ Enkel
     "4 g Grønnsaksbuljong",
     "4 g Mamas Favoritt",
     "2.5 dl Vann til bulgur",
-    "¼ ts Salt til bulgur",
+    "0.25 ts Salt til bulgur",
     "1 ss Olje til bulgur",
-    "¼ ts Salt til saus",
-    "½ ss Olje til grønnsaker",
-    "¼ ts Salt til grønnsaker"
+    "0.25 ts Salt til saus",
+    "0.5 ss Olje til grønnsaker",
+    "0.25 ts Salt til grønnsaker"
   ],
   "recipeInstructions": [
     {
