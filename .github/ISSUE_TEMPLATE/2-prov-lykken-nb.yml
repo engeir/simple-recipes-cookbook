@@ -66,14 +66,17 @@ body:
         - appelsin
         - avokado
         - bacon
+        - balsamico
         - banan
         - basilikum
         - blåmuggost
         - bolle
         - brød
+        - bulgur
         - byggryn
         - bønner
         - couscous
+        - dill
         - drink
         - egg
         - eple
@@ -82,7 +85,9 @@ body:
         - frisk
         - frokost
         - gelatin
+        - gresskarkjerner
         - grillmat
+        - gulrot
         - halloumi
         - havregryn
         - hvetemel
@@ -111,6 +116,8 @@ body:
         - reker
         - ris
         - risotto
+        - rødbete
+        - rødkål
         - rømme
         - safran
         - salat
@@ -133,6 +140,7 @@ body:
         - vin
         - vodka
         - wok
+        - yoghurt
   - type: input
     id: andre-kategorier-emner
     attributes:
