@@ -135,6 +135,7 @@ body:
       multiple: true
       options:
         - appelsin
+        - aubergine
         - avokado
         - bacon
         - balsamico
@@ -147,6 +148,7 @@ body:
         - byggryn
         - bønner
         - couscous
+        - curry-on
         - dill
         - drink
         - egg
@@ -156,28 +158,35 @@ body:
         - frisk
         - frokost
         - gelatin
+        - granateple
         - gresskarkjerner
         - grillmat
         - gulrot
         - halloumi
         - havregryn
         - hvetemel
+        - ingefærpasta
         - jul
         - kaffe
         - kake
         - kardemumme
         - kjøttdeig
+        - kokosmelk
         - konfekt
+        - koriander
         - krem
         - kylling
+        - løk
         - mais
         - majones
         - mango
         - melk
+        - mild mahal
         - nudler
         - ost
         - pasta
         - peanøtt
+        - pitabrød
         - pizza
         - potet
         - prosciutto
@@ -188,7 +197,9 @@ body:
         - ris
         - risotto
         - rødbete
+        - røde linser
         - rødkål
+        - rødløk
         - rømme
         - safran
         - salat
