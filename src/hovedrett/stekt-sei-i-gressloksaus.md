@@ -41,14 +41,14 @@ Enkel
 - 500 g Poteter
 - 75 g Grønne bønner
 - 1 pose Gressløk
-- ½ stk Squash
-- ½ stk Sitron
+- 0.5 stk Squash
+- 0.5 stk Sitron
 - 1 stk Hvitløk
 - 150 ml Matfløte
 - 250 g Sei
 - 4 g Grønnsaksbuljong
-- ½ ss Olivenolje (steg 5)
-- ½ ts Salt (steg 1)
+- 0.5 ss Olivenolje (steg 5)
+- 0.5 ts Salt (steg 1)
 - 3 ss Melk (steg 1)
 
 ## Steg
@@ -100,14 +100,14 @@ Enkel
     "500 g Poteter",
     "75 g Grønne bønner",
     "1 pose Gressløk",
-    "½ stk Squash",
-    "½ stk Sitron",
+    "0.5 stk Squash",
+    "0.5 stk Sitron",
     "1 stk Hvitløk",
     "150 ml Matfløte",
     "250 g Sei",
     "4 g Grønnsaksbuljong",
-    "½ ss Olivenolje (steg 5)",
-    "½ ts Salt (steg 1)",
+    "0.5 ss Olivenolje (steg 5)",
+    "0.5 ts Salt (steg 1)",
     "3 ss Melk (steg 1)"
   ],
   "recipeInstructions": [
