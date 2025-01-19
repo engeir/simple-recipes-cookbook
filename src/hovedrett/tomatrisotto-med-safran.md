@@ -52,7 +52,8 @@ Middels
 
 ## Steg
 
-1. Knus safrantrådene så godt som mulig. Dette kan gjerne gjøres god tid i forveien, og i så fall er det fint å ha en isbit over som smelter helt før du bruker safranen.
+1. Knus safrantrådene så godt som mulig. Dette kan gjerne gjøres god tid i forveien, og
+   i så fall er det fint å ha en isbit over som smelter helt før du bruker safranen.
 2. Stek tomater i litt olje på middels varme til de er myke.
 3. Kok opp vann med grønnsaksbuljong.
 4. I en annen kjele, stek hvitløk og løk til løken er gyllen.

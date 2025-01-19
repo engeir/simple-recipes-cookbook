@@ -53,12 +53,24 @@ Enkel
 
 ## Steg
 
-1. Kok opp en mellomstor kjele med lettsaltet vann. Skrell og skjær poteter i 2 cm store biter. Kok poteter i 11-13 min, eller til de enkelt kan deles med en kniv. Hell av vannet, og legg poteter tilbake i kjelen. Tilsett melk [3 ss | 6 ss], salt [1/2 ts | 1 ts] og mos grovt. Sett til side med lokk på for å holde varmen. TIPS: Tilsett en klatt smør for en ekstra kremet mos.
-2. Rens grønne bønner [1/2 pakke, 2P]. Grovhakk squash [1/2 stk, 2P]. Finhakk eller press hvitløk. Finhakk gressløk. Skjær sitron [1/2 stk, 2P] i båter.
-3. Varm opp en skvett olivenolje i en stekepanne på middels høy varme. Stek grønne bønner og squash i 4-5 min, til møre. Tilsett hvitløk, en klype salt og pepper, en skvett sitronsaft, og stek i ytterligere 1 min. Overfør til en skål med lokk på for å holde varmen. TIPS: Tilsett en skvett vann for å fremskynde stekeprosessen.
+1. Kok opp en mellomstor kjele med lettsaltet vann. Skrell og skjær poteter i 2 cm store
+   biter. Kok poteter i 11-13 min, eller til de enkelt kan deles med en kniv. Hell av
+   vannet, og legg poteter tilbake i kjelen. Tilsett melk [3 ss | 6 ss], salt [1/2 ts |
+   1 ts] og mos grovt. Sett til side med lokk på for å holde varmen. TIPS: Tilsett en
+   klatt smør for en ekstra kremet mos.
+2. Rens grønne bønner [1/2 pakke, 2P]. Grovhakk squash [1/2 stk, 2P]. Finhakk eller
+   press hvitløk. Finhakk gressløk. Skjær sitron [1/2 stk, 2P] i båter.
+3. Varm opp en skvett olivenolje i en stekepanne på middels høy varme. Stek grønne
+   bønner og squash i 4-5 min, til møre. Tilsett hvitløk, en klype salt og pepper, en
+   skvett sitronsaft, og stek i ytterligere 1 min. Overfør til en skål med lokk på for å
+   holde varmen. TIPS: Tilsett en skvett vann for å fremskynde stekeprosessen.
 4. Bland matfløte [1/2 pakke, 2P], gressløk og grønnsaksbuljong i en skål.
-5. Varm opp olivenolje [1/2 ss | 1 ss] i samme stekepanne på middels høy varme. Tilsett fisk og stek i 2-3 min. Snu fisken forsiktig, og tilsett gressløksaus. Stek i ytterligere 3-4 min, til fisken er gjennomstekt. Smak til med salt og pepper. TIPS: Fisken er ferdig når kjøttet er melkehvitt og matt.
-6. Anrett potetmos, sei og grønnsaker på tallerkener. Øs gressløksaus over fisken. Server sitronbåter på siden.
+5. Varm opp olivenolje [1/2 ss | 1 ss] i samme stekepanne på middels høy varme. Tilsett
+   fisk og stek i 2-3 min. Snu fisken forsiktig, og tilsett gressløksaus. Stek i
+   ytterligere 3-4 min, til fisken er gjennomstekt. Smak til med salt og pepper. TIPS:
+   Fisken er ferdig når kjøttet er melkehvitt og matt.
+6. Anrett potetmos, sei og grønnsaker på tallerkener. Øs gressløksaus over fisken.
+   Server sitronbåter på siden.
 
 <script type="application/ld+json">
 {
