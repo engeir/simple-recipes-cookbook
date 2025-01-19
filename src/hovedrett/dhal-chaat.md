@@ -59,12 +59,29 @@ Enkel
 
 ## Steg
 
-1. Forvarm ovnen til 240°C/220°C (varmluft). Skjær rødløk i tynne, halve skiver. Bland hvitvinseddik, sukker [1/2 ts | 1 ts], vann [1 ss | 2 ss] og salt [1/4 ts | 1/2 ts] i en liten skål. Vend inn rødløk og sett skålen til side. Skjær aubergine [1/2 stk, 2P] i 2 cm store biter, og plasser på en side av et stekebrett med bakepapir. Bland med olivenolje, salt [1/4 ts | 1/2 ts] og pepper. Bak i ovnen i 20-25 min, eller til mør og gyllen.
-2. Finhakk løk. Skyll røde linser. Varm opp olivenolje [1/2 ss | 1 ss] i en stor stekepanne på middels høy varme. Stek løk i 2-3 min, til velduftende. Rør inn ingefærpasta [1/2 pose, 2P], Mild Mahal og Curry-on. Stek i 1 min, til velduftende.
-3. Rør inn matfløte [1/2 pakke, 2P], røde linser, vann [2 dl | 4 dl], grønnsaksbuljong, salt [1/4 ts | 1/2 ts] og en klype pepper. Kok opp, og senk til middels lav varme. La putre under lokk i 20-22 min, til linser er myke. TIPS: Tilsett en skvett vann dersom dhal virker tørr.
-4. I mellomtiden, skjær pitabrød [1/2 pakke, 2P] i 1 cm store biter. Plasser pitabrød på den andre siden av stekebrettet når det gjenstår 5 min av auberginens steketid. Bland med olivenolje og salt [1/4 ts | 1/2 ts]. Stek i resterende tid.
-5. Rull granateple hardt på bordet for å løsne frøene. Halver og fjern frøene under vann i en skål. Fjern det hvite fruktkjøttet. Frøene vil synke, og fruktkjøttet flyte så det blir enklere å fjerne. Hell fra vannet. Grovhakk tomat og koriander. Tilsett lake fra syltet rødløk i dhal. TIPS: Ved å fjerne frøene under vann unngår du at fargen smitter av.
-6. Fordel dhal i skåler. Topp med ovnsbakt aubergine, syltet rødløk, pitabrød, tomat, granateple og koriander.
+1. Forvarm ovnen til 240°C/220°C (varmluft). Skjær rødløk i tynne, halve skiver. Bland
+   hvitvinseddik, sukker [1/2 ts | 1 ts], vann [1 ss | 2 ss] og salt [1/4 ts | 1/2 ts] i
+   en liten skål. Vend inn rødløk og sett skålen til side. Skjær aubergine [1/2 stk, 2P]
+   i 2 cm store biter, og plasser på en side av et stekebrett med bakepapir. Bland med
+   olivenolje, salt [1/4 ts | 1/2 ts] og pepper. Bak i ovnen i 20-25 min, eller til mør
+   og gyllen.
+2. Finhakk løk. Skyll røde linser. Varm opp olivenolje [1/2 ss | 1 ss] i en stor
+   stekepanne på middels høy varme. Stek løk i 2-3 min, til velduftende. Rør inn
+   ingefærpasta [1/2 pose, 2P], Mild Mahal og Curry-on. Stek i 1 min, til velduftende.
+3. Rør inn matfløte [1/2 pakke, 2P], røde linser, vann [2 dl | 4 dl], grønnsaksbuljong,
+   salt [1/4 ts | 1/2 ts] og en klype pepper. Kok opp, og senk til middels lav varme. La
+   putre under lokk i 20-22 min, til linser er myke. TIPS: Tilsett en skvett vann dersom
+   dhal virker tørr.
+4. I mellomtiden, skjær pitabrød [1/2 pakke, 2P] i 1 cm store biter. Plasser pitabrød på
+   den andre siden av stekebrettet når det gjenstår 5 min av auberginens steketid. Bland
+   med olivenolje og salt [1/4 ts | 1/2 ts]. Stek i resterende tid.
+5. Rull granateple hardt på bordet for å løsne frøene. Halver og fjern frøene under vann
+   i en skål. Fjern det hvite fruktkjøttet. Frøene vil synke, og fruktkjøttet flyte så
+   det blir enklere å fjerne. Hell fra vannet. Grovhakk tomat og koriander. Tilsett lake
+   fra syltet rødløk i dhal. TIPS: Ved å fjerne frøene under vann unngår du at fargen
+   smitter av.
+6. Fordel dhal i skåler. Topp med ovnsbakt aubergine, syltet rødløk, pitabrød, tomat,
+   granateple og koriander.
 
 <script type="application/ld+json">
 {
