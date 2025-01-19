@@ -77,8 +77,8 @@ body:
         - blue cheese
         - bread
         - breakfast
-        - bun
         - bulgur
+        - bun
         - butter
         - cake
         - cardamom
@@ -97,7 +97,9 @@ body:
         - egg
         - fish
         - fresh
+        - garlic
         - gelatin
+        - green beans
         - halloumi
         - ham
         - healthy
@@ -135,11 +137,13 @@ body:
         - tofu
         - tomato
         - vegan
+        - vegetable broth
         - vegetarian
         - vodka
         - wheat flour
         - wine
         - yogurt
+        - zucchini
   - type: input
     id: other-tags
     attributes:
