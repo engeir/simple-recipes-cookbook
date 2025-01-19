@@ -172,8 +172,10 @@ body:
         - eggplant
         - fish
         - fresh
+        - garlic
         - gelatin
         - ginger paste
+        - green beans
         - halloumi
         - ham
         - healthy
@@ -217,11 +219,13 @@ body:
         - tofu
         - tomato
         - vegan
+        - vegetable broth
         - vegetarian
         - vodka
         - wheat flour
         - wine
         - yogurt
+        - zucchini
   - type: dropdown
     id: cuisine
     attributes:
