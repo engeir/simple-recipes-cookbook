@@ -46,16 +46,16 @@ Enkel
 - 12 ml Hvitvinseddik
 - 1 stk Tomat
 - 1 pose Koriander
-- ½ stk Granateple
-- ½ stk Aubergine
+- 0.5 stk Granateple
+- 0.5 stk Aubergine
 - 150 ml Matfløte
-- ½ ts Salt (steg 1)
-- ½ ts Sukker (steg 1)
+- 0.5 ts Salt (steg 1)
+- 0.5 ts Sukker (steg 1)
 - 1 ss Vann (steg 1)
-- ½ ss Olivenolje (steg 2)
+- 0.5 ss Olivenolje (steg 2)
 - 2 dl Vann (steg 3)
-- ¼ ts Salt (steg 3)
-- ¼ ts Salt (steg 4)
+- 0.25 ts Salt (steg 3)
+- 0.25 ts Salt (steg 4)
 
 ## Steg
 
@@ -122,16 +122,16 @@ Enkel
     "12 ml Hvitvinseddik",
     "1 stk Tomat",
     "1 pose Koriander",
-    "½ stk Granateple",
-    "½ stk Aubergine",
+    "0.5 stk Granateple",
+    "0.5 stk Aubergine",
     "150 ml Matfløte",
-    "½ ts Salt (steg 1)",
-    "½ ts Sukker (steg 1)",
+    "0.5 ts Salt (steg 1)",
+    "0.5 ts Sukker (steg 1)",
     "1 ss Vann (steg 1)",
-    "½ ss Olivenolje (steg 2)",
+    "0.5 ss Olivenolje (steg 2)",
     "2 dl Vann (steg 3)",
-    "¼ ts Salt (steg 3)",
-    "¼ ts Salt (steg 4)"
+    "0.25 ts Salt (steg 3)",
+    "0.25 ts Salt (steg 4)"
   ],
   "recipeInstructions": [
     {
