@@ -67,7 +67,7 @@ Middels
 2. Senk varmen litt og ha i løk, gulrot og stilkselleri og la det steke til grønnsakene
    er blitt myke og blanke. Ha baconet og kjøttdeigen tilbake i stekepanna og bland alt
    sammen.
-3. Lag en grop i midten av stekepannen. Ha i litt mer olje og fres tomat puréen i noen
+3. Lag en grop i midten av stekepannen. Ha i litt mer olje og fres tomatpuréen i noen
    minutter. Ha i hermetisk tomat, kraft og krydder. La kjøttsausen småkoke i minst 10
    minutter, til den begynner å tykne. Har du litt god tid? La gjerne sausen småkoke
    under lokk i ca. 1 ½ time, for å utvikle ekstra god smak. Husk å rør litt i kjelen
