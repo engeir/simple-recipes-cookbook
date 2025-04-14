@@ -14,6 +14,12 @@ tag:
   - ost
   - gulrot
   - basilikum
+  - baguette
+  - fetaost
+  - oliven
+  - tomatpuré
+  - spinat
+  - soltørkede tomater
 ---
 
 # Spaghetti Puttanesca
