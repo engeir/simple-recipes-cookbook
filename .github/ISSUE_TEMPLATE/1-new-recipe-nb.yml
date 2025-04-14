@@ -138,6 +138,7 @@ body:
         - aubergine
         - avokado
         - bacon
+        - baguette
         - balsamico
         - banan
         - basilikum
@@ -153,6 +154,7 @@ body:
         - drink
         - egg
         - eple
+        - fetaost
         - fisk
         - fløte
         - frisk
@@ -167,8 +169,8 @@ body:
         - halloumi
         - havregryn
         - hvetemel
-        - ingefærpasta
         - hvitløk
+        - ingefærpasta
         - jul
         - kaffe
         - kake
@@ -186,6 +188,7 @@ body:
         - melk
         - mild mahal
         - nudler
+        - oliven
         - ost
         - pasta
         - peanøtt
@@ -211,7 +214,9 @@ body:
         - sjømat
         - skinke
         - smør
+        - soltørkede tomater
         - sopp
+        - spinat
         - squash
         - sukker
         - sunn
@@ -220,6 +225,7 @@ body:
         - tilbehør
         - tofu
         - tomat
+        - tomatpuré
         - turmat
         - vegansk
         - vegetar

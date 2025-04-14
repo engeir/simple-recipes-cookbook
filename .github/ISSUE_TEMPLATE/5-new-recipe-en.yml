@@ -138,6 +138,7 @@ body:
         - apple
         - avocado
         - bacon
+        - baguette
         - balsamic vinegar
         - banana
         - barbecue food
@@ -170,6 +171,7 @@ body:
         - drink
         - egg
         - eggplant
+        - feta cheese
         - fish
         - fresh
         - garlic
@@ -188,6 +190,7 @@ body:
         - mushrooms
         - noodles
         - oatmeal
+        - olives
         - onion
         - orange
         - pasta
@@ -213,11 +216,14 @@ body:
         - side dish
         - soup
         - sour cream
+        - spinach
         - stir-fry
         - sugar
+        - sun-dried tomatoes
         - taco
         - tofu
         - tomato
+        - tomato paste
         - vegan
         - vegetable broth
         - vegetarian
