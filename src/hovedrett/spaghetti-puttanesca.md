@@ -61,12 +61,24 @@ Enkel
 
 ## Steg
 
-1. Forvarm ovnen til 220ºC/200°C (varmluft). Kok opp saltet vann i en stor kjele. Skjær baguette i to. Finhakk eller press hvitløk. Bland hvitløk, olivenolje og en klype salt i en liten skål. Overfør baguette til et stekebrett med bakepapir. Drypp hvitløksolje over. Bak i ovnen i 6-8 min, eller til ristet og sprø.
+1. Forvarm ovnen til 220ºC/200°C (varmluft). Kok opp saltet vann i en stor kjele. Skjær
+   baguette i to. Finhakk eller press hvitløk. Bland hvitløk, olivenolje og en klype
+   salt i en liten skål. Overfør baguette til et stekebrett med bakepapir. Drypp
+   hvitløksolje over. Bak i ovnen i 6-8 min, eller til ristet og sprø.
 2. Grovhakk soltørkede tomater og oliven. Riv gulrot (uskrelt) fint. Skyll spinat.
-3. Kok spaghetti i 8-9 min, eller til 'al dente'. Spar litt pastavann i en kopp og hell av resten. TIPS: Kokevannet bør være like salt som sjøvann. TIPS: 'Al dente' betyr at spaghetti er fmyk med litt tyggemotstand.
-4. Varm opp olivenolje i en stor stekepanne på middels høy varme. Stek gulrot i 2-3 min, eller til det begynner å bli mykt. Tilsett tomat, oliven, chiliflak, Middelhavsdrøm og Hvitløksflørt, og stek i 1 min, eller til velduftende. Tilsett tomatpuré og sukker, og stek i ytterligere 1 min. TIPS: Noen som ikke liker sterk mat? Reduser eller dropp chili.
-5. Senk varmen til middels og tilsett spinat, pastavann, finrevet ost og smør. Bland godt og stek i 2-3 min. I mellomtiden, finhakk basilikum. Når spaghettien er ferdig, bland sammen med saus. TIPS: Tilsett litt mer pastavann om retten ser tørr ut.
-6. Anrett spaghetti puttanesca i skåler. Pynt med gresk salatost og basilikum. Server hvitløksbaguette på siden.
+3. Kok spaghetti i 8-9 min, eller til 'al dente'. Spar litt pastavann i en kopp og hell
+   av resten. TIPS: Kokevannet bør være like salt som sjøvann. TIPS: 'Al dente' betyr at
+   spaghetti er fmyk med litt tyggemotstand.
+4. Varm opp olivenolje i en stor stekepanne på middels høy varme. Stek gulrot i 2-3 min,
+   eller til det begynner å bli mykt. Tilsett tomat, oliven, chiliflak, Middelhavsdrøm
+   og Hvitløksflørt, og stek i 1 min, eller til velduftende. Tilsett tomatpuré og
+   sukker, og stek i ytterligere 1 min. TIPS: Noen som ikke liker sterk mat? Reduser
+   eller dropp chili.
+5. Senk varmen til middels og tilsett spinat, pastavann, finrevet ost og smør. Bland
+   godt og stek i 2-3 min. I mellomtiden, finhakk basilikum. Når spaghettien er ferdig,
+   bland sammen med saus. TIPS: Tilsett litt mer pastavann om retten ser tørr ut.
+6. Anrett spaghetti puttanesca i skåler. Pynt med gresk salatost og basilikum. Server
+   hvitløksbaguette på siden.
 
 <script type="application/ld+json">
 {
