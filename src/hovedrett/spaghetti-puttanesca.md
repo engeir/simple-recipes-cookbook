@@ -61,8 +61,8 @@ Enkel
 - 1 g Chiliflak
 - 2 ss Olje til brød
 - 2 dl Spart pastavann
-- ½ ss Olje til steking
-- ½ ts Sukker til saus
+- 0.5 ss Olje til steking
+- 0.5 ts Sukker til saus
 - 1 ss Smør til saus
 
 ## Steg
@@ -127,8 +127,8 @@ Enkel
     "1 g Chiliflak",
     "2 ss Olje til brød",
     "2 dl Spart pastavann",
-    "½ ss Olje til steking",
-    "½ ts Sukker til saus",
+    "0.5 ss Olje til steking",
+    "0.5 ts Sukker til saus",
     "1 ss Smør til saus"
   ],
   "recipeInstructions": [
