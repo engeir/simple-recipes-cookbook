@@ -18,7 +18,7 @@ tag:
 
 # Hjemmelaga safarikjeks
 
-![](/static/hjemmelaga-safarikjeks/hjemmelaga-safarikjeks.webp)
+![](/static/hjemmelaga-safarikjeks/20250720_203651.jpg)
 
 !!!info
 
