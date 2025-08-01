@@ -5,7 +5,7 @@ icon: ":hocho:"
 
 # Om Mere?
 
-!!! success
+!!!success
 
 Om du mangler litt inspirasjon til hva du skal lage til middag, ta en titt i
 [!badge corners="pill" size="s" variant="light" text="Kategorier"](./categories) eller
@@ -13,7 +13,7 @@ Om du mangler litt inspirasjon til hva du skal lage til middag, ta en titt i
 
 !!!
 
-!!! warning
+!!!warning
 
 Hvis du er på jakt etter noe spesielt, sjekk om jeg har lagt den inn ved å bruke
 søkefeltet øverst til høyre. Og om du ikke finner den,
