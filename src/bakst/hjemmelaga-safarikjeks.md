@@ -1,11 +1,10 @@
 ---
-description: " | Middels"
+description: "90 min | Middels"
 authors:
   - name: "Eirik Rolland Enger (@engeir)"
     link: "https://github.com/engeir"
     avatar: "https://avatars.githubusercontent.com/u/38856990?v=4"
 category:
-  - Eirik Rolland Enger
   - Kaspara Nøss Enger
   - Kristina Mosby Enger
   - bakst
@@ -21,13 +20,6 @@ tag:
 # Hjemmelaga safarikjeks
 
 ![](/static/hjemmelaga-safarikjeks/20250720_203651.jpg)
-
-!!!info
-
-Denne oppskriften er originalt fra [!badge variant="dark" iconAlign="right" margin="0 0
-0 4" icon=":cook:" size="l" target="blank" text="Kaspara og Kristina"](_No response_)
-
-!!!
 
 <!-- dprint-ignore-start -->
 ||| :timer_clock: Tid
@@ -67,7 +59,7 @@ Middels
     "url": "_No response_"
   },
   "datePublished": "2025-07-21",
-  "description": "Middels",
+  "description": "90 min | Middels",
   "prepTime": "",
   "cookTime": "",
   "totalTime": "90 min",
