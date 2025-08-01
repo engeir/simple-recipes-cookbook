@@ -6,6 +6,8 @@ authors:
     avatar: "https://avatars.githubusercontent.com/u/38856990?v=4"
 category:
   - Eirik Rolland Enger
+  - Kaspara Nøss Enger
+  - Kristina Mosby Enger
   - bakst
 tag:
   - egg
@@ -29,7 +31,7 @@ Denne oppskriften er originalt fra [!badge variant="dark" iconAlign="right" marg
 
 <!-- dprint-ignore-start -->
 ||| :timer_clock: Tid
-
+90 min
 ||| :knife_fork_plate: Porsjoner
 12 kjeks
 ||| :cook: Vanskelighetsgrad
@@ -65,10 +67,10 @@ Middels
     "url": "_No response_"
   },
   "datePublished": "2025-07-21",
-  "description": " | Middels",
+  "description": "Middels",
   "prepTime": "",
   "cookTime": "",
-  "totalTime": "",
+  "totalTime": "90 min",
   "recipeYield": "12 kjeks",
   "recipeCategory": "bakst",
   "recipeCuisine": "norsk",
