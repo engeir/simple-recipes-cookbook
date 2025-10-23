@@ -47,7 +47,8 @@ Middels
 - 2 ts vaniljesukker
 - 4 ss kaffe
 - 1 pisket egg
-- 6 ss kreamfløte
+- 6 ss kremfløte
+- 4 ss kakaopulver
 
 +++
 
@@ -57,7 +58,7 @@ Middels
 - 8 dl sukker
 - 6 ss kremfløte
 - 550 g usaltet smør
-- 8 ss kakaopulver
+- 12 ss kakaopulver
 - 2 ts bakepulver
 - 4.5 dl vann
 - 1 ts salt
@@ -111,7 +112,8 @@ Middels
     "2.5 dl rømme",
     "500 g melis",
     "2 ts vaniljesukker",
-    "4 ss kaffe"
+    "4 ss kaffe",
+    "4 ss kakaopulver"
   ],
   "recipeInstructions": [
     {
