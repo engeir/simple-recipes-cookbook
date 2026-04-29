@@ -17,7 +17,7 @@ jobs:
       - name: Check out the repository
         uses: actions/checkout@v4
       - name: Run Labeler
-        uses: crazy-max/ghaction-github-labeler@v5
+        uses: crazy-max/ghaction-github-labeler@v6
         with:
           yaml-file: .github/labels.yml
           dry-run: ${{ github.event_name == 'pull_request' }}
