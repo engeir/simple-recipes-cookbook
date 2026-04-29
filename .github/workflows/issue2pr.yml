@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Parse issue
         id: parse
-        uses: onmax/issue-form-parser@v1.5
+        uses: onmax/issue-form-parser@v1.6
         with:
           issue_number: ${{ github.event.issue.number }}
       - name: Set up environment variables
@@ -185,7 +185,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Parse issue
         id: parse
-        uses: onmax/issue-form-parser@v1.5
+        uses: onmax/issue-form-parser@v1.6
         with:
           issue_number: ${{ github.event.issue.number }}
       - name: Set up environment variables
@@ -357,7 +357,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Parse issue
         id: parse
-        uses: onmax/issue-form-parser@v1.5
+        uses: onmax/issue-form-parser@v1.6
         with:
           issue_number: ${{ github.event.issue.number }}
       - uses: actions/setup-python@v5
@@ -507,7 +507,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Parse issue
         id: parse
-        uses: onmax/issue-form-parser@v1.5
+        uses: onmax/issue-form-parser@v1.6
         with:
           issue_number: ${{ github.event.issue.number }}
       - uses: actions/setup-python@v5
